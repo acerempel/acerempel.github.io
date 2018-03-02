@@ -9,11 +9,17 @@ body {
 
 main {
   font-family: Athelas, Marion, Baskerville, Garamond, Palatino, serif;
-  padding: 30px 10%;
+  color: #222;
   margin: 0px auto;
-  position: relative;
-  width: 600px;
-  color: #222; }
+  position: relative; }
+  @media screen and (min-width: 600px) {
+    main {
+      width: 500px;
+      padding: 30px 10%; } }
+  @media screen and (max-width: 599px) {
+    main {
+      width: 300px;
+      padding: 20px 10px; } }
 
 p, dl {
   line-height: 130%; }
