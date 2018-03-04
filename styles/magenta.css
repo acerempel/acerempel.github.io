@@ -107,7 +107,9 @@ footer a {
   text-align: right; }
 
 nav {
-  text-align: right; }
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: row wrap; }
 
 nav a {
   margin-left: 12px; }
@@ -177,8 +179,7 @@ h1 {
   width: -webkit-fit-content;
   width: fit-content;
   margin-top: 10px;
-  padding-bottom: 4px;
-  border-bottom: 2px solid #222; }
+  margin-bottom: 0; }
 
 h2 {
   font-size: 15px; }
