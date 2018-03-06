@@ -49,6 +49,10 @@ main {
 p, dl {
   line-height: 130%;
   margin: 0.7rem 0; }
+  p a, dl a {
+    color: #783f75; }
+    p a:hover, dl a:hover {
+      text-decoration: underline; }
 
 p img {
   width: 100%;
