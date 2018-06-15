@@ -32,7 +32,8 @@ main {
   grid-template-columns: 1fr 2fr;
   grid-auto-rows: auto;
   grid-column-gap: 1.2rem;
-  grid-row-gap: 0.1em; }
+  grid-row-gap: 0.1em;
+  margin-bottom: 0.7rem; }
   .archive-entry .date {
     text-align: right;
     grid-row: 1 / 4; }
@@ -43,10 +44,13 @@ main {
   .archive-entry .synopsis, .archive-entry .tags {
     grid-column: 2 / 3; }
   .archive-entry p {
-    margin-top: 0; }
+    margin: 0; }
 
 .tags, .synopsis {
   font-family: "Avenir Next", "Helvetica Neue", sans-serif; }
+
+.tags {
+  font-style: oblique; }
 
 p, dl {
   line-height: 130%;
