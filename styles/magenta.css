@@ -35,16 +35,18 @@ main {
   grid-row-gap: 0.1em; }
   .archive-entry .date {
     text-align: right;
-    grid-row: 1 / 3; }
+    grid-row: 1 / 4; }
   .archive-entry .title {
     align-self: end; }
     .archive-entry .title h2 {
       margin: 0; }
-  .archive-entry .synopsis {
-    font-family: "Avenir Next", "Helvetica Neue", sans-serif;
+  .archive-entry .synopsis, .archive-entry .tags {
     grid-column: 2 / 3; }
-    .archive-entry .synopsis p {
-      margin-top: 0; }
+  .archive-entry p {
+    margin-top: 0; }
+
+.tags, .synopsis {
+  font-family: "Avenir Next", "Helvetica Neue", sans-serif; }
 
 p, dl {
   line-height: 130%;
