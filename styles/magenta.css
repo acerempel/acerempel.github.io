@@ -29,11 +29,16 @@ main {
 .archive-entry {
   font-size: 15px;
   display: grid;
-  grid-template-columns: 1fr 2fr;
   grid-auto-rows: auto;
   grid-column-gap: 1.2rem;
   grid-row-gap: 0.1em;
   margin-bottom: 0.7rem; }
+  @media screen and (min-width: 600px) {
+    .archive-entry {
+      grid-template-columns: 1fr 3.3fr; } }
+  @media screen and (max-width: 599px) {
+    .archive-entry {
+      grid-template-columns: 1fr 2.7fr; } }
   .archive-entry .date {
     text-align: right;
     grid-row: 1 / 4; }
