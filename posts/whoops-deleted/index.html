@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link href="http://threedots.ca/posts/whoops-deleted" rel="canonical">
+    <meta content="text/html; charset=utf-8" http-equiv="ContentType">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>
+      I wanted to write a new blog post tonight … ‹three dots›
+    </title>
+    <link href="/styles.css" rel="stylesheet">
+    <script defer src="/scripts/colour-scheme.js"></script>
+  </head>
+  <body class="colour-scheme-auto">
+    <div class="container">
+      <main class="mt-2-3 mb-1-1">
+        <article class="full">
+          <header>
+            <div class="date block light oblique colour-lighter fs-1-1 lh-1-1">
+              <time datetime="2020-01-15">
+                January 15th, 2020
+              </time>
+              – Updated <time datetime="2020-01-22">January 22nd</time>
+            </div>
+          </header>
+            <p>
+              I wanted to write a new blog post tonight, but when I re-rendered the site and had a look at
+              it, I was perplexed to find that all my posts were gone! I checked my ‘posts’ folder, and
+              indeed, I had apparently somehow deleted them all. I may have a means of recovering them; I'll
+              have to investigate further.
+            <p>But how is it, you ask, that you can still see all my posts in the very flesh, sitting just below this one?
+              The answer is that I write my posts in a different format than that in which they are provided to your web browser;
+              I deleted those original files, but at that point I had already compiled them into the hypertext files that
+              the web browser reads, and so all the posts still exist in that format (namely, the 
+              <a href="https://html.spec.whatwg.org/multipage/" title="HTML Standard"><i>HyperText Markup Language</i></a>).
+            <p>The upshot, then, is that nothing has changed for
+              you, the reader of this blog, but for me, its author, the blog is considerably more awkward to edit and update.
+              For that reason, I will probably no longer have an ‘All Posts’ page separate from the home page, since I now have to
+              copy and paste post titles between the two pages to keep them in sync.
+              (But then again, a little copy-and-pasting is good for the soul …)
+        </article>
+      </main>
+      <footer class="mb-1-1">
+        <section class="mb-3-4 mr-1-1">
+          <h2 class="semibold fs-1-1 lh-3-4">Navigation</h2>
+          <nav class="link-plain">
+            <p class="fs-1-1 lh-3-4 mt-1-3"> <a href="/">Home</a></p>
+            <p class="fs-1-1 lh-3-4 mt-1-3"> <a href="/introduction">About</a> </p>
+          </nav>
+        </section>
+        <section>
+          <h2 class="semibold fs-1-1 lh-3-4">Appearance</h2>
+          <p class="fs-1-1 lh-3-4 mt-1-3">
+            <label for="colour-scheme-select">Colour scheme:</label>
+            <select required id="colour-scheme-select"><option value="auto" selected>System setting</option><option value="light">Light</option><option value="dark">Dark</option></select>
+          </p>
+        </section>
+      </footer>
+    </div>
+  </body>
+</html>
