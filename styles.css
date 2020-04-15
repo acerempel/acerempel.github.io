@@ -576,6 +576,7 @@ p + p {
 
 ol, ul {
   margin-top: calc(var(--paragraph-spacing-factor, 0.5) * var(--base-line-height));
+  padding-inline-start: 1.5em;
 }
 
 article {
