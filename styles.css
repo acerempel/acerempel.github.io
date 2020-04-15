@@ -1,67 +1,14 @@
-@font-face {
-  font-family: "HK Grotesk";
-  font-style: oblique;
-  font-weight: 300;
-  src: local("HK Grotesk Light Italic"), local("HKGrotesk-LightItalic"), url("/fonts/hkgrotesk-lightitalic.woff") format("woff"), url("/fonts/hkgrotesk-lightitalic.woff2") format("woff2");
-}
-@font-face {
-  font-family: "HK Grotesk";
-  font-style: normal;
-  font-weight: 300;
-  src: local("HK Grotesk Light"), local("HKGrotesk-Light"), url("/fonts/HKGrotesk-Light.woff") format("woff"), url("/fonts/HKGrotesk-Light.woff2") format("woff2");
-}
-@font-face {
-  font-family: "HK Grotesk";
-  font-style: normal;
-  font-weight: 400;
-  src: local("HK Grotesk Regular"), local("HKGrotesk-Regular"), url("/fonts/HKGrotesk-Regular.woff") format("woff"), url("/fonts/HKGrotesk-Regular.woff2") format("woff2");
-}
-@font-face {
-  font-family: "HK Grotesk";
-  font-style: oblique;
-  font-weight: 400;
-  src: local("HK Grotesk Italic"), local("HKGrotesk-Italic"), url("/fonts/hkgrotesk-italic.woff") format("woff"), url("/fonts/hkgrotesk-italic.woff2") format("woff2");
-}
-@font-face {
-  font-family: "HK Grotesk";
-  font-style: normal;
-  font-weight: 600;
-  src: local("HK Grotesk SemiBold"), local("HKGrotesk-SemiBold"), url("/fonts/HKGrotesk-SemiBold.woff") format("woff"), url("/fonts/HKGrotesk-SemiBold.woff2") format("woff2");
-}
-@font-face {
-  font-family: "HK Grotesk";
-  font-style: normal;
-  font-weight: 700;
-  src: local("HK Grotesk Bold"), local("HKGrotesk-Bold"), url("/fonts/HKGrotesk-Bold.woff") format("woff"), url("/fonts/HKGrotesk-Bold.woff2") format("woff2");
-}
-@font-face {
-  font-family: "HK Grotesk";
-  font-style: oblique;
-  font-weight: 600;
-  src: local("HK Grotesk SemiBold Italic"), local("HKGrotesk-SemiBoldItalic"), url("/fonts/hkgrotesk-semibolditalic.woff") format("woff"), url("/fonts/hkgrotesk-semibolditalic.woff2") format("woff2");
-}
-@font-face {
-  font-family: "HK Grotesk";
-  font-style: oblique;
-  font-weight: 700;
-  src: local("HK Grotesk Bold Italic"), local("HKGrotesk-BoldItalic"), url("/fonts/hkgrotesk-bolditalic.woff") format("woff"), url("/fonts/hkgrotesk-bolditalic.woff2") format("woff2");
-}
-@font-face {
-  font-family: "HK Grotesk";
-  font-style: normal;
-  font-weight: 500;
-  src: local("HK Grotesk Medium"), local("HKGrotesk-Medium"), url("/fonts/HKGrotesk-Medium.woff") format("woff"), url("/fonts/HKGrotesk-Medium.woff2") format("woff2");
-}
-@font-face {
-  font-family: "HK Grotesk";
-  font-style: oblique;
-  font-weight: 500;
-  src: local("HK Grotesk Medium Italic"), local("HKGrotesk-MediumItalic"), url("/fonts/hkgrotesk-mediumitalic.woff") format("woff"), url("/fonts/hkgrotesk-mediumitalic.woff2") format("woff2");
-}
 :root {
   --base-line-height: 1.525rem;
   --base-font-size: 1rem;
-  --sans-serif-fonts: "HK Grotesk", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --sans-serif-fonts: -apple-system, BlinkMacSystemFont,
+               Lato, 'Open Sans',
+               'Avenir Next', Avenir,
+               'Helvetica Neue', Helvetica,
+               Ubuntu,
+               Roboto, Noto,
+               'Segoe UI', Arial,
+               sans-serif;
   --text-colour-normal: #222222;
   --text-colour-highlight: #783f75;
   --text-colour-lighter: #555555;
@@ -593,6 +540,11 @@ strong {
 
 cite {
   font-style: oblique;
+}
+
+code {
+  font-family: Monaco, Hack, Menlo, 'Fira Code', 'Courier Next', monospace;
+  font-size: 0.9em;
 }
 
 select {
