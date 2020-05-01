@@ -517,7 +517,8 @@ p, ol, ul {
   font-size: 1em;
   line-height: var(--base-line-height);
 }
-p + p {
+p + p, ol + p, ul + p, blockquote + p {
+  /* TODO make this into a thingy */
   margin-top: calc(var(--paragraph-spacing-factor, 0) * var(--base-line-height));
 }
 
