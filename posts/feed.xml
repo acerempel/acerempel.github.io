@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Three Dots</title>
+  <subtitle>The website of Alan Rempel, an elliptical man</subtitle>
+  <link href="http://threedots.ca/posts/feed.xml" rel="self"/>
+  <link href="http://threedots.ca"/>
+  <updated>2020-02-01T18:00:00-06:00</updated>
+  <id>http://threedots.ca</id>
+  <author>
+    <name>Alan Rempel</name>
+  </author>
+  <entry>
+    <title>Pen and paper</title>
+    <link href="http://threedots.ca/posts/paper-notebook/"/>
+    <updated>2020-02-01T18:00:00-06:00</updated>
+    <id>http://threedots.ca/posts/paper-notebook/</id>
+    <summary>I muse upon the excellences of paper notebooks, as opposed to electronic programs designed for comparable purposes.
+</summary>
+    <content type="html">&lt;p&gt;I have started using a paper notebook for an agenda/planner/to-do-list thing,
+and I find it works better for me than any of the various
+computer-based solutions that I have tried. I tend to waste all kinds of time
+&lt;em&gt;configuring&lt;/em&gt; whatever computer program I use, but there is no such thing as that
+with the paper notebook, because “configuring” it and using it
+are one: both of these consist in writing lines, symbols, and characters with the pen on the page.
+You create the scaffolding the same way you create the content. This is
+not so with computer-based tools because, while writing prose on a computer is very easy –
+a computer even has special hardware designed for it –
+organizing that prose &lt;em&gt;visually&lt;/em&gt; – as one wants to do when one
+is making an agenda (a section of the page for each day of the week, for example) – is vastly more cumbersome.
+Some computer-based task-management or calendar-management tools are actually very good – but
+they cost at least as much as my notebook did, and I have more confidence that my notebook
+will be useful to me, for a long time and in a variety of contexts, than any piece of software.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>I have a secret, which I’ve never …</title>
+    <link href="http://threedots.ca/posts/secret/"/>
+    <updated>2019-11-26T18:00:00-06:00</updated>
+    <id>http://threedots.ca/posts/secret/</id>
+    <content type="html">&lt;p&gt;I have a secret, which I’ve never revealed:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=UzrM3eomnAA&quot; title=&quot;Judee Sill&quot;&gt;However we are is okay.&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>This city is a strange place—so much of …</title>
+    <link href="http://threedots.ca/posts/the-trees/"/>
+    <updated>2019-11-20T18:00:00-06:00</updated>
+    <id>http://threedots.ca/posts/the-trees/</id>
+    <content type="html">&lt;p&gt;This city is a strange place—so much of it is paved.&lt;/p&gt;
+&lt;p&gt;The trees here—it must be lonely for them, not being in a
+forest; stretching their roots out and finding soil
+compacted by cement, soil sparse of arboreal conversation.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Holy Communion on Harry Lake</title>
+    <link href="http://threedots.ca/posts/holy-communion-on-harry-lake/"/>
+    <updated>2019-10-26T19:00:00-05:00</updated>
+    <id>http://threedots.ca/posts/holy-communion-on-harry-lake/</id>
+    <summary>In which it is cold, and there is mist over the lake, and I set my service leaflet on fire.</summary>
+    <content type="html">&lt;p&gt;At this year’s Fall Retreat at Mersey River Chalets, Holy
+Communion on the lake took place at 7:00 am, which was later
+than in the past – last year I think it was at 6:45. The
+temperature had dropped below zero overnight, so the grass
+and the leaves upon it were frosty, and there was a thin
+layer of ice on the lake, and mist drifting over it. It was
+quite beautiful.&lt;/p&gt;
+&lt;p&gt;I had printed leaflets containing the order of worship and
+the music for the service, including English Gradual set to
+plainchant and hymns. To illuminate these – for it was still
+dark outside (although already a little lighter than at 5:30
+am, when I had my vigil slot) – we each had a beeswax taper.
+I was holding my taper and leaflet in the same hand, in
+order to keep my other hand in my pocket for warmth,
+alternating hands every few minutes.&lt;/p&gt;
+&lt;p&gt;While we were singing the Nicene Creed, my friend Sophia,
+who was standing beside me, pointed out to me that my
+service leaflet was on fire. We both tried to blow it out,
+but to no avail – the fire just got bigger. As it was
+becoming apparent that my hand would soon get burned if I
+did not relinquish the paper, someone – it may have been
+Alison, who was standing on my other side – suggested,
+either by word or by gesture, I forget, that I drop it on
+the ground and stomp the fire out. I did so, and the fire
+was rapidly extinguished.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>My to-do list</title>
+    <link href="http://threedots.ca/posts/to-do-list/"/>
+    <updated>2018-07-09T19:00:00-05:00</updated>
+    <id>http://threedots.ca/posts/to-do-list/</id>
+    <summary>It is an extremely secret list, but only in respect of being a list.</summary>
+    <content type="html">&lt;p&gt;I have a secret to-do list. The problem with my secret
+to-do list, though, is that it’s easy for me to forget what
+is on it. Because it’s not anywhere extant in
+writing—that’s how secret it is. If it were recorded
+anywhere outside my mind, it wouldn’t be so secret. Even if
+were perfectly hidden from the eyes of others, I would
+still know where it was and would be tempted to look at it.
+So it would be a secret from all others, but not from me.
+If it’s not written down, I can’t look at it, and so it can
+be a secret from me too—just to the extent that I don’t
+remember I have it. But this is the trouble, that in order
+to preserve its secrecy, I don’t often call it to mind—or,
+I sometimes call to mind individual items that happen to be
+on the list, but not often in the context of the list, and
+I very rarely think of the list as a whole. And the trouble
+is that because of this, I run the risk of forgetting its
+structure—and should I forget the structure of the list,
+even if I remember, individually and not necessarily at the
+same time, each of its items,—then the list is no longer.
+Because it exists only in my mind, you see—there’s nothing
+and no one else to testify to it.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Purple sparks</title>
+    <link href="http://threedots.ca/posts/purple-sparks/"/>
+    <updated>2018-07-06T19:00:00-05:00</updated>
+    <id>http://threedots.ca/posts/purple-sparks/</id>
+    <content type="html">&lt;p&gt;I used to be able to make purple sparks shoot from my
+fingertips. I just had to snap my fingers at just the right
+angle, with just the right force, when the humidity was just
+right, when my hair was tied up in a bun in just the right
+way …
+&lt;/p&gt;&lt;p&gt;I haven’t done that since about a year and a half ago now.
+Am I still capable of it? I don’t know how to tell—short
+of doing it again, of course. I haven’t even tried—why
+not? I think I’m afraid of finding out for certain that I’ve
+lost it. If I don’t even attempt it, then I can still
+imagine that I have the power to do it. Then again, though,
+even if I try it—having found the exact circumstances
+under which I’ve always observed succeed—and fail, that
+need not mean I’ve lost my purple sparks permanently.
+Perhaps there is some other condition that needed to obtain
+which I wasn’t aware of. Or perhaps the sparks will come
+back in their own time.
+&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>What do I have in my pockets?</title>
+    <link href="http://threedots.ca/posts/pocket-contents/"/>
+    <updated>2018-03-01T18:00:00-06:00</updated>
+    <id>http://threedots.ca/posts/pocket-contents/</id>
+    <summary>In which I have to blow my nose.</summary>
+    <content type="html">
+&lt;p&gt;
+A beeswax taper—&lt;br&gt;
+A wrapper from a Hershey kiss—&lt;br&gt;
+A phone—&lt;br&gt;
+A pen—&lt;br&gt;
+A tissue—&lt;br&gt;
+A recording device (borrowed from a friend)—&lt;br&gt;
+A notebook—&lt;br&gt;
+A university ID card—&lt;br&gt;
+A debit card—&lt;br&gt;
+A house key—&lt;br&gt;
+Two dollars eighty-five cents—&lt;br&gt;
+One of those cards you can peel off of a McDonald’s coffee cup where
+once you have seven stickers you get a free drink—&lt;br&gt;
+A cork—&lt;br&gt;
+A grocery receipt—&lt;br&gt;
+An ATM receipt—&lt;br&gt;
+Another pen—&lt;br&gt;
+An almond—&lt;br&gt;
+A pamphlet from a recent Winter Retreat—&lt;br&gt;
+A scrap of paper with a poem written on it (”Great Things
+Have Happened” by Alden Nolan), and—thank heavens!—&lt;br&gt;
+A tissue.
+&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>At Mersey River, at a winter retreat, after Compline</title>
+    <link href="http://threedots.ca/posts/winter-retreat-after-compline/"/>
+    <updated>2018-02-04T18:00:00-06:00</updated>
+    <id>http://threedots.ca/posts/winter-retreat-after-compline/</id>
+    <summary>Eternal praise! eternal praise!</summary>
+    <content type="html">&lt;p&gt;Two nights ago, after singing Compline across the lake,
+after everyone else had dispersed, drifted back either to
+the dining hall or to their own cabins: Nick Halley and I
+standing on the edge of the frozen lake, looking out and
+marveling, and resting alert and in awe, in the company of
+the wind and of the snow and of the trees and of each other.
+The clouds were moving swiftly across the sky—indistinct
+in the darkness, but as they passed within a certain radius
+of the moon their outlines were illuminated. The moon’s
+light ebbed and grew stronger as clouds came and went in
+front of it.&lt;/p&gt;
+&lt;p&gt;The river is &lt;em&gt;marvellous&lt;/em&gt;: louder than the wind, unceasing roaring,
+a joyous clamour surging from the heart of the Kejimkujik
+forest. ‘Eternal praise, eternal praise!’—singing with all
+its might …&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>At Duncan St and Chebucto Lane</title>
+    <link href="http://threedots.ca/posts/duncan-st/"/>
+    <updated>2017-06-09T07:00:00-05:00</updated>
+    <id>http://threedots.ca/posts/duncan-st/</id>
+    <summary>In which some children endeavour to sort out my life plans.</summary>
+    <content type="html">&lt;!-- &lt;p&gt;&lt;img src=&quot;/images/a-tree-with-a-face.jpg&quot; alt=&quot;A tree with a pointy face.&quot;&gt;&lt;/p&gt; --&gt;
+&lt;p&gt;As I was walking down Duncan street last Sunday evening, I
+came across a tree that that had a face—eyes, a nose and a
+mouth affixed to its bark. I paused to admire it and take a
+picture—but at this point I was accosted by a couple of
+children who were hanging out in the yard of the house to my
+left. Fortunately, being accosted by children happens to
+number among my favourite hobbies. So we struck up a
+conversation. They asked me how old I was.—Twenty, I
+replied; they asked, as though it followed
+naturally,—Are you married?—No, I said.—Why not? they
+said. You’re twenty years old, you’re tall, you have long
+and luscious hair (perhaps they said ‘flowing’ instead of
+‘luscious’, I don’t remember): what are you waiting for?—I
+told them that I felt I was in no particular hurry, that I
+have so many other things in my life occupying my attention,
+and that——Nonsense, they said. Here’s what you should
+do. The next girl you see, you go up to her and say, “Hello!
+My name is”–what’s your name, again?—Alan.—“Hello! My
+name is Alan! Do you want to get married?”—Wouldn’t that
+seem a bit abrupt? I said.—I guess so, said the
+one.—Hey! said the other, no, do this: The next girl you
+see, give her some flowers, and then she’ll like you and ask
+&lt;em&gt;you&lt;/em&gt; to marry &lt;em&gt;her&lt;/em&gt;!—I told them I liked this plan better.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>I was bored this afternoon, so I ate a …</title>
+    <link href="http://threedots.ca/posts/garlic/"/>
+    <updated>2017-06-08T19:00:00-05:00</updated>
+    <id>http://threedots.ca/posts/garlic/</id>
+    <content type="html">&lt;p&gt;I was bored this afternoon, so I ate a raw clove of garlic.&lt;/p&gt;
+&lt;p&gt;That’s all.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>While skating at the Oval this afternoon …</title>
+    <link href="http://threedots.ca/posts/skating/"/>
+    <updated>2017-03-12T19:00:00-05:00</updated>
+    <id>http://threedots.ca/posts/skating/</id>
+    <content type="html">&lt;p&gt;While skating at the Oval this afternoon with a few
+friends, I felt compelled to offer an explanation for why I
+was alternating smooth skating with bouts of stumbling:
+“Sometimes I space out for a moment and suddenly I’m no
+longer in the zone! But it’s okay, I just take a moment to
+center myself and get back in the groove.” My friend thought this
+remark expressed a truth about my essence. I think he was
+right; also, I am sure my skates were not laced tightly enough.&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <title>In the Winnipeg International Airport</title>
+    <link href="http://threedots.ca/posts/airport/"/>
+    <updated>2016-01-10T06:00:00-06:00</updated>
+    <id>http://threedots.ca/posts/airport/</id>
+    <summary>Setting off for Halifax; musing; killing time.</summary>
+    <content type="html">      &lt;p&gt;I was pleasantly surprised to find the security area was
+virtually deserted. The kindly woman standing before the
+queueing area touched the palms of my hands with the white
+hemisphere on the end of a wand and said (having just seen
+Paul hug me tight around in circles) how lovely it was to
+see such a close-knit family and wished me a happy new year.
+I had to show my boarding pass five times total, three of
+those in the security area. I was the
+only one in the x-ray line.—The security line staffperson: “No liquids, aerosols, gels,
+toiletries, toothpaste, shaving cream, water
+bottles?”—I: “No, those things are all in my checked bag.
+Well, an empty water bottle.”—”Wait – empty? Does it have
+any water in it?”—”No.”—”Okay, then.”&lt;/p&gt;
+&lt;p&gt;Now it’s ten after eleven and they’re saying the plane
+probably won’t arrive for fifteen minutes yet. Guess I’ll go
+for another walk or something. The woman on the CBC news
+says “we’re so consumeristic, a lot of the things still have
+labels in them, the resale market shouldn’t be overlooked.”&lt;/p&gt;
+&lt;p&gt;I encounter a sign advertising a Chestnut Praline Latte at
+Starbucks. I have nothing to do, and I am feeling
+suggestible; I shall go to the Starbucks and purchase a
+chestnut praline latte.—It tastes quite good – a lovely burnt-sugar flavour.&lt;/p&gt;
+</content>
+  </entry>
+</feed>
