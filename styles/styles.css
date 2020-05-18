@@ -2,12 +2,10 @@
   --base-line-height: 1.525rem;
   --base-font-size: 1rem;
   --sans-serif-fonts: -apple-system, BlinkMacSystemFont,
-               Lato, 'Open Sans',
+               Lato, 'Open Sans', 'Segoe UI',
                'Avenir Next', Avenir,
-               'Helvetica Neue', Helvetica,
-               Ubuntu,
-               Roboto, Noto,
-               'Segoe UI', Arial,
+               Ubuntu, Roboto, Noto,
+               'Helvetica Neue', Helvetica, Arial,
                sans-serif;
   --text-colour-normal: #222222;
   --text-colour-highlight: #783f75;
@@ -517,7 +515,7 @@ p, ol, ul {
   font-size: 1em;
   line-height: var(--base-line-height);
 }
-p + p, ol + p, ul + p, blockquote + p {
+p + p, ol + p, ul + p, blockquote + p, p:first-child {
   /* TODO make this into a thingy */
   margin-top: calc(var(--paragraph-spacing-factor, 0) * var(--base-line-height));
 }
