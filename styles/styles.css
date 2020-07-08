@@ -617,3 +617,32 @@ img {
 .block {
   display: block;
 }
+
+.littlefoot-footnote__content, .footnotes {
+  --base-font-size: 0.875rem;
+  --base-line-height: 1.5em;
+}
+.littlefoot-footnote__content, .littlefoot-footnote__tooltip {
+  background-color: var(--background-colour-lighter);
+}
+.littlefoot-footnote, .littlefoot-footnote__tooltip {
+  border-color: var(--text-colour-lighter);
+}
+.footnotes {
+  margin-top:  var(--base-line-height);
+}
+.footnote-separator {
+  margin-block-start: calc(var(--base-line-height)*1);
+  border-top-width: 0.0875rem;
+  border-top-color: var(--text-colour-lighter);
+  border-top-style: solid;
+  max-width: 8em;
+  margin-inline-start: 1.5em;
+}
+sup {
+  font-size: 0.625em;
+  vertical-align: baseline;
+  position: relative;
+  top: calc(var(--base-line-height)*-0.25);
+  // margin-inline-start: 0.1rem;
+}
