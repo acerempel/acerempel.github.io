@@ -9,6 +9,7 @@
     
     <link rel="alternate" type="application/atom+xml" href="/posts/feed.xml">
     <link href="/styles/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/littlefoot.css">
     <script defer src="/scripts/colour-scheme.js"></script>
     <link rel="me" href="https://x0r.be/@alan">
   </head>
@@ -22,12 +23,14 @@
       </header>
       <p>I first met my fiancée on <time datetime="2017-05-04">May 4th,
 2017</time>. I found my record of this incident as I was reading through
-my Catalogue of Days, looking for potential blog-post material. (I knew
+my <span class="smallcaps">Catalogue of Days</span>, looking for potential blog-post material. (I knew
 that we had met in May of that year, but I had forgot the exact date.)
 At the time, among my housemates was a good high-school friend of hers,
 so she was visiting for a week and stayed with us. I described her in
 that entry as <q>pretty cool</q>. (I now have more developed thoughts on
 her virtues.)</p>
+
+
 
     </article>
 
@@ -55,5 +58,31 @@ her virtues.)</p>
       </footer>
     </div>
     <script data-goatcounter="https://threedots_ca.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    <script src="/scripts/littlefoot.js"></script>
+    <script>littlefoot.default()</script>
+<style>
+.littlefoot-footnote__content, .footnotes {
+  --base-font-size: 0.875rem;
+  --base-line-height: 1.5em;
+}
+.footnotes {
+  margin-top:  var(--base-line-height);
+}
+.footnote-separator {
+  margin-block-start: calc(var(--base-line-height)*1);
+  border-top-width: 0.0875rem;
+  border-top-color: var(--text-colour-lighter);
+  border-top-style: solid;
+  max-width: 8em;
+  margin-inline-start: 1.5em;
+}
+sup {
+  font-size: 0.625em;
+  vertical-align: baseline;
+  position: relative;
+  top: calc(var(--base-line-height)*-0.25);
+  // margin-inline-start: 0.1rem;
+}
+</style>
   </body>
 </html>

@@ -512,7 +512,7 @@ p, ol, ul {
   --link-initial-text-decoration-thickness: 0.05em;
   --link-hover-text-decoration-thickness: 0.14em;
   --link-text-decoration-line: underline;
-  font-size: 1em;
+  font-size: var(--base-font-size);
   line-height: var(--base-line-height);
 }
 p + p, ol + p, ul + p, blockquote + p, p:first-child {
@@ -575,10 +575,15 @@ nav {
 footer {
   margin-top: auto;
   padding-top: var(--base-line-height);
-  border-top: 0.79px solid var(--text-colour-normal);
+  border-top: 0.0875rem solid var(--text-colour-normal);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.smallcaps {
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.02em;
 }
 
 img {

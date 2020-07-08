@@ -9,6 +9,7 @@
     <meta name="description" content="This is the website of Alan Rempel, a elliptical human man.">
     <link rel="alternate" type="application/atom+xml" href="/posts/feed.xml">
     <link href="/styles/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/littlefoot.css">
     <script defer src="/scripts/colour-scheme.js"></script>
     <link rel="me" href="https://x0r.be/@alan">
   </head>
@@ -18,19 +19,14 @@
                 <h1 class="bold fs-2-1 mb-9-8"><a href="/">three dots …</a></h1>
         <article>
           <h2 class="mb-1-2 fs-4-3">Hello!</h2>
-          <p>Good evening! Please take up a chair; I will bring you some sparkling water in a moment.
+          <p>Good evening! I am Alan; this is my website. I am a student at the
+<a href="https://ukings.ca" title="University of King's College | Halifax, Nova Scotia">University of King's College</a> (Halifax, NS). Please take up a chair; I will bring you some sparkling water in a moment.
 Feel free to browse.</p>
-<p>I am Alan; this is my website. I am a student at the
-<a href="https://ukings.ca" title="University of King's College | Halifax, Nova Scotia">University of King's College</a> (Halifax, NS).
-I am on Instagram as
-<a href="https://instagram.com/alan_rempel_mdash/">@alan_rempel_mdash</a> and on GitHub as <a href="https://github.com/acerempel">@acerempel</a>,
-as well as on a handful of other websites and social media,
-occasionally under a pseudonym.</p>
 
           <p>Currently this website consists of my <a href="/#blog"><b>blog</b></a>, which I update according as I
           have spare time and whim, and some <a href="/#miscellaneous"><b>miscellaneous lists</b></a>. There is also
           a page with a little more <a href="/introduction" title="About this website … {three dots}"><b>about</b></a> this website.
-          <p><small class="oblique colour-lighter lh-1-1 fs-7-8">Last updated on <time datetime="2020-06-01">Monday, June 1st, 2020</time></small>
+          <p><small class="oblique colour-lighter lh-1-1 fs-7-8">Last updated on <time datetime="2020-07-08">Monday, July 8th, 2020</time></small>
         </article>
         <section id="miscellaneous" class="mt-1-1" style="border-top: 0.1rem solid var(--text-colour-normal); padding-top: calc(var(--base-line-height)*0.75)">
           <h2 class="mb-1-2 fs-4-3">Miscellaneous</h2>
@@ -56,12 +52,27 @@ occasionally under a pseudonym.</p>
           <h2 class="mb-1-2 fs-4-3">Blog</h2>
           <article class="post mb-9-8 fs-1-1 preview">
               <div class="date light oblique colour-lighter fs-1-1 lh-1-1">
+                <time datetime="2020-07-08">July 8, 2020</time>
+              </div>
+              <h3 class="semibold fs-6-5 lh-6-5"><a href="/posts/rideau-canal/">The Rideau Canal</a></h3>
+              
+<p>
+As of <time datetime="2020-06-11">June 11th</time>, the Rideau Canal in
+Ottawa is the nearest body of water to where I live.
+Previously it was the Atlantic Ocean; before that, the Assiniboine
+River—both natural bodies of water:——
+              <p class="medium oblique link-plain">
+                <a href="/posts/rideau-canal/">Continue reading …</a>
+              </p>
+            </article>
+          <article class="post mb-9-8 fs-1-1 preview">
+              <div class="date light oblique colour-lighter fs-1-1 lh-1-1">
                 <time datetime="2020-05-25">May 25, 2020</time>
               </div>
               <h3 class="semibold fs-6-5 lh-6-5"><a href="/posts/jocelyn/">Jocelyn</a></h3>
               <p>I first met my fiancée on <time datetime="2017-05-04">May 4th,
 2017</time>. I found my record of this incident as I was reading through
-my Catalogue of Days, looking for potential blog-post material. (I knew
+my <span class="smallcaps">Catalogue of Days</span>, looking for potential blog-post material. (I knew
 that we had met in May of that year, but I had forgot the exact date.)
 At the time, among my housemates was a good high-school friend of hers,
 so she was visiting for a week and stayed with us. I described her in
@@ -269,5 +280,31 @@ right; also, I am sure my skates were not laced tightly enough.</p>
       </footer>
     </div>
     <script data-goatcounter="https://threedots_ca.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    <script src="/scripts/littlefoot.js"></script>
+    <script>littlefoot.default()</script>
+<style>
+.littlefoot-footnote__content, .footnotes {
+  --base-font-size: 0.875rem;
+  --base-line-height: 1.5em;
+}
+.footnotes {
+  margin-top:  var(--base-line-height);
+}
+.footnote-separator {
+  margin-block-start: calc(var(--base-line-height)*1);
+  border-top-width: 0.0875rem;
+  border-top-color: var(--text-colour-lighter);
+  border-top-style: solid;
+  max-width: 8em;
+  margin-inline-start: 1.5em;
+}
+sup {
+  font-size: 0.625em;
+  vertical-align: baseline;
+  position: relative;
+  top: calc(var(--base-line-height)*-0.25);
+  // margin-inline-start: 0.1rem;
+}
+</style>
   </body>
 </html>

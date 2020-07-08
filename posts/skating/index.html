@@ -9,6 +9,7 @@
     
     <link rel="alternate" type="application/atom+xml" href="/posts/feed.xml">
     <link href="/styles/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/littlefoot.css">
     <script defer src="/scripts/colour-scheme.js"></script>
     <link rel="me" href="https://x0r.be/@alan">
   </head>
@@ -28,6 +29,8 @@ longer in the zone! But it’s okay, I just take a moment to
 center myself and get back in the groove.” My friend thought this
 remark expressed a truth about my essence. I think he was
 right; also, I am sure my skates were not laced tightly enough.</p>
+
+
 
     </article>
 
@@ -55,5 +58,31 @@ right; also, I am sure my skates were not laced tightly enough.</p>
       </footer>
     </div>
     <script data-goatcounter="https://threedots_ca.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    <script src="/scripts/littlefoot.js"></script>
+    <script>littlefoot.default()</script>
+<style>
+.littlefoot-footnote__content, .footnotes {
+  --base-font-size: 0.875rem;
+  --base-line-height: 1.5em;
+}
+.footnotes {
+  margin-top:  var(--base-line-height);
+}
+.footnote-separator {
+  margin-block-start: calc(var(--base-line-height)*1);
+  border-top-width: 0.0875rem;
+  border-top-color: var(--text-colour-lighter);
+  border-top-style: solid;
+  max-width: 8em;
+  margin-inline-start: 1.5em;
+}
+sup {
+  font-size: 0.625em;
+  vertical-align: baseline;
+  position: relative;
+  top: calc(var(--base-line-height)*-0.25);
+  // margin-inline-start: 0.1rem;
+}
+</style>
   </body>
 </html>

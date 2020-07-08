@@ -9,6 +9,7 @@
     <meta name="description" content="In which I introduce my blog to the reader.">
     <link rel="alternate" type="application/atom+xml" href="/posts/feed.xml">
     <link href="/styles/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/littlefoot.css">
     <script defer src="/scripts/colour-scheme.js"></script>
     <link rel="me" href="https://x0r.be/@alan">
   </head>
@@ -17,22 +18,10 @@
       <main class="mt-2-3 mb-1-1">
         <article class="full mb-1-3">
 <header><h1 class="title bold mb-1-2 fs-3-2 lh-3-2">Introduction</h1></header>
-          <p>Good evening! Please take up a chair; I will bring you some sparkling water in a moment.
+          <p>Good evening! I am Alan; this is my website. I am a student at the
+<a href="https://ukings.ca" title="University of King's College | Halifax, Nova Scotia">University of King's College</a> (Halifax, NS). Please take up a chair; I will bring you some sparkling water in a moment.
 Feel free to browse.</p>
-<p>I am Alan; this is my website. I am a student at the
-<a href="https://ukings.ca" title="University of King's College | Halifax, Nova Scotia">University of King's College</a> (Halifax, NS).
-I am on Instagram as
-<a href="https://instagram.com/alan_rempel_mdash/">@alan_rempel_mdash</a> and on GitHub as <a href="https://github.com/acerempel">@acerempel</a>,
-as well as on a handful of other websites and social media,
-occasionally under a pseudonym.</p>
 
-          <p>
-            The only reason this
-            website exists is that I find it enjoyable to work on it in
-            my spare time (and even in time I have not to spare!). I also like experimenting
-            with alternatives to the usual ways of presenting oneself in writing on the Internet. I have nothing
-            against social media, though; I even post on Instagram occasionally.
-          </p>
           <p>
             <b>Why “three dots”?</b> Because three dots is the visual form of the ellipsis (‘…’), and
             I am often an elliptical man.
@@ -42,13 +31,7 @@ occasionally under a pseudonym.</p>
             Posts are dated by when I <em>originally</em> composed
             their content. This date may be months or years earlier than
             when the post appears here—I often post backdated items that
-            I had written as a note to myself much earlier. In this sense, the blog is a sort
-            of artificial construct: well—it is highly curated.
-          </p>
-          <p>
-            There is no commenting facility (yet), but if you send me an email
-            commenting on a post, I might, with your permission post
-            your comment below the post.
+            I had written as a note to myself much earlier.
           </p>
           <p>
             I am <s>constantly</s> intermittently adding, editing, removing stuff,
@@ -90,5 +73,31 @@ occasionally under a pseudonym.</p>
       </footer>
     </div>
     <script data-goatcounter="https://threedots_ca.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    <script src="/scripts/littlefoot.js"></script>
+    <script>littlefoot.default()</script>
+<style>
+.littlefoot-footnote__content, .footnotes {
+  --base-font-size: 0.875rem;
+  --base-line-height: 1.5em;
+}
+.footnotes {
+  margin-top:  var(--base-line-height);
+}
+.footnote-separator {
+  margin-block-start: calc(var(--base-line-height)*1);
+  border-top-width: 0.0875rem;
+  border-top-color: var(--text-colour-lighter);
+  border-top-style: solid;
+  max-width: 8em;
+  margin-inline-start: 1.5em;
+}
+sup {
+  font-size: 0.625em;
+  vertical-align: baseline;
+  position: relative;
+  top: calc(var(--base-line-height)*-0.25);
+  // margin-inline-start: 0.1rem;
+}
+</style>
   </body>
 </html>
