@@ -367,6 +367,14 @@ body {
   font-size: calc(var(--base-font-size) * 1.25);
 }
 
+.fs-2-1 {
+  font-size: calc(var(--base-font-size) * 2);
+}
+
+.lh-2-1 {
+  line-height: calc(var(--base-line-height) * 2);
+}
+
 .fs-1-8 {
   font-size: calc(var(--base-font-size) * 0.125);
 }
@@ -525,6 +533,18 @@ ol, ul {
   padding-inline-start: 1.5em;
 }
 
+.border-top {
+  border-top: calc(var(--base-font-size)*0.0875) solid var(--text-colour-normal);
+}
+
+.pt-3-4 {
+  padding-top: calc(var(--base-line-height)*0.75);
+}
+
+.pt-1-1 {
+  padding-top: var(--base-line-height);
+}
+
 article {
   --paragraph-spacing-factor: 0.5;
 }
@@ -550,7 +570,7 @@ select {
   margin-inline-start: 0.5em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .heading-like {
   margin: 0;
   --link-text-decoration-line: none;
   --link-colour: inherit;
@@ -574,8 +594,6 @@ nav {
 
 footer {
   margin-top: auto;
-  padding-top: var(--base-line-height);
-  border-top: 0.0875rem solid var(--text-colour-normal);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
