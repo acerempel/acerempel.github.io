@@ -637,8 +637,8 @@ img {
 }
 
 .littlefoot-footnote__content, .footnotes {
-  --base-font-size: 0.875rem;
-  --base-line-height: 1.5em;
+  --base-font-size: calc(var(--base-font-size)*0.875);
+  --base-line-height: var(--base-line-height);
 }
 .littlefoot-footnote__content, .littlefoot-footnote__tooltip {
   background-color: var(--background-colour-lighter);

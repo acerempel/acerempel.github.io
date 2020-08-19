@@ -7,19 +7,10 @@
     <link href="http://threedots.ca/posts/airport/" rel="canonical">
     <title>In the Winnipeg International Airport … ‹three dots›</title>
     <meta name="description" content="A blog post in which I describe my experience in the Winnipeg airport, as I pass through it on my journey to Halifax after the Christmas break.">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172347531-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-172347531-1');
-    </script>
     <link rel="alternate" type="application/atom+xml" href="/posts/feed.xml">
     <link rel="stylesheet" href="/styles/littlefoot.css">
     <link href="/styles/styles.css" rel="stylesheet">
-    <script defer src="/scripts/colour-scheme.js"></script>
+    <script defer src="/bundle.js"></script>
     <link rel="me" href="https://x0r.be/@alan">
   </head>
   <body class="colour-scheme-auto">
@@ -28,7 +19,8 @@
         <a class="semibold heading-like" href="/">three dots …</a>
       </header>
       <main class="mt-2-3 mb-1-1">
-            <article class="full">
+            <article class="full" style="display: none;" id="editor"></article>
+    <article class="full" id="post">
       <header>
         <time class="date block light oblique colour-lighter fs-1-1 lh-1-1" datetime="2016-01-10">January 10, 2016</time>
         <h1 class="title bold mb-1-2 fs-3-2 lh-3-2">In the Winnipeg International Airport</h1>
@@ -59,6 +51,7 @@ chestnut praline latte.—It tastes quite good – a lovely burnt-sugar flavour.
 
 
     </article>
+    <button id="edit">Edit</button>
 
       </main>
       <footer class="mb-1-1 pt-1-1 border-top">
@@ -87,7 +80,5 @@ chestnut praline latte.—It tastes quite good – a lovely burnt-sugar flavour.
       </footer>
     </div>
     <script data-goatcounter="https://threedots_ca.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-    <script src="/scripts/littlefoot.js"></script>
-    <script>littlefoot.default()</script>
   </body>
 </html>
