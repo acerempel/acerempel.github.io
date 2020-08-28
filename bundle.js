@@ -11,10 +11,6 @@
     element.classList.add(colourSchemeClassName);
   }
 
-  function setFontSize(size) {
-    document.documentElement.style.setProperty("--base-font-size", size + "rem");
-  }
-
   function setUpControl(elementId, eventName, applyValue) {
     var control = document.getElementById(elementId);
     if (!control) {
@@ -693,7 +689,6 @@
   // This script should have the 'defer' attribute set, so that the
   // 'DOMContentLoaded' event will not yet have fired when it is run.
   document.addEventListener("DOMContentLoaded", function(_event) {
-    setUpControl("font-size", "input", setFontSize);
     setUpControl("colour-scheme", "change", setColourScheme);
   });
 
