@@ -187,6 +187,10 @@ article h2 {
   margin-top: calc(var(--base-line-height)*1);
 }
 
+.read-more {
+  --link-text-decoration-line: none;
+}
+
 .summary, .preview {
   --paragraph-spacing-factor: 0.25;
 }
