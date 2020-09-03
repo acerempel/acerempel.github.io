@@ -1,6 +1,6 @@
 :root {
-  --base-line-height: 1.65rem;
-  --base-font-size: 1.1rem;
+  --base-line-height: 1.5rem;
+  --base-font-size: 1rem;
   --sans-serif-fonts: -apple-system, BlinkMacSystemFont,
                Lato, 'Open Sans', 'Segoe UI',
                'Avenir Next', Avenir,
@@ -12,6 +12,11 @@
   --text-colour-lighter: #555555;
   --background-colour-normal: #f8f8f8;
   --background-colour-lighter: #e8e8e8;
+  --light-text-normal: #222222;
+  --light-text-highlight: #783f75;
+  --light-text-lighter: #555555;
+  --light-background-normal: #f8f8f8;
+  --light-background-lighter: #e8e8e8;
 }
 
 @media (prefers-color-scheme: light) {
@@ -245,6 +250,13 @@ footer {
 
 li {
   margin-top: calc(var(--base-line-height)*0.25);
+}
+
+abbr[title] {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 0.05em;
+  text-underline-offset: 0.2em;
 }
 
 main section {
