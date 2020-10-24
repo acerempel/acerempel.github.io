@@ -1,24 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Three Dots</title>
-  <subtitle>The website of Alan Rempel, an elliptical man</subtitle>
+  <subtitle>The website of an elliptical human</subtitle>
   <link href="http://threedots.ca/posts/feed.xml" rel="self"/>
   <link href="http://threedots.ca"/>
-  <updated>2016-01-10T07:00:00-05:00</updated>
+  <updated>2020-10-23T21:05:47.452414-04:00</updated>
   <id>http://threedots.ca</id>
   <author>
     <name>Alan Rempel</name>
   </author>
   <entry>
-    <title>The Rideau Canal</title>
+    <title type="text">Whenever I open a can of chickpeas and rinse them,</title>
+    <link href="http://threedots.ca/posts/chickpeas/"/>
+    <updated>2020-10-22T00:00:00-04:00</updated>
+    <id>http://threedots.ca/posts/chickpeas/</id>
+    <content type="html">&lt;p&gt;Whenever I open a can of chickpeas and rinse them, I am overcome with a
+desire to take each chickpea and slip off its transparent skin. I find
+it so &lt;em&gt;satisfying&lt;&#x2f;em&gt; – so that of course I am not satisfied at all until I
+have slipped the skin off of every last one. The safest thing for me,
+therefore, is never to start in the first place.&lt;&#x2f;p&gt;
+</content>
+  </entry>
+  <entry>
+    <title type="text">I have a great love of &lt;em&gt;editing&lt;&#x2f;em&gt;.</title>
+    <link href="http://threedots.ca/posts/editing/"/>
+    <updated>2020-10-16T00:00:00-04:00</updated>
+    <id>http://threedots.ca/posts/editing/</id>
+    <content type="html">&lt;p&gt;I have a great love of &lt;em&gt;editing&lt;&#x2f;em&gt;. Semicolon—&lt;br&gt;or m-dash? Too many syllables? Too languid?&lt;br&gt;too clipped? One sentence twisting, another&lt;br&gt;straight-ahead. Warp; point; zig; zag. I once&lt;br&gt;dropped my house-keys such that they fell&lt;br&gt;between the boards of the front porch:&lt;br&gt; I rescued them
+with a bent coat-hanger. Yes,&lt;br&gt; I am nothing if not resourceful.&lt;&#x2f;p&gt;
+</content>
+  </entry>
+  <entry>
+    <title type="text">On oomancy</title>
+    <link href="http://threedots.ca/posts/oomancy/"/>
+    <updated>2020-09-09T00:00:00-04:00</updated>
+    <id>http://threedots.ca/posts/oomancy/</id>
+    <content type="html">&lt;p&gt;Yesterday evening we had friends over to our apartment for our weekly
+oomancy session. As I was sweeping the floor in anticipation of their
+arrival, I thought back to the first time I tried my hand at oomancy.&lt;!-- FOLD --&gt; Or maybe
+oomancy tried its hand at me: I had not intended to use the eggs for divination, but
+in retrospect it is hard for me to deny that divination took
+place.&lt;&#x2f;p&gt;
+&lt;p&gt;—Sorry: Oomancy is divination by means of eggs. &lt;em&gt;Oo&lt;&#x2f;em&gt; means ‘eggs’
+(think &lt;em&gt;ovo&lt;&#x2f;em&gt;,  but without the ‘v’), and &lt;em&gt;mancy&lt;&#x2f;em&gt; means ‘, divination by
+means of’. Put it together and you have ‘eggs, divination by means of’.
+I didn&#x27;t know this either until about two weeks ago.&lt;&#x2f;p&gt;
+&lt;p&gt;This particular morning was my assigned day to
+bring breakfast to share after the small religious service that took place
+in the Student Union Building early on Wednesday mornings,
+which I was accustomed to attend intermittently. I had decided to bring a variation on my
+family&#x27;s traditional weekend breakfast: fresh
+blueberry muffins and medium-boiled eggs. Unfortunately, I insisted upon
+the &lt;em&gt;being-fresh&lt;&#x2f;em&gt; of the muffins at the expense of my presence at the
+service: that is, I baked them the morning of, rather than (as would
+have been sensible) the night before. I arose too late; I measured too
+carefully; I spent too long whisking the eggs; the hour to leave for the
+service passed me by. I said to myself, “No matter! I shall move with
+haste and outstrip the passage of the minutes!” Of course the passage of
+the minutes was indifferent to my haste.&lt;&#x2f;p&gt;
+&lt;p&gt;If you have any experience with
+boiling eggs, you will know that there is no way to tell whether they are done
+(without cracking the egg open and thereby destroying the integrity of the boiled-egg experience):
+the only way to cook them the way you want to is to time them exactly. And if you know this, you
+will probably also know that haste and the desire to bend the passage of time are the enemy of exactitude.&lt;&#x2f;p&gt;
+&lt;p&gt;Thus, having shuffled in sheepishly to the room shortly after the service had ended, I revealed
+my breakfast-cargo, we arranged them on the table, and, upon my friend remarking that I had brought no
+implements with which to crack the eggs, I, at a loss, demonstrated my own traditional method of egg-cracking,
+namely, I knocked an egg firmly against my forehead, and smashed the runny undercooked egg all over my face.&lt;&#x2f;p&gt;
+&lt;p&gt;My friend told me that, for his own part, his mirth more than made up for the loss of the eggs. I was embarrassed and
+bemused. At the time I drew from this experience only the narrowly practical lesson of hallowing the timing of the eggs.
+Now, though, I am inclined to wonder: what mystical meaning did this &lt;em&gt;ovum&lt;&#x2f;em&gt; wish to communicate to me? Does a spiritual
+residue of its yolk still reside upon my forehead? What might the science of oomancy have to say about this event?
+Will I ever see clearly its true signification?&lt;&#x2f;p&gt;
+</content>
+  </entry>
+  <entry>
+    <title type="text">The Rideau Canal</title>
     <link href="http://threedots.ca/posts/rideau-canal/"/>
-    <updated>2020-07-07T20:00:00-04:00</updated>
-    <updated>2020-07-07T20:00:00-04:00</updated>
+    <updated>2020-07-08T00:00:00-04:00</updated>
     <id>http://threedots.ca/posts/rideau-canal/</id>
     <summary>I muse that the Rideau Canal is not like a river, but one senses it wants to be like a river. This makes me uneasy.</summary>
     <content type="html">
+
 &lt;p&gt;
-As of &lt;time datetime=&quot;2020-06-11&quot;&gt;June 11th&lt;/time&gt;, the Rideau Canal in
+As of &lt;time datetime=&quot;2020-06-11&quot;&gt;June 11th&lt;&#x2f;time&gt;, the Rideau Canal in
 Ottawa is the nearest body of water to where I live.
 Previously it was the Atlantic Ocean; before that, the Assiniboine
 River—both natural bodies of water:——but the Rideau Canal is an
@@ -28,102 +93,97 @@ different kind of being entirely. I want to say, for instance, that I have had p
 my friends on the bank of the canal, but in truth the
 canal has no banks to speak of—just concrete walls bounding it on both sides, each with a
 railing on top, and a paved path flush with the top of the wall.
-The water is hardly a few inches below the top of the wall—and the soles of one&#39;s feet.
+The water is hardly a few inches below the top of the wall—and the soles of one&#x27;s feet.
 The canal therefore makes no pretense at having come into being in
 concert with its surrounding landscape, as rivers do, e.g. by
-gradually carving out a valley for itself.&lt;sup id=&quot;fnref1&quot;&gt;&lt;a href=&quot;#fn1&quot; aria-label=&quot;Footnote 1&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; On the other hand, it is lined on
+gradually carving out a valley for itself.&lt;!--% note 1 %--&gt; On the other hand, it is lined on
 each side
 along much of its length with a sloping strip of narrow forest,
 and beyond this, another paved path, and then a lawn several metres wide (this is what I have in mind when I want to say “we picnicked on the
 bank of the canal”):——to me this tree-èd slope suggests aspirations towards
-riverhood.&lt;sup id=&quot;fnref2&quot;&gt;&lt;a href=&quot;#fn2&quot; aria-label=&quot;Footnote 2&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;
+riverhood.&lt;!-- note 2 %--&gt;
 It might even engender an illusion of riverhood, if one remains on the grassy area near the
 upper path, on the other side of the trees. If, however, one
 descends through the trees, down the concrete steps, to the canal-side
 pathway, and sees the eerily flat water of the canal, then the illusion
 is dissolved.
-&lt;/p&gt;
+&lt;&#x2f;p&gt;
 </content>
   </entry>
   <entry>
-    <title>Jocelyn</title>
+    <title type="text">Jocelyn</title>
     <link href="http://threedots.ca/posts/jocelyn/"/>
-    <updated>2020-05-24T20:00:00-04:00</updated>
-    <updated>2020-05-24T20:00:00-04:00</updated>
+    <updated>2020-05-25T00:00:00-04:00</updated>
     <id>http://threedots.ca/posts/jocelyn/</id>
     <summary>I recall how I first met Jocelyn.</summary>
     <content type="html">&lt;p&gt;I first met my fiancée on &lt;time datetime=&quot;2017-05-04&quot;&gt;May 4th,
-2017&lt;/time&gt;. I found my record of this incident as I was reading through
-my &lt;span class=&quot;smallcaps&quot;&gt;Catalogue of Days&lt;/span&gt;, looking for potential blog-post material.&lt;!-- FOLD --&gt; (I knew
+2017&lt;&#x2f;time&gt;. I found my record of this incident as I was reading through
+my &lt;span class=&quot;smallcaps&quot;&gt;Catalogue of Days&lt;&#x2f;span&gt;, looking for potential blog-post material.&lt;!-- FOLD --&gt; (I knew
 that we had met in May of that year, but I had forgot the exact date.)
 At the time, among my housemates was a good high-school friend of hers,
 so she was visiting Halifax for a week and stayed with us. I described her in
-that &lt;span class=&quot;smallcaps&quot;&gt;Catalogue&lt;/span&gt; entry as &lt;q&gt;pretty cool&lt;/q&gt;. (I now have more developed thoughts on
-her virtues.)&lt;/p&gt;
+that &lt;span class=&quot;smallcaps&quot;&gt;Catalogue&lt;&#x2f;span&gt; entry as &lt;q&gt;pretty cool&lt;&#x2f;q&gt;. (I now have more developed thoughts on
+her virtues.)&lt;&#x2f;p&gt;
 </content>
   </entry>
   <entry>
-    <title>Pen and paper</title>
+    <title type="text">Pen and paper</title>
     <link href="http://threedots.ca/posts/paper-notebook/"/>
-    <updated>2020-02-01T19:00:00-05:00</updated>
-    <updated>2020-03-16T20:00:00-04:00</updated>
-    <published>2020-02-01T19:00:00-05:00</published>
+    <updated>2020-03-17T00:00:00-04:00</updated>
+    <published>2020-02-02T00:00:00-05:00</published>
     <id>http://threedots.ca/posts/paper-notebook/</id>
     <summary>I muse upon the excellences of paper notebooks, as opposed to electronic programs designed for comparable purposes.
 </summary>
-    <content type="html">&lt;p&gt;I have started using a paper notebook for an agenda/planner/to-do-list
-thing. It&#39;s been an interesting experiment. &lt;!-- FOLD --&gt; I notice that I tend to waste all kinds of time
-&lt;em&gt;configuring&lt;/em&gt; whatever computer program I use, but there is no such thing as that
+    <content type="html">&lt;p&gt;I have started using a paper notebook for an agenda&#x2f;planner&#x2f;to-do-list
+thing. It&#x27;s been an interesting experiment. &lt;!-- FOLD --&gt; I notice that I tend to waste all kinds of time
+&lt;em&gt;configuring&lt;&#x2f;em&gt; whatever computer program I use, but there is no such thing as that
 with the paper notebook, because “configuring” it and using it
 are one: both of these consist in writing lines, symbols, and characters with the pen on the page.
 You create the scaffolding the same way you create the content. This is
 not so with computer-based tools because, while writing prose on a computer is very easy –
 a computer even has special hardware designed for it –
-organizing that prose &lt;em&gt;visually&lt;/em&gt; – as one wants to do when one
+organizing that prose &lt;em&gt;visually&lt;&#x2f;em&gt; – as one wants to do when one
 is making an agenda (a section of the page for each day of the week, for example) – is vastly more cumbersome.
 Some computer-based task-management or calendar-management tools are actually very good – but
 they cost at least as much as my notebook did, and I have more confidence that my notebook
-will be useful to me, for a long time and in a variety of contexts, than any piece of software.&lt;/p&gt;
+will be useful to me, for a long time and in a variety of contexts, than any piece of software.&lt;&#x2f;p&gt;
 </content>
   </entry>
   <entry>
-    <title>I have a secret, which I’ve never …</title>
+    <title type="text">I have a secret,</title>
     <link href="http://threedots.ca/posts/secret/"/>
-    <updated>2019-11-26T19:00:00-05:00</updated>
-    <updated>2019-11-26T19:00:00-05:00</updated>
+    <updated>2019-11-27T00:00:00-05:00</updated>
     <id>http://threedots.ca/posts/secret/</id>
     <summary>Judee Sill has a secret.</summary>
-    <content type="html">&lt;p&gt;I have a secret, which I’ve never revealed:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=UzrM3eomnAA&quot; title=&quot;Judee Sill&quot;&gt;However we are is okay.&lt;/a&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;I have a secret, which I’ve never revealed:&lt;&#x2f;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2f;&#x2f;www.youtube.com&#x2f;watch?v=UzrM3eomnAA&quot; title=&quot;Judee Sill&quot;&gt;However we are is okay.&lt;&#x2f;a&gt;&lt;&#x2f;p&gt;
 </content>
   </entry>
   <entry>
-    <title>This city is a strange place—so much of …</title>
+    <title type="text">This city is a strange place—so much of it is paved.&lt;&#x2f;p&gt;</title>
     <link href="http://threedots.ca/posts/the-trees/"/>
-    <updated>2019-11-20T19:00:00-05:00</updated>
-    <updated>2020-05-15T20:00:00-04:00</updated>
-    <published>2019-11-20T19:00:00-05:00</published>
+    <updated>2020-05-16T00:00:00-04:00</updated>
+    <published>2019-11-21T00:00:00-05:00</published>
     <id>http://threedots.ca/posts/the-trees/</id>
-    <content type="html">&lt;p&gt;This city is a strange place—so much of it is paved.&lt;/p&gt;
+    <content type="html">&lt;p&gt;This city is a strange place—so much of it is paved.&lt;&#x2f;p&gt;
 &lt;p&gt;The trees here—it must be lonely for them, not being in a
 forest; stretching their roots out and finding soil
-compacted by cement, soil sparse of arboreal conversation.&lt;/p&gt;
+compacted by cement, soil sparse of arboreal conversation.&lt;&#x2f;p&gt;
 </content>
   </entry>
   <entry>
-    <title>Holy Communion on Harry Lake</title>
+    <title type="text">Holy Communion on Harry Lake</title>
     <link href="http://threedots.ca/posts/holy-communion-on-harry-lake/"/>
-    <updated>2019-10-26T20:00:00-04:00</updated>
-    <updated>2019-10-26T20:00:00-04:00</updated>
+    <updated>2019-10-27T00:00:00-04:00</updated>
     <id>http://threedots.ca/posts/holy-communion-on-harry-lake/</id>
-    <summary>In which it is cold, early morning, misty over the lake, I set my service leaflet on fire.</summary>
+    <summary>In which it is cold, early morning, misty over the lake; I set my service leaflet on fire.</summary>
     <content type="html">&lt;p&gt;At this year’s Fall Retreat at Mersey River Chalets, Holy
 Communion on the lake took place at 7:00 am, which was later
 than in the past – last year I think it was at 6:45. The
 temperature had dropped below zero overnight, so the grass
 and the leaves upon it were frosty, and there was a thin
 layer of ice on the lake, and mist drifting over it. It was
-quite beautiful.&lt;/p&gt;
+quite beautiful.&lt;&#x2f;p&gt;
 &lt;p&gt;I had printed leaflets containing the order of worship and
 the music for the service, including English Gradual set to
 plainchant and hymns. To illuminate these – for it was still
@@ -131,7 +191,7 @@ dark outside (although already a little lighter than at 5:30
 am, when I had my vigil slot) – we each had a beeswax taper.
 I was holding my taper and leaflet in the same hand, in
 order to keep my other hand in my pocket for warmth,
-switching hands every few minutes.&lt;/p&gt;
+switching hands every few minutes.&lt;&#x2f;p&gt;
 &lt;p&gt;While we were singing the Nicene Creed, my friend Sophia,
 who was standing beside me, pointed out to me that my
 service leaflet was on fire. We both tried to blow it out,
@@ -141,14 +201,13 @@ did not relinquish the paper, someone – it may have been
 Alison, who was standing on my other side – suggested,
 either by word or by gesture, I forget which, that I drop it on
 the ground and stomp the fire out. I did so, and the fire
-was rapidly extinguished.&lt;/p&gt;
+was rapidly extinguished.&lt;&#x2f;p&gt;
 </content>
   </entry>
   <entry>
-    <title>My to-do list</title>
+    <title type="text">My to-do list</title>
     <link href="http://threedots.ca/posts/to-do-list/"/>
-    <updated>2018-07-09T20:00:00-04:00</updated>
-    <updated>2018-07-09T20:00:00-04:00</updated>
+    <updated>2018-07-10T00:00:00-04:00</updated>
     <id>http://threedots.ca/posts/to-do-list/</id>
     <content type="html">&lt;p&gt;I have a secret to-do list. The problem with my secret
 to-do list, though, is that it’s easy for me to forget what
@@ -170,17 +229,17 @@ structure—and should I forget the structure of the list,
 even if I remember, individually and not necessarily at the
 same time, each of its items,—then the list is no longer.
 Because it exists only in my mind, you see—there’s nothing
-and no one else to testify to it.&lt;/p&gt;
+and no one else to testify to it.&lt;&#x2f;p&gt;
 </content>
   </entry>
   <entry>
-    <title>Purple sparks</title>
+    <title type="text">Purple sparks</title>
     <link href="http://threedots.ca/posts/purple-sparks/"/>
-    <updated>2018-07-06T20:00:00-04:00</updated>
-    <updated>2018-07-06T20:00:00-04:00</updated>
+    <updated>2018-07-07T00:00:00-04:00</updated>
     <id>http://threedots.ca/posts/purple-sparks/</id>
     <summary>I ponder with melancholy the continued absence of my purple sparks.</summary>
     <content type="html">
+
 &lt;p&gt;I used to be able to make purple sparks shoot from my
 fingertips. I just had to snap my fingers at just the right
 angle, with just the right force, when the humidity was just
@@ -189,7 +248,7 @@ way …
 
 &lt;!-- FOLD --&gt;
 
-&lt;/p&gt;&lt;p&gt;I haven’t done that since about a year and a half ago now.
+&lt;p&gt;I haven’t done that since about a year and a half ago now.
 Am I still capable of it? I don’t know how to tell—short
 of doing it again, of course. I haven’t even tried—why
 not? I think I’m afraid of finding out for certain that I’ve
@@ -201,29 +260,28 @@ need not mean I’ve lost my purple sparks permanently.
 Perhaps there is some other condition that needed to obtain
 which I wasn’t aware of. Or perhaps the sparks will come
 back in their own time.
-&lt;/p&gt;</content>
+</content>
   </entry>
   <entry>
-    <title>This morn­ing, ﬂat­mates and I had a …</title>
+    <title type="text">This morn­ing,</title>
     <link href="http://threedots.ca/posts/dancing/"/>
-    <updated>2018-03-16T20:00:00-04:00</updated>
-    <updated>2018-03-16T20:00:00-04:00</updated>
+    <updated>2018-03-17T00:00:00-04:00</updated>
     <id>http://threedots.ca/posts/dancing/</id>
     <summary>A little dance party with my flatmates reminds me of something I wrote a year ago.
 </summary>
     <content type="html">&lt;p&gt;This morn­ing, ﬂat­mates and I had a brief dance party in the
 liv­ing room. It was a lot of fun–it felt long over­due. It
-made me think of &lt;a href=&quot;http://threedots.ca/posts/dancing-lawrence-st&quot; title=&quot;In which I have danced&quot;&gt;a note I had writ­ten to my­self about a year ago&lt;/a&gt;.&lt;/p&gt;
+made me think of &lt;a href=&quot;&#x2f;posts&#x2f;dancing-lawrence-st&quot; title=&quot;In which I have danced&quot;&gt;a note I had writ­ten to my­self about a year ago&lt;&#x2f;a&gt;.&lt;&#x2f;p&gt;
 </content>
   </entry>
   <entry>
-    <title>What do I have in my pockets?</title>
+    <title type="text">What do I have in my pockets?</title>
     <link href="http://threedots.ca/posts/pocket-contents/"/>
-    <updated>2018-03-01T19:00:00-05:00</updated>
-    <updated>2018-03-01T19:00:00-05:00</updated>
+    <updated>2018-03-02T00:00:00-05:00</updated>
     <id>http://threedots.ca/posts/pocket-contents/</id>
     <summary>In which I have to blow my nose.</summary>
     <content type="html">
+
 &lt;p&gt;
 A beeswax taper—&lt;br&gt;
 A wrapper from a Hershey kiss—&lt;br&gt;
@@ -247,17 +305,17 @@ A pamphlet from a recent Winter Retreat—&lt;br&gt;
 A scrap of paper with a poem written on it (”Great Things
 Have Happened” by Alden Nolan), and—thank heavens!—&lt;br&gt;
 A tissue.
-&lt;/p&gt;
+&lt;&#x2f;p&gt;
 </content>
   </entry>
   <entry>
-    <title>At Mersey River, at a winter retreat, after Compline</title>
+    <title type="text">At Mersey River, at a winter retreat, after Compline</title>
     <link href="http://threedots.ca/posts/winter-retreat-after-compline/"/>
-    <updated>2018-02-04T19:00:00-05:00</updated>
-    <updated>2018-02-04T19:00:00-05:00</updated>
+    <updated>2018-02-05T00:00:00-05:00</updated>
     <id>http://threedots.ca/posts/winter-retreat-after-compline/</id>
     <summary>Eternal praise! eternal praise!</summary>
-    <content type="html">&lt;p&gt;Two nights ago, after singing Compline across the lake,
+    <content type="html">
+&lt;p&gt;Two nights ago, after singing Compline across the lake,
 after everyone else had dispersed, drifted back either to
 the dining hall or to their own cabins: Nick Halley and I
 standing on the edge of the frozen lake, looking out and
@@ -267,32 +325,31 @@ The clouds were moving swiftly across the sky—indistinct
 in the darkness, but as they passed within a certain radius
 of the moon their outlines were illuminated. The moon’s
 light ebbed and grew stronger as clouds came and went in
-front of it.&lt;/p&gt;
-&lt;p&gt;The river is &lt;em&gt;marvellous&lt;/em&gt;: louder than the wind, unceasing roaring,
+front of it.&lt;&#x2f;p&gt;
+&lt;p&gt;The river is &lt;em&gt;marvellous&lt;&#x2f;em&gt;: louder than the wind, unceasing roaring,
 a joyous clamour surging from the heart of the Kejimkujik
 forest. ‘Eternal praise, eternal praise!’—singing with all
-its might …&lt;/p&gt;
+its might …&lt;&#x2f;p&gt;
 </content>
   </entry>
   <entry>
-    <title>At the Lucky Penny, shortly before noon</title>
+    <title type="text">At the Lucky Penny, shortly before noon</title>
     <link href="http://threedots.ca/posts/jack-mitchell/"/>
-    <updated>2017-06-12T20:00:00-04:00</updated>
-    <updated>2017-06-12T20:00:00-04:00</updated>
+    <updated>2017-06-13T00:00:00-04:00</updated>
     <id>http://threedots.ca/posts/jack-mitchell/</id>
     <summary>In which I spy a sometime professor of mine, and am somehow amused.</summary>
     <content type="html">&lt;p&gt;Spotted Jack Mitchell searching the Perseus English-Latin
-lexicon for the word ‘virtuous’.&lt;/p&gt;
+lexicon for the word ‘virtuous’.&lt;&#x2f;p&gt;
 </content>
   </entry>
   <entry>
-    <title>At Duncan St and Chebucto Lane</title>
+    <title type="text">At Duncan St and Chebucto Lane</title>
     <link href="http://threedots.ca/posts/duncan-st/"/>
-    <updated>2017-06-09T08:00:00-04:00</updated>
-    <updated>2017-06-09T08:00:00-04:00</updated>
+    <updated>2017-06-09T00:00:00-04:00</updated>
     <id>http://threedots.ca/posts/duncan-st/</id>
     <summary>I encounter some children while looking at a tree; they endeavour to sort out my life plans.</summary>
-    <content type="html">&lt;!-- &lt;p&gt;&lt;img src=&quot;/images/a-tree-with-a-face.jpg&quot; alt=&quot;A tree with a pointy face.&quot;&gt;&lt;/p&gt; --&gt;
+    <content type="html">
+&lt;!-- &lt;p&gt;&lt;img src=&quot;&#x2f;images&#x2f;a-tree-with-a-face.jpg&quot; alt=&quot;A tree with a pointy face.&quot;&gt;&lt;&#x2f;p&gt; --&gt;
 &lt;p&gt;As I was walking down Duncan street last Sunday evening, I
 came across a tree that that had a face—eyes, a nose and a
 mouth affixed to its bark.&lt;!-- FOLD --&gt; I paused to admire it and take a
@@ -315,25 +372,23 @@ name is Alan! Do you want to get married?”—Wouldn’t that
 seem a bit abrupt? I said.—I guess so, said the
 one.—Hey! said the other, no, do this: The next girl you
 see, give her some flowers, and then she’ll like you and ask
-&lt;em&gt;you&lt;/em&gt; to marry &lt;em&gt;her&lt;/em&gt;!—I told them I liked this plan better.&lt;/p&gt;
+&lt;em&gt;you&lt;&#x2f;em&gt; to marry &lt;em&gt;her&lt;&#x2f;em&gt;!—I told them I liked this plan better.&lt;&#x2f;p&gt;
 </content>
   </entry>
   <entry>
-    <title>I was bored this afternoon, so I ate a …</title>
+    <title type="text">I was bored this afternoon,</title>
     <link href="http://threedots.ca/posts/garlic/"/>
-    <updated>2017-06-08T20:00:00-04:00</updated>
-    <updated>2017-06-08T20:00:00-04:00</updated>
+    <updated>2017-06-09T00:00:00-04:00</updated>
     <id>http://threedots.ca/posts/garlic/</id>
     <summary>I ate a raw clove of garlic.</summary>
-    <content type="html">&lt;p&gt;I was bored this afternoon, so I ate a raw clove of garlic.&lt;/p&gt;
-&lt;p&gt;That’s all.&lt;/p&gt;
+    <content type="html">&lt;p&gt;I was bored this afternoon, so I ate a raw clove of garlic.&lt;&#x2f;p&gt;
+&lt;p&gt;That’s all.&lt;&#x2f;p&gt;
 </content>
   </entry>
   <entry>
-    <title>Having danced</title>
+    <title type="text">Having danced</title>
     <link href="http://threedots.ca/posts/dancing-lawrence-st/"/>
-    <updated>2017-05-04T20:00:00-04:00</updated>
-    <updated>2017-05-04T20:00:00-04:00</updated>
+    <updated>2017-05-05T00:00:00-04:00</updated>
     <id>http://threedots.ca/posts/dancing-lawrence-st/</id>
     <summary>In which I have danced</summary>
     <content type="html">&lt;p&gt;Whatever is nec­es­sary
@@ -342,15 +397,14 @@ should hap­pen again—that’s what mat­ters to me. That
 everybody should be able to dance with their
 friends in a safe and com­fort­able space and know this and dance freely
 and en­joy it and have lots of fun, know­ing that they are among
-friends—that is what is most worth­while to me.&lt;/p&gt;
+friends—that is what is most worth­while to me.&lt;&#x2f;p&gt;
 </content>
   </entry>
   <entry>
-    <title>On skating</title>
+    <title type="text">On skating</title>
     <link href="http://threedots.ca/posts/skating/"/>
-    <updated>2017-02-18T19:00:00-05:00</updated>
-    <updated>2020-08-31T20:00:00-04:00</updated>
-    <published>2017-02-18T19:00:00-05:00</published>
+    <updated>2020-09-01T00:00:00-04:00</updated>
+    <published>2017-02-19T00:00:00-05:00</published>
     <id>http://threedots.ca/posts/skating/</id>
     <summary>Sometimes I space out for a moment.</summary>
     <content type="html">&lt;p&gt;While skating at the Oval this afternoon with a few
@@ -358,49 +412,48 @@ friends, I felt compelled to offer an explanation for why I
 was alternating smooth skating with bouts of stumbling:
 “Sometimes I space out for a moment and I’m no
 longer in the zone! But I just take a moment to
-centre myself and it&#39;s all right.” My friend thought this
+centre myself and it&#x27;s all right.” My friend thought this
 remark expressed a truth about my essence. I think he was
-right, but I also think my skates were not laced tightly enough.&lt;/p&gt;
+right, but I also think my skates were not laced tightly enough.&lt;&#x2f;p&gt;
 </content>
   </entry>
   <entry>
-    <title>I made a remark shortly after I came in …</title>
+    <title type="text">I made a remark shortly after I came in the door—paraphrased</title>
     <link href="http://threedots.ca/posts/parisian-baguette/"/>
-    <updated>2016-12-14T19:00:00-05:00</updated>
-    <updated>2016-12-14T19:00:00-05:00</updated>
+    <updated>2016-12-15T00:00:00-05:00</updated>
     <id>http://threedots.ca/posts/parisian-baguette/</id>
-    <content type="html">&lt;p&gt;I made a remark shortly after I came in the door—paraphrased from David Lebovitz—about the state of the Parisian baguette: Emma is this moment recording it in her quote-book. I am flattered.&lt;/p&gt;
+    <content type="html">&lt;p&gt;I made a remark shortly after I came in the door—paraphrased from David Lebovitz—about the state of the Parisian baguette: Emma is this moment recording it in her quote-book. I am flattered.&lt;&#x2f;p&gt;
 </content>
   </entry>
   <entry>
-    <title>In the Winnipeg International Airport</title>
+    <title type="text">In the Winnipeg International Airport</title>
     <link href="http://threedots.ca/posts/airport/"/>
-    <updated>2016-01-10T07:00:00-05:00</updated>
-    <updated>2016-01-10T07:00:00-05:00</updated>
+    <updated>2016-01-10T00:00:00-05:00</updated>
     <id>http://threedots.ca/posts/airport/</id>
     <summary>Setting off for Halifax; musing; killing time.</summary>
-    <content type="html">      &lt;p&gt;I was pleasantly surprised to find the security area was
-virtually deserted. The kindly woman standing before the
-queueing area touched the palms of my hands with the white
+    <content type="html">
+      &lt;p&gt;I was pleasantly surprised to find the security area
+virtually deserted. The kindly woman standing in front of the
+queueing area touched the palms of my hands with a white
 hemisphere on the end of a wand and said (having just seen
 Paul hug me tight around in circles) how lovely it was to
-see such a close-knit family and wished me a happy new year.
+see such a close-knit family, and wished me a happy new year.
 I had to show my boarding pass five times total, three of
-those in the security area. I was the
-only one in the x-ray line.—The security line staffperson: “No liquids, aerosols, gels,
+those times in the security area. I was the
+only one in the x-ray line.&lt;p&gt;—The security staffperson: “No liquids, aerosols, gels,
 toiletries, toothpaste, shaving cream, water
 bottles?”—I: “No, those things are all in my checked bag.
 Well, an empty water bottle.”—”Wait – empty? Does it have
-any water in it?”—”No.”—”Okay, then.”&lt;/p&gt;
+any water in it?”—”No.”—”Okay, then.”&lt;&#x2f;p&gt;
 &lt;p&gt;Now it’s ten after eleven and they’re saying the plane
 probably won’t arrive for fifteen minutes yet. Guess I’ll go
-for another walk or something. The woman on the CBC news
+for another walk or something. A television: the woman on the CBC news
 says “we’re so consumeristic, a lot of the things still have
-labels in them, the resale market shouldn’t be overlooked.”&lt;/p&gt;
+labels in them, the resale market shouldn’t be overlooked.”&lt;&#x2f;p&gt;
 &lt;p&gt;I encounter a sign advertising a Chestnut Praline Latte at
-Starbucks. I have nothing to do, and I am feeling
+Starbucks. I have nothing to do, and am feeling
 suggestible; I shall go to the Starbucks and purchase a
-chestnut praline latte.—It tastes quite good – a lovely burnt-sugar flavour.&lt;/p&gt;
+chestnut praline latte.—It tastes quite good – a lovely burnt-sugar flavour.&lt;&#x2f;p&gt;
 </content>
   </entry>
 </feed>
