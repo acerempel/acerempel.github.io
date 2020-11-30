@@ -18,34 +18,52 @@
   <body class="colour-scheme-auto">
     <div class="container">
       <header class="top-header">
-        <a class="bold" href="/">three dots …</a>
-        <nav>
-          <span itemscope itemtype="https://schema.org/WebPage"><span itemprop="name"><a href="/"
+        <div class="flex row space-between wrap">
+        <h1><a class="bold" href="/">three dots …</a></h1>
+        <details class="dropdown">
+                    <summary class="dropdown-toggle">Settings</summary>
+                    <div class="dropdown-inner">
+                      <p>
+                        <label for="colour-scheme">Colour scheme:</label>
+                        <select required id="colour-scheme">
+                          <option value="auto" selected>System setting</option>
+                          <option value="light">Light</option>
+                          <option value="dark">Dark</option>
+                        </select>
+                      </p>
+                      <p>
+                        <label for="line-height">Spacing:</label>
+                        <input id="line-height" type="range" min="1.2" max="1.8" step="0.1" value="1.5">
+                      </p>
+                    </div>
+                  </details>
+        </div>
+        <nav class="semibold">
+          <a href="/"
    class="p-url"
-   itemprop="url" title="The website of Alan Rempel, a elliptical human man.">Home</a></span></span> • <span itemscope itemtype="https://schema.org/WebPage"><span itemprop="name"><a href="/posts/"
+   itemprop="url" title="The website of Alan Rempel, a elliptical human man.">Home</a> • <a href="/posts/"
    class="p-url"
-   itemprop="url" title="All posts in the three dots blog, grouped by year.">Blog</a></span></span> • <span itemscope itemtype="https://schema.org/WebPage"><span itemprop="name"><a href="/introduction/"
+   itemprop="url" title="All posts in the three dots blog, grouped by year.">Blog</a> • <a href="/introduction/"
    class="p-url"
-   itemprop="url" title="In which I introduce my blog to the reader.">About</a></span></span>
+   itemprop="url" title="In which I introduce my blog to the reader.">About</a> • <a href="/posts/feed.xml"
+   class="p-url"
+   itemprop="url" title="Provide this link to your RSS reader, and get updates whenever something new is posted! (It is actually an Atom feed, but whatever.)">RSS feed</a>
         </nav>
       </header>
       <main>
-                <section>
-          <article class="full">
-<header><h1 class="title">Good evening!</h1></header>
-<p>I am Alan; this is my website.
+                <section id="intro">
+          <h1><span class="greeting">Good evening!</span>!</h1>
+          <p>I am Alan; this is my website.
 Currently it consists of my <a href="/#blog"><b>blog</b></a>, which I update according as I
 have spare time and whim, as well as some <a href="/#miscellaneous"><b>miscellaneous lists</b></a>. There is also
 a page with a little more <a href="/introduction"><b>about</b></a> this website and me.
 Feel free to browse.</p>
 <p><small class="date">Last updated on <time datetime="2020-10-23">Friday, October 23rd, 2020</time></small></p>
 
-
-</article>
         </section>
-        <section id="blog" class="border-top" itemscope itemtype="https://schema.org/Blog">
+        <section id="blog" class="border-top article-list" itemscope itemtype="https://schema.org/Blog">
           <h1><a href="/posts">Blog</a></h1>
-                      
+                        
             <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post preview">
               <div class="date"><time
   class="dt-published" itemprop="datePublished"
@@ -71,7 +89,7 @@ Feel free to browse.</p>
 
 </div>
             </article>
-                      
+                        
             <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post preview">
               <h3 itemprop="headline" class="p-name"><a href="/posts/chickpeas/"
    class="p-url"
@@ -83,13 +101,20 @@ transparent skin—</div>
                 <a href="&#x2f;posts&#x2f;chickpeas&#x2f;">Continue reading …</a>
               </p>
             </article>
-                      
+                        
             <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post summary">
               <h3 itemprop="headline" class="p-name"><a href="/posts/oomancy/"
    class="p-url"
    itemprop="url" title="I recount an egg-related incident that I realized in retrospect was probably a revelation of my fate.
 ">On oomancy</a></h3>
-              <p class="h-summary synopsis" itemprop="abstract">(In which I reflect upon the inciting incident in my relationship with oomancy.)</p>
+              <p class="h-summary synopsis" itemprop="abstract">In which I reflect upon the inciting incident in my relationship with oomancy.</p>
+            </article>
+                        
+            <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post summary">
+              <h3 itemprop="headline" class="p-name"><a href="/posts/rideau-canal/"
+   class="p-url"
+   itemprop="url" title="I muse that the Rideau Canal is not like a river, but one senses it wants to be like a river. This makes me uneasy.">The Rideau Canal</a></h3>
+              <p class="h-summary synopsis" itemprop="abstract">Basically a fake river.</p>
             </article>
           <p class="see-all"><a href="/posts">See all posts …</a></p>
         </section>
@@ -116,27 +141,6 @@ transparent skin—</div>
           <!-- <p class="see-all"><a href="/misc">See more … </a></p> -->
         </section>
       </main>
-      <footer class="border-top">
-        <section>
-          <nav class="link-plain">
-            
-            <p><a href="/posts/feed.xml"
-   class="p-url"
-   itemprop="url" title="Provide this link to your RSS reader, and get updates whenever something new is posted! (It is actually an Atom feed, but whatever.)">RSS feed</a></p>
-            
-          </nav>
-        </section>
-        <section>
-          <p>
-            <label for="colour-scheme">Colour scheme:</label>
-            <select required id="colour-scheme">
-              <option value="auto" selected>System setting</option>
-              <option value="light">Light</option>
-              <option value="dark">Dark</option>
-            </select>
-          </p>
-        </section>
-      </footer>
     </div>
     <script data-goatcounter="https://threedots_ca.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   </body>

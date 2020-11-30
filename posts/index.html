@@ -18,32 +18,53 @@
   <body class="colour-scheme-auto">
     <div class="container">
       <header class="top-header">
-        <a class="bold" href="/">three dots …</a>
-        <nav>
-          <span itemscope itemtype="https://schema.org/WebPage"><span itemprop="name"><a href="/"
+        <div class="flex row space-between wrap">
+        <h1><a class="bold" href="/">three dots …</a></h1>
+        <details class="dropdown">
+                    <summary class="dropdown-toggle">Settings</summary>
+                    <div class="dropdown-inner">
+                      <p>
+                        <label for="colour-scheme">Colour scheme:</label>
+                        <select required id="colour-scheme">
+                          <option value="auto" selected>System setting</option>
+                          <option value="light">Light</option>
+                          <option value="dark">Dark</option>
+                        </select>
+                      </p>
+                      <p>
+                        <label for="line-height">Spacing:</label>
+                        <input id="line-height" type="range" min="1.2" max="1.8" step="0.1" value="1.5">
+                      </p>
+                    </div>
+                  </details>
+        </div>
+        <nav class="semibold">
+          <a href="/"
    class="p-url"
-   itemprop="url" title="The website of Alan Rempel, a elliptical human man.">Home</a></span></span> • <span itemscope itemtype="https://schema.org/WebPage"><span itemprop="name"><a href="/posts/"
+   itemprop="url" title="The website of Alan Rempel, a elliptical human man.">Home</a> • <a href="/posts/"
    class="p-url"
-   itemprop="url" title="All posts in the three dots blog, grouped by year.">Blog</a></span></span> • <span itemscope itemtype="https://schema.org/WebPage"><span itemprop="name"><a href="/introduction/"
+   itemprop="url" title="All posts in the three dots blog, grouped by year.">Blog</a> • <a href="/introduction/"
    class="p-url"
-   itemprop="url" title="In which I introduce my blog to the reader.">About</a></span></span>
+   itemprop="url" title="In which I introduce my blog to the reader.">About</a> • <a href="/posts/feed.xml"
+   class="p-url"
+   itemprop="url" title="Provide this link to your RSS reader, and get updates whenever something new is posted! (It is actually an Atom feed, but whatever.)">RSS feed</a>
         </nav>
       </header>
       <main>
               <section itemscope itemtype="https://schema.org/Blog">
         <header>
           <h1>Blog</h1>
-          <nav aria-label="Jump to posts from a specific year" >
-            <a href="#y2020">2020</a> • 
-            <a href="#y2019">2019</a> • 
-            <a href="#y2018">2018</a> • 
-            <a href="#y2017">2017</a> • 
-            <a href="#y2016">2016</a>
+          <nav class="flex row wrap" aria-label="Jump to posts from a specific year" >
+            <a class="nav-link" href="#y2020">2020</a><span class="nav-divider">•</span>
+            <a class="nav-link" href="#y2019">2019</a><span class="nav-divider">•</span>
+            <a class="nav-link" href="#y2018">2018</a><span class="nav-divider">•</span>
+            <a class="nav-link" href="#y2017">2017</a><span class="nav-divider">•</span>
+            <a class="nav-link" href="#y2016">2016</a>
           </nav>
         </header>
-        <section id="y2020" class="border-top">
+        <section id="y2020" class="border-top article-list">
           <h2>2020</h2>
-                      
+                        
             <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post preview">
               <div class="date"><time
   class="dt-published" itemprop="datePublished"
@@ -69,7 +90,7 @@
 
 </div>
             </article>
-                      
+                        
             <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post preview">
               <h3 itemprop="headline" class="p-name"><a href="/posts/chickpeas/"
    class="p-url"
@@ -81,22 +102,22 @@ transparent skin—</div>
                 <a href="&#x2f;posts&#x2f;chickpeas&#x2f;">Continue reading …</a>
               </p>
             </article>
-                      
+                        
             <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post summary">
               <h3 itemprop="headline" class="p-name"><a href="/posts/oomancy/"
    class="p-url"
    itemprop="url" title="I recount an egg-related incident that I realized in retrospect was probably a revelation of my fate.
 ">On oomancy</a></h3>
-              <p class="h-summary synopsis" itemprop="abstract">(In which I reflect upon the inciting incident in my relationship with oomancy.)</p>
+              <p class="h-summary synopsis" itemprop="abstract">In which I reflect upon the inciting incident in my relationship with oomancy.</p>
             </article>
-                      
+                        
             <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post summary">
               <h3 itemprop="headline" class="p-name"><a href="/posts/rideau-canal/"
    class="p-url"
    itemprop="url" title="I muse that the Rideau Canal is not like a river, but one senses it wants to be like a river. This makes me uneasy.">The Rideau Canal</a></h3>
-              <p class="h-summary synopsis" itemprop="abstract">(Basically a fake river.)</p>
+              <p class="h-summary synopsis" itemprop="abstract">Basically a fake river.</p>
             </article>
-                      
+                        
             <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post preview">
               <h3 itemprop="headline" class="p-name"><a href="/posts/jocelyn/"
    class="p-url"
@@ -108,9 +129,9 @@ transparent skin—</div>
               </p>
             </article>
         </section>
-        <section id="y2019" class="border-top">
+        <section id="y2019" class="border-top article-list">
           <h2>2019</h2>
-                      
+                        
             <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post preview">
               <h3 itemprop="headline" class="p-name"><a href="/posts/paper-notebook/"
    class="p-url"
@@ -122,7 +143,7 @@ thing. It's been an interesting experiment. </div>
                 <a href="&#x2f;posts&#x2f;paper-notebook&#x2f;">Continue reading …</a>
               </p>
             </article>
-                      
+                        
             <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post preview">
               <div class="date"><time
   class="dt-published" itemprop="datePublished"
@@ -131,7 +152,7 @@ thing. It's been an interesting experiment. </div>
 <p><a href="https://www.youtube.com/watch?v=UzrM3eomnAA" title="Judee Sill">However we are is okay.</a></p>
 </div>
             </article>
-                      
+                        
             <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post preview">
               <div class="date"><time
   class="dt-published" itemprop="datePublished"
@@ -143,16 +164,16 @@ compacted by cement, soil sparse of arboreal conversation.</p>
 </div>
             </article>
         </section>
-        <section id="y2018" class="border-top">
+        <section id="y2018" class="border-top article-list">
           <h2>2018</h2>
-                      
+                        
             <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post summary">
               <h3 itemprop="headline" class="p-name"><a href="/posts/holy-communion-on-harry-lake/"
    class="p-url"
    itemprop="url" title="At Holy Communion at 7:00 am on the Fall Retreat, I remark upon the beauty of the mist over the lake, and almost burn my hand.">Holy Communion on Harry Lake</a></h3>
-              <p class="h-summary synopsis" itemprop="abstract">(In which it is cold, early morning; mist over the lake; I set my service leaflet on fire.)</p>
+              <p class="h-summary synopsis" itemprop="abstract">In which it is cold, early morning; mist over the lake; I set my service leaflet on fire.</p>
             </article>
-                      
+                        
             <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post preview">
               <h3 itemprop="headline" class="p-name"><a href="/posts/to-do-list/"
    class="p-url"
@@ -164,7 +185,7 @@ is on it.</div>
                 <a href="&#x2f;posts&#x2f;to-do-list&#x2f;">Continue reading …</a>
               </p>
             </article>
-                      
+                        
             <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post preview">
               <h3 itemprop="headline" class="p-name"><a href="/posts/purple-sparks/"
    class="p-url"
@@ -182,7 +203,7 @@ way …
                 <a href="&#x2f;posts&#x2f;purple-sparks&#x2f;">Continue reading …</a>
               </p>
             </article>
-                      
+                        
             <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post preview">
               <div class="date"><time
   class="dt-published" itemprop="datePublished"
@@ -192,24 +213,24 @@ liv­ing room. It was a lot of fun—it felt long over­due. It
 made me think of <a href="/posts/dancing-lawrence-st" title="In which I have danced">a note I had writ­ten to my­self about a year ago</a>.</p>
 </div>
             </article>
-                      
+                        
             <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post summary">
               <h3 itemprop="headline" class="p-name"><a href="/posts/pocket-contents/"
    class="p-url"
    itemprop="url" title="I rummage through my pockets, searching for a tissue; I find many strange items along the way.">What do I have in my pockets?</a></h3>
-              <p class="h-summary synopsis" itemprop="abstract">(In which I have to blow my nose.)</p>
+              <p class="h-summary synopsis" itemprop="abstract">In which I have to blow my nose.</p>
             </article>
         </section>
-        <section id="y2017" class="border-top">
+        <section id="y2017" class="border-top article-list">
           <h2>2017</h2>
-                      
+                        
             <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post summary">
               <h3 itemprop="headline" class="p-name"><a href="/posts/winter-retreat-after-compline/"
    class="p-url"
    itemprop="url">At Mersey River, at a winter retreat, after Compline</a></h3>
-              <p class="h-summary synopsis" itemprop="abstract">(Eternal praise! eternal praise!)</p>
+              <p class="h-summary synopsis" itemprop="abstract">Eternal praise! eternal praise!</p>
             </article>
-                      
+                        
             <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post preview">
               <h3 itemprop="headline" class="p-name"><a href="/posts/jack-mitchell/"
    class="p-url"
@@ -218,7 +239,7 @@ made me think of <a href="/posts/dancing-lawrence-st" title="In which I have dan
 lexicon for the word ‘virtuous’.</p>
 </div>
             </article>
-                      
+                        
             <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post preview">
               <h3 itemprop="headline" class="p-name"><a href="/posts/duncan-st/"
    class="p-url"
@@ -232,7 +253,7 @@ mouth affixed to its bark.</div>
                 <a href="&#x2f;posts&#x2f;duncan-st&#x2f;">Continue reading …</a>
               </p>
             </article>
-                      
+                        
             <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post preview">
               <div class="date"><time
   class="dt-published" itemprop="datePublished"
@@ -241,7 +262,7 @@ mouth affixed to its bark.</div>
 <p>That’s all.</p>
 </div>
             </article>
-                      
+                        
             <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post preview">
               <div class="date"><time
   class="dt-published" itemprop="datePublished"
@@ -254,16 +275,16 @@ should hap­pen again—that’s what mat­ters to me.</div>
               </p>
             </article>
         </section>
-        <section id="y2016" class="border-top">
+        <section id="y2016" class="border-top article-list">
           <h2>2016</h2>
-                      
+                        
             <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post summary">
               <h3 itemprop="headline" class="p-name"><a href="/posts/skating/"
    class="p-url"
    itemprop="url">On skating</a></h3>
-              <p class="h-summary synopsis" itemprop="abstract">(Sometimes I space out for a moment.)</p>
+              <p class="h-summary synopsis" itemprop="abstract">Sometimes I space out for a moment.</p>
             </article>
-                      
+                        
             <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post preview">
               <div class="date"><time
   class="dt-published" itemprop="datePublished"
@@ -271,7 +292,7 @@ should hap­pen again—that’s what mat­ters to me.</div>
               <div class="e-content" itemprop="articleBody"><p>I made a remark shortly after I came in the door—paraphrased from David Lebovitz—about the state of the Parisian baguette: Emma is this moment recording it in her quote-book. I am flattered.</p>
 </div>
             </article>
-                      
+                        
             <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post preview">
               <h3 itemprop="headline" class="p-name"><a href="/posts/airport/"
    class="p-url"
@@ -286,27 +307,6 @@ should hap­pen again—that’s what mat­ters to me.</div>
         </section>
       </section>
       </main>
-      <footer class="border-top">
-        <section>
-          <nav class="link-plain">
-            
-            <p><a href="/posts/feed.xml"
-   class="p-url"
-   itemprop="url" title="Provide this link to your RSS reader, and get updates whenever something new is posted! (It is actually an Atom feed, but whatever.)">RSS feed</a></p>
-            
-          </nav>
-        </section>
-        <section>
-          <p>
-            <label for="colour-scheme">Colour scheme:</label>
-            <select required id="colour-scheme">
-              <option value="auto" selected>System setting</option>
-              <option value="light">Light</option>
-              <option value="dark">Dark</option>
-            </select>
-          </p>
-        </section>
-      </footer>
     </div>
     <script data-goatcounter="https://threedots_ca.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   </body>
