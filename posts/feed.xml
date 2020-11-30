@@ -4,13 +4,40 @@
   <subtitle>The website of an elliptical human</subtitle>
   <link href="http://threedots.ca/posts/feed.xml" rel="self"/>
   <link href="http://threedots.ca"/>
-  <updated>2020-11-07T12:49:10.570224-05:00</updated>
+  <updated>2020-11-30T11:25:58.271830-05:00</updated>
   <id>http://threedots.ca</id>
   <author>
     <name>Alan Rempel</name>
   </author>
   <entry>
-    <title type="text">Whenever I open up and rinse a can of chickpeas,</title>
+    <title type="text">This is my favourite sentence that starts with ‘and’:</title>
+    <link href="http://threedots.ca/posts/jaynesian/"/>
+    <updated>2020-11-28T00:00:00-05:00</updated>
+    <published>2020-11-28T00:00:00-05:00</published>
+    <id>http://threedots.ca/posts/jaynesian/</id>
+    <content type="html">
+
+&lt;p&gt;This is my favourite sentence that starts with ‘and’:
+
+&lt;figure&gt;
+&lt;blockquote&gt;
+  Or else there might be a drug in the laurel that could
+  have produced such an Apollonian effect. To test this, I have
+  crushed laurel leaves and smoked quantities of them in a pipe and
+  felt somewhat sick but no more inspired than usual. &lt;mark&gt;And chewed
+  them as well for over an hour, and very distinctly felt more
+  and more Jaynesian, alas, than Apollonian.&lt;&#x2f;mark&gt;
+&lt;&#x2f;blockquote&gt;
+&lt;figcaption&gt;
+  — Julian Jaynes, &lt;cite&gt;The Origin of Consciousness in the Breakdown
+    of the Bicameral Mind&lt;&#x2f;cite&gt; (Mariner Books, 1990), 323.
+&lt;&#x2f;figcaption&gt;
+&lt;&#x2f;figure&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title type="text">On chickpeas</title>
     <link href="http://threedots.ca/posts/chickpeas/"/>
     <updated>2020-11-07T00:00:00-05:00</updated>
     <published>2020-10-22T00:00:00-04:00</published>
@@ -18,8 +45,8 @@
     <summary>I muse upon my fondness for removing the skin from chickpeas.</summary>
     <content type="html">&lt;p&gt;Whenever I open up and rinse a can of chickpeas, I find myself idly
 picking one up and and with two fingers swiftly slipping off its
-transparent skin—and then another—a satisfying sensation: soon I am
-engrossed in plucking off each of their slippery coats one by one.&lt;!-- FOLD --&gt; I
+transparent skin—&lt;!-- FOLD --&gt;and then another—a satisfying sensation: soon I am
+engrossed in plucking off each of their slippery coats one by one. I
 know I have other things to do—chop sweet potatoes, for instance—my
 better judgement protests, but my hands are borne away, unheeding, until
 every last chickpea gleams pure &lt;em&gt;&lt;a href=&quot;https:&#x2f;&#x2f;en.wikipedia.org&#x2f;wiki&#x2f;Chickpea&quot; title=&quot;Chickpea – Wikipedia (Kabuli is the kind of chickpea commonly sold in North America)&quot;&gt;kabuli&lt;&#x2f;a&gt;&lt;&#x2f;em&gt;-yellow, unrefracted by its natal
@@ -35,8 +62,7 @@ shelling chickpeas until the sun sets.&lt;&#x2f;p&gt;
     <updated>2020-09-09T00:00:00-04:00</updated>
     <published>2020-09-09T00:00:00-04:00</published>
     <id>http://threedots.ca/posts/oomancy/</id>
-    <summary>I recount an egg-related incident that I realized in retrospect was probably a revelation of my fate.
-</summary>
+    <summary>In which I reflect upon the inciting incident in my relationship with oomancy.</summary>
     <content type="html">&lt;p&gt;Yesterday evening we had friends over to our apartment for our weekly
 oomancy session. As I was sweeping the floor in anticipation of their
 arrival, I reflected upon the first time I tried my hand at oomancy.&lt;!-- FOLD --&gt; Or perhaps, I muse, oomancy tried its hand at me:
@@ -91,7 +117,7 @@ clearly its true signification?&lt;&#x2f;p&gt;
     <updated>2020-07-08T00:00:00-04:00</updated>
     <published>2020-07-08T00:00:00-04:00</published>
     <id>http://threedots.ca/posts/rideau-canal/</id>
-    <summary>I muse that the Rideau Canal is not like a river, but one senses it wants to be like a river. This makes me uneasy.</summary>
+    <summary>Basically a fake river.</summary>
     <content type="html">
 
 &lt;p&gt;
@@ -99,8 +125,8 @@ As of &lt;time datetime=&quot;2020-06-11&quot;&gt;June 11th&lt;&#x2f;time&gt;, t
 Ottawa is the nearest body of water to where I live.
 Previously it was the Atlantic Ocean; before that, the Assiniboine
 River—both natural bodies of water:——but the Rideau Canal is an
-artificial one.&lt;!-- FOLD --&gt; In some respects, however, the canal seems to want to
-imitate the riverhood of its namesake, yet it is patently a
+artificial one.&lt;!-- FOLD --&gt; In some respects, the canal seems to want to
+imitate the riverhood of its namesake (namely the Rideau River), yet it is patently a
 different kind of being entirely. I want to say, for instance, that I have had picnics with
 my friends on the bank of the canal, but in truth the
 canal has no banks to speak of—just concrete walls bounding it on both sides, each with a
@@ -130,8 +156,8 @@ is dissolved.
     <id>http://threedots.ca/posts/jocelyn/</id>
     <summary>I recall how I first met Jocelyn.</summary>
     <content type="html">&lt;p&gt;I first met my fiancée on &lt;time datetime=&quot;2017-05-04&quot;&gt;May 4th,
-2017&lt;&#x2f;time&gt;. I found my record of this incident as I was reading through
-my &lt;span class=&quot;smallcaps&quot;&gt;Catalogue of Days&lt;&#x2f;span&gt;, looking for potential blog-post material.&lt;!-- FOLD --&gt; (I knew
+2017&lt;&#x2f;time&gt;.&lt;!-- FOLD --&gt; I found my record of this incident as I was reading through
+my &lt;span class=&quot;smallcaps&quot;&gt;Catalogue of Days&lt;&#x2f;span&gt;, looking for potential blog-post material. (I knew
 that we had met in May of that year, but I had forgot the exact date.)
 At the time, among my housemates was a good high-school friend of hers,
 so she was visiting Halifax for a week and stayed with us. I described her in
@@ -191,7 +217,7 @@ compacted by cement, soil sparse of arboreal conversation.&lt;&#x2f;p&gt;
     <updated>2019-10-27T00:00:00-04:00</updated>
     <published>2019-10-27T00:00:00-04:00</published>
     <id>http://threedots.ca/posts/holy-communion-on-harry-lake/</id>
-    <summary>In which it is cold, early morning, misty over the lake; I set my service leaflet on fire.</summary>
+    <summary>In which it is cold, early morning; mist over the lake; I set my service leaflet on fire.</summary>
     <content type="html">&lt;p&gt;At this year’s Fall Retreat at Mersey River Chalets, Holy
 Communion on the lake took place at 7:00 am, which was later
 than in the past – last year I think it was at 6:45. The
@@ -288,7 +314,7 @@ back in their own time.
     <summary>A little dance party with my flatmates reminds me of something I wrote a year ago.
 </summary>
     <content type="html">&lt;p&gt;This morn­ing, ﬂat­mates and I had a brief dance party in the
-liv­ing room. It was a lot of fun–it felt long over­due. It
+liv­ing room. It was a lot of fun—it felt long over­due. It
 made me think of &lt;a href=&quot;&#x2f;posts&#x2f;dancing-lawrence-st&quot; title=&quot;In which I have danced&quot;&gt;a note I had writ­ten to my­self about a year ago&lt;&#x2f;a&gt;.&lt;&#x2f;p&gt;
 </content>
   </entry>
@@ -409,7 +435,7 @@ see, give her some flowers, and then she’ll like you and ask
 </content>
   </entry>
   <entry>
-    <title type="text">Having danced</title>
+    <title type="text">Whatever is nec­es­sary that such dance par­ties as that of last</title>
     <link href="http://threedots.ca/posts/dancing-lawrence-st/"/>
     <updated>2017-05-05T00:00:00-04:00</updated>
     <published>2017-05-05T00:00:00-04:00</published>
@@ -417,7 +443,7 @@ see, give her some flowers, and then she’ll like you and ask
     <summary>In which I have danced</summary>
     <content type="html">&lt;p&gt;Whatever is nec­es­sary
 that such dance par­ties as that of last night
-should hap­pen again—that’s what mat­ters to me. That
+should hap­pen again—that’s what mat­ters to me.&lt;!-- FOLD --&gt; That
 everybody should be able to dance with their
 friends in a safe and com­fort­able space and know this and dance freely
 and en­joy it and have lots of fun, know­ing that they are among
@@ -456,10 +482,10 @@ right, but I also think my skates were not laced tightly enough.&lt;&#x2f;p&gt;
     <updated>2016-01-10T00:00:00-05:00</updated>
     <published>2016-01-10T00:00:00-05:00</published>
     <id>http://threedots.ca/posts/airport/</id>
-    <summary>Setting off for Halifax; musing; killing time.</summary>
+    <summary>I set off for Halifax from the Winnipeg airport after the Christmas break, and observe my surroundings and moods.</summary>
     <content type="html">
       &lt;p&gt;I was pleasantly surprised to find the security area
-virtually deserted. The kindly woman standing in front of the
+        virtually deserted.&lt;!-- FOLD --&gt; The kindly woman standing in front of the
 queueing area touched the palms of my hands with a white
 hemisphere on the end of a wand and said (having just seen
 Paul hug me tight around in circles) how lovely it was to
