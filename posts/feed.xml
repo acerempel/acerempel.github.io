@@ -4,11 +4,69 @@
   <subtitle>The website of an elliptical human</subtitle>
   <link href="http://threedots.ca/posts/feed.xml" rel="self"/>
   <link href="http://threedots.ca"/>
-  <updated>2020-11-30T11:30:06.039869-05:00</updated>
+  <updated>2020-12-07T22:47:40.170820-05:00</updated>
   <id>http://threedots.ca</id>
   <author>
     <name>Alan Rempel</name>
   </author>
+  <entry>
+    <title type="text">On “taxpayer dollars”</title>
+    <link href="http://threedots.ca/posts/taxpayer-dollars/"/>
+    <updated>2020-12-07T00:00:00-05:00</updated>
+    <published>2020-12-07T00:00:00-05:00</published>
+    <id>http://threedots.ca/posts/taxpayer-dollars/</id>
+    <summary>Calling government expenses ‘taxpayer dollars’ perpetuates the assumption that they depend on taxes for funding. For the Canadian federal government, however, this is not true!
+</summary>
+    <content type="html">&lt;p&gt;I find it weird how frequently government expenses are casually
+referred to as “taxpayer dollars” or costs to taxpayers.&lt;!-- FOLD --&gt; Ex.
+“The extension of the light rail line is expected to cost
+taxpayers about $3 billion”; or, remarking upon a government expense
+that one sees as imprudent or frivolous, “So &lt;em&gt;that’s&lt;&#x2f;em&gt; what my tax dollars
+are going towards!”&lt;&#x2f;p&gt;
+&lt;p&gt;To me, these turns of phrase suggest that most people think&lt;&#x2f;p&gt;
+&lt;ul&gt;
+&lt;li&gt;that the money that
+governments spend comes from the taxes its citizens and corporations
+pay; and&lt;&#x2f;li&gt;
+&lt;li&gt;that, as democratic
+institutions, governments should be held accountable to their
+(tax-paying) citizens in respect of their expenditures.&lt;&#x2f;li&gt;
+&lt;&#x2f;ul&gt;
+&lt;p&gt;Basically, calling government money ‘taxpayer dollars’ or similar is a
+way of asserting &lt;em&gt;ownership&lt;&#x2f;em&gt; of it, so to speak. ‘It&#x27;s really &lt;em&gt;our&lt;&#x2f;em&gt;
+money.’&lt;&#x2f;p&gt;
+&lt;p&gt;Politically speaking, this is a perfectly democratic sentiment. I think
+it gets a lot of its force, though, from the idea that the government
+&lt;em&gt;needs our money&lt;&#x2f;em&gt; in order to fund its expenses. Which is not
+necessarily true, depending on which level of government you are talking
+about.&lt;&#x2f;p&gt;
+&lt;p&gt;The federal government, in particular, &lt;strong&gt;does not depend on revenue&lt;&#x2f;strong&gt; in
+order to spend money. This is because its (domestic) expenses are in
+Canadian dollars, and it also is the &lt;em&gt;issuer&lt;&#x2f;em&gt; of Canadian dollars. It is
+not like us wage-earners who have to get dollars from somewhere
+else before we can spend them. City and provincial governments too need
+to get their dollars from taxes, borrowing, or federal grants: only the
+federal government has the currency-issuing power.&lt;&#x2f;p&gt;
+&lt;p&gt;For the same reason, there are no financial limits on how many Canadian
+dollars the federal government can borrow. The idea of a goverment
+‘borrowing’ in the currency that it alone issues is a bit weird anyway.
+One can hardly call that a debt-obligation.&lt;&#x2f;p&gt;
+&lt;p&gt;This is just a fact about currency-issuing national governments like
+that of Canada. That it is a controversial and poorly-known fact
+testifies to the weirdness of modern economic discourse. I really only
+understood it relatively recently.&lt;&#x2f;p&gt;
+&lt;p&gt;There are certainly many other ways besides talking about “taxpayer
+dollars” in which the media, economists, politicians, and the general
+public perpetuate the idea that the federal government is constrained by
+revenue or by limits on how much it can borrow. But “taxpayer dollars”
+seems to me to be the most pervasive.&lt;&#x2f;p&gt;
+&lt;p&gt;For more reading on how goverment-issued currency actually works, why
+the magnitude federal deficit does not matter, and related topics, see
+this &lt;a href=&quot;https:&#x2f;&#x2f;www.vox.com&#x2f;future-perfect&#x2f;2019&#x2f;4&#x2f;16&#x2f;18251646&#x2f;modern-monetary-theory-new-moment-explained&quot; title=&quot;Modern Monetary Theory, Explained – Vox&quot;&gt;explanation of Modern Monetary Theory&lt;&#x2f;a&gt;. For an excellent and highly readable book
+on the subject, check out
+&lt;cite&gt;&lt;a href=&quot;https:&#x2f;&#x2f;www.worldcat.org&#x2f;title&#x2f;deficit-myth-modern-monetary-theory-and-the-birth-of-the-peoples-economy&#x2f;oclc&#x2f;1149204543&quot; title=&quot;The deficit myth: modern monetary theory and the birth of the people&#x27;s economy, by Stephanie Kelton&quot;&gt;The Deficit Myth&lt;&#x2f;a&gt;&lt;&#x2f;cite&gt;.&lt;&#x2f;p&gt;
+</content>
+  </entry>
   <entry>
     <title type="text">This is my favourite sentence that starts with ‘and’:</title>
     <link href="http://threedots.ca/posts/jaynesian/"/>
@@ -117,29 +175,31 @@ clearly its true signification?&lt;&#x2f;p&gt;
     <updated>2020-07-08T00:00:00-04:00</updated>
     <published>2020-07-08T00:00:00-04:00</published>
     <id>http://threedots.ca/posts/rideau-canal/</id>
-    <summary>Basically a fake river.</summary>
+    <summary>I muse that the Rideau Canal is not like a river, but one senses it wants to be like a river. This makes me uneasy.</summary>
     <content type="html">
 
 &lt;p&gt;
-As of &lt;time datetime=&quot;2020-06-11&quot;&gt;June 11th&lt;&#x2f;time&gt;, the Rideau Canal in
-Ottawa is the nearest body of water to where I live.
-Previously it was the Atlantic Ocean; before that, the Assiniboine
-River—both natural bodies of water:——but the Rideau Canal is an
-artificial one.&lt;!-- FOLD --&gt; In some respects, the canal seems to want to
+For the first time in my life, the nearest body of water to where
+I live (ignoring little ponds and the like) is artificial rather than natural.&lt;!-- FOLD --&gt;
+Previously I lived not far from the Atlantic Ocean; before that, near the Assiniboine
+River: but since &lt;time datetime=&quot;2020-06-11&quot;&gt;June 11th&lt;&#x2f;time&gt;, the Rideau Canal
+has been my neighbour.
+
+&lt;p&gt;In some respects, the canal seems to want to
 imitate the riverhood of its namesake (namely the Rideau River), yet it is patently a
 different kind of being entirely. I want to say, for instance, that I have had picnics with
 my friends on the bank of the canal, but in truth the
 canal has no banks to speak of—just concrete walls bounding it on both sides, each with a
 railing on top, and a paved path flush with the top of the wall.
 The water is hardly a few inches below the top of the wall—and the soles of one&#x27;s feet.
-The canal therefore makes no pretense at having come into being in
+&lt;p&gt;The canal therefore makes no pretense at having come into being in
 concert with its surrounding landscape, as rivers do, e.g. by
 gradually carving out a valley for itself.&lt;!--% note 1 %--&gt; On the other hand, it is lined on
 each side
 along much of its length with a sloping strip of narrow forest,
 and beyond this, another paved path, and then a lawn several metres wide (this is what I have in mind when I want to say “we picnicked on the
 bank of the canal”):——to me this tree-èd slope suggests aspirations towards
-riverhood.&lt;!-- note 2 %--&gt;
+riverhood.
 It might even engender an illusion of riverhood, if one remains on the grassy area near the
 upper path, on the other side of the trees. If, however, one
 descends through the trees, down the concrete steps, to the canal-side
@@ -390,6 +450,17 @@ lexicon for the word ‘virtuous’.&lt;&#x2f;p&gt;
 </content>
   </entry>
   <entry>
+    <title type="text">I was bored this afternoon,</title>
+    <link href="http://threedots.ca/posts/garlic/"/>
+    <updated>2017-06-09T00:00:00-04:00</updated>
+    <published>2017-06-09T00:00:00-04:00</published>
+    <id>http://threedots.ca/posts/garlic/</id>
+    <summary>I ate a raw clove of garlic.</summary>
+    <content type="html">&lt;p&gt;I was bored this afternoon, so I ate a raw clove of garlic.&lt;&#x2f;p&gt;
+&lt;p&gt;That’s all.&lt;&#x2f;p&gt;
+</content>
+  </entry>
+  <entry>
     <title type="text">At Duncan St and Chebucto Lane</title>
     <link href="http://threedots.ca/posts/duncan-st/"/>
     <updated>2017-06-09T00:00:00-04:00</updated>
@@ -421,17 +492,6 @@ seem a bit abrupt? I said.—I guess so, said the
 one.—Hey! said the other, no, do this: The next girl you
 see, give her some flowers, and then she’ll like you and ask
 &lt;em&gt;you&lt;&#x2f;em&gt; to marry &lt;em&gt;her&lt;&#x2f;em&gt;!—I told them I liked this plan better.&lt;&#x2f;p&gt;
-</content>
-  </entry>
-  <entry>
-    <title type="text">I was bored this afternoon,</title>
-    <link href="http://threedots.ca/posts/garlic/"/>
-    <updated>2017-06-09T00:00:00-04:00</updated>
-    <published>2017-06-09T00:00:00-04:00</published>
-    <id>http://threedots.ca/posts/garlic/</id>
-    <summary>I ate a raw clove of garlic.</summary>
-    <content type="html">&lt;p&gt;I was bored this afternoon, so I ate a raw clove of garlic.&lt;&#x2f;p&gt;
-&lt;p&gt;That’s all.&lt;&#x2f;p&gt;
 </content>
   </entry>
   <entry>
