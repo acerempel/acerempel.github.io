@@ -117,17 +117,9 @@ ol, ul {
   padding-inline-start: 1.5em;
 }
 
-b {
-  font-weight: 600;
-}
-
-strong {
-  font-weight: 700;
-}
-
-cite {
-  font-style: oblique;
-}
+b { font-weight: 600; }
+strong { font-weight: 700; }
+cite { font-style: oblique; }
 
 code {
   font-family: Monaco, Hack, Menlo, 'Fira Code', 'Courier Next', monospace;
@@ -136,8 +128,8 @@ code {
 
 .inline-block { display: inline-block; margin-inline-end: 1.5ch; }
 
-select {
-  margin-inline-start: 0.5em;
+label {
+  margin-inline-end: 0.5em;
 }
 
 h1, h2, h3, h4, h5, h6, .heading-like {
@@ -154,9 +146,7 @@ blockquote {
   color: var(--text-colour-lighter);
 }
 
-.link-plain {
-  --link-text-decoration-line: none;
-}
+.link-plain { --link-text-decoration-line: none; }
 
 abbr[title] {
   text-decoration-line: underline;
@@ -182,37 +172,15 @@ figcaption {
   font-size: calc(var(--base-font-size)*0.9375);
 }
 
-img {
-  width: 100%;
-}
+img { width: 100%; }
 
-.medium {
-  font-weight: 500;
-}
+.medium { font-weight: 500; }
+.semibold { font-weight: 600; }
+.bold { font-weight: 700; }
+.light { font-weight: 300; }
+.oblique { font-style: oblique; }
 
-.semibold {
-  font-weight: 600;
-}
-
-.bold {
-  font-weight: 700;
-}
-
-.light {
-  font-weight: 300;
-}
-
-.oblique {
-  font-style: oblique;
-}
-
-.colour-lighter {
-  color: var(--text-colour-lighter);
-}
-
-.block {
-  display: block;
-}
+.block { display: block; }
 
 sup {
   font-size: 0.625em;
@@ -231,13 +199,22 @@ mark {
 .p-space-1 { --paragraph-spacing-factor: 1; }
 .p-space-1\/2 { --paragraph-spacing-factor: 0.5; }
 .p-space-1\/4 { --paragraph-spacing-factor: 0.25; }
+
 .mt-0 { margin-top: 0; }
 .mt-1 { margin-top: var(--base-line-height); }
 .mt-3\/4 { margin-top: calc(var(--base-line-height)*0.75); }
 .mt-1\/2 { margin-top: calc(var(--base-line-height)*0.5); }
 .mt-1\/4 { margin-top: calc(var(--base-line-height)*0.25); }
+
+.mb-1 { margin-bottom: var(--base-line-height); }
+
 .fs-1 { font-size: var(--base-font-size); }
 .lh-1 { line-height: var(--base-line-height); }
+
+.colour-highlight { color: var(--text-colour-highlight) }
+.colour-normal { color: var(--text-colour-normal) }
+.colour-lighter { color: var(--text-colour-lighter) }
+
 .border-top {
   border-top: calc(var(--base-line-height)*0.0875) solid var(--text-colour-normal);
   padding-top: calc(var(--base-line-height)*0.9125);
@@ -262,65 +239,25 @@ article.full {
 
 h1 {
   font-weight: 700;
-  font-size: calc(var(--base-font-size)*var(--h1-fs-factor));
-  line-height: calc(var(--base-line-height)*var(--h1-lh-factor));
-}
-
-main {
-  --h1-fs-factor: 2;
-  --h1-lh-factor: 1.75;
-  --h2-fs-factor: 1.5;
-  --h2-lh-factor: 1.2;
-  --h3-fs-factor: 1.2;
-  --h3-lh-factor: 1;
+  font-size: calc(var(--base-font-size)*2);
+  line-height: calc(var(--base-line-height)*1.75);
 }
 
 h2 {
   font-weight: 600;
-  font-size: calc(var(--base-font-size)*var(--h2-fs-factor));
-  line-height: calc(var(--base-line-height)*var(--h2-lh-factor));
+  font-size: calc(var(--base-font-size)*1.5);
+  line-height: calc(var(--base-line-height)*1.2);
 }
 
 h3 {
   font-weight: 500;
-  font-size: calc(var(--base-font-size)*var(--h3-fs-factor));
-  line-height: calc(var(--base-line-height)*var(--h3-lh-factor));
+  font-size: calc(var(--base-font-size)*1.2);
+  line-height: calc(var(--base-line-height)*1);
 }
 
+/* For when a heading occurs inside a markdown block. */
 article h2 {
   margin-top: calc(var(--base-line-height)*0.75);
-}
-
-.date {
-  font-weight: 300;
-  color: var(--text-colour-lighter);
-}
-
-.date + p {
-  margin-top: 0;
-}
-
-.see-all {
-  margin-top: var(--base-line-height);
-}
-
-.read-more {
-  --link-text-decoration-line: none;
-}
-
-.preview, .summary {
-  --paragraph-spacing-factor: 0.25;
-}
-
-.synopsis {
-  font-style: oblique;
-}
-.synopsis::before { content: '('; }
-.synopsis::after { content: ')'; }
-
-main {
-  margin-top: var(--base-line-height);
-  margin-bottom: var(--base-line-height);
 }
 
 nav {
@@ -339,9 +276,6 @@ li {
   margin-top: calc(var(--base-line-height)*0.25);
 }
 
-.top-header {
-  margin-top: var(--base-line-height);
-}
 .dropdown {
   position: relative;
 }
