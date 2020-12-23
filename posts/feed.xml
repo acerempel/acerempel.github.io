@@ -4,11 +4,42 @@
   <subtitle>The website of an elliptical human</subtitle>
   <link href="http://threedots.ca/posts/feed.xml" rel="self"/>
   <link href="http://threedots.ca"/>
-  <updated>2020-12-13T15:58:28.801698-05:00</updated>
+  <updated>2020-12-23T13:14:46.622437-05:00</updated>
   <id>http://threedots.ca</id>
   <author>
     <name>Alan Rempel</name>
   </author>
+  <entry>
+    <title type="text">As I was reading my book last night –</title>
+    <link href="http://threedots.ca/posts/leckie-clamanda/"/>
+    <updated>2020-12-18T00:00:00-05:00</updated>
+    <published>2020-12-18T00:00:00-05:00</published>
+    <id>http://threedots.ca/posts/leckie-clamanda/</id>
+    <content type="html">&lt;p&gt;As I was reading my book last night – namely the novel &lt;a href=&quot;https:&#x2f;&#x2f;www.goodreads.com&#x2f;book&#x2f;show&#x2f;17333324-ancillary-justice&quot;&gt;&lt;cite&gt;Ancillary Justice&lt;&#x2f;cite&gt;&lt;&#x2f;a&gt; by Ann Leckie, – I came across a familiar-looking song, sung by the protagonist, Breq, to herself as she ventures off on a daring mission:&lt;!-- FOLD --&gt;&lt;&#x2f;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Oh, have you gone to the battlefield&lt;br&gt;
+Armored and well armed?&lt;br&gt;
+And shall dreadful events&lt;br&gt;
+Force you to drop your weapons?&lt;&#x2f;p&gt;
+&lt;&#x2f;blockquote&gt;
+&lt;p&gt;It struck me immediately that this was a paraphrase – as though translated into Breq&#x27;s native tongue and back into English – of &lt;cite&gt;Clamanda&lt;&#x2f;cite&gt;, from the page 42 of the &lt;b class=&quot;medium&quot;&gt;Sacred Harp&lt;&#x2f;b&gt;:&lt;&#x2f;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Oh, have you ventured to the field&lt;br&gt;
+Well armed with helmet, sword, and shield?&lt;br&gt;
+And shall the world, with dread alarms,&lt;br&gt;
+Compel you now to ground your arms?&lt;&#x2f;p&gt;
+&lt;&#x2f;blockquote&gt;
+&lt;p&gt;I was intrigued. Does Ann Leckie know of the Sacred Harp? It would not be surprising. Certainly she seems a lover of songs and choral music: her main character sings to herself continually and is fond of collecting songs from societies that she visits. Leckie also has a music degree from Washington University in St Louis, Missouri.&lt;&#x2f;p&gt;
+&lt;p&gt;It turns out my intuition was right! Leckie is a Sacred Harp aficionado, and the song was what I thought. In an interview included as a postscript to my edition of the book, she even gives a plug for shape note singing:&lt;&#x2f;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;… I wish people felt freer to sing, and freer to enjoy people around them singing.&lt;&#x2f;p&gt;
+&lt;p&gt;It&#x27;s one of the things I love about shape note singing—there&#x27;s no audition, no question
+of whether or not your voice is good enough, or whether anyone has talent. You love to sing? Come sing!&lt;&#x2f;p&gt;
+&lt;&#x2f;blockquote&gt;
+&lt;p&gt;Worth noting is that Breq is described as having not a very nice-sounding voice, and that those around her are often irritated by her constant humming. She doesn&#x27;t care.&lt;&#x2f;p&gt;
+&lt;p&gt;&lt;cite&gt;Ancillary Justice&lt;&#x2f;cite&gt; is an excellent book, incidentally. As in respect of music, so also otherwise, Leckie depicts human societies of the far future as having the same degree and variety of cultural richness as human societies always have had. This among many of the book&#x27;s virtues.&lt;&#x2f;p&gt;
+</content>
+  </entry>
   <entry>
     <title type="text">This blog is an exercise in vanity.</title>
     <link href="http://threedots.ca/posts/vanitas/"/>
@@ -16,6 +47,7 @@
     <published>2020-12-08T00:00:00-05:00</published>
     <id>http://threedots.ca/posts/vanitas/</id>
     <content type="html">&lt;p&gt;This blog is an exercise in &lt;em&gt;vanity&lt;&#x2f;em&gt;.&lt;&#x2f;p&gt;
+&lt;p&gt;&lt;i&gt;Vanitas vanitatum!&lt;&#x2f;i&gt;&lt;&#x2f;p&gt;
 </content>
   </entry>
   <entry>

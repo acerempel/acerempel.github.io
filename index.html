@@ -11,7 +11,8 @@
     <meta name="description" content="The website of Alan Rempel, a elliptical human man.">
     <link rel="alternate" type="application/atom+xml" href="/posts/feed.xml">
     <link href="/styles.css" rel="stylesheet">
-    <script defer src="/bundle.js"></script>
+    <script>!function(){"use strict";var e="colour-scheme-",t=["auto","light","dark"].map((function(t){return e.concat(t)}));function n(n){var o=document.querySelector("body"),c=e.concat(n);o.classList.remove(...t),o.classList.add(c)}function o(e){document.documentElement.style.setProperty("--base-line-height",e+"rem")}function c(e,t,n){var o=document.getElementById(e);o||console.log("Error! Element with id "+e+"not found!");var c=window.localStorage.getItem(e);c&&(n(c),o.value=c);o.addEventListener(t,(function(t){var o=t.target.value;n(o),window.localStorage.setItem(e,o)}),{passive:!0})}document.addEventListener("DOMContentLoaded",(function(e){c("colour-scheme","change",n),c("line-height","change",o),function(){let e,t=document.querySelectorAll(".greeting"),n=(new Date).getHours();e=n<12?"morning":n<17?"afternoon":"evening",t.forEach((t=>{t.innerHTML=`Good ${e}`}))}(),document.addEventListener("click",(function(e){e.target.closest(".dropdown")||document.querySelectorAll(".dropdown[open]").forEach((e=>e.open=!1))}))}))}();
+</script>
   </head>
   <body class="colour-scheme-auto">
     <div class="container">
@@ -64,8 +65,20 @@ Feel free to browse.</p>
                         <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
               <p class="colour-lighter light"><time
   class="dt-published" itemprop="datePublished"
+  datetime="2020-12-18">December 18, 2020</time></p>
+              <div class="h-summary" itemprop="abstract"><p>As I was reading my book last night – namely the novel <a href="https://www.goodreads.com/book/show/17333324-ancillary-justice"><cite>Ancillary Justice</cite></a> by Ann Leckie, – I came across a familiar-looking song, sung by the protagonist, Breq, to herself as she ventures off on a daring mission:</div>
+              <p class="link-plain">
+                <a href="/posts/leckie-clamanda/" id="2020-12-18-read-more"
+                 aria-labelledby="2020-12-18-read-more 2020-12-18-title"
+                >Continue reading …</a>
+              </p>
+            </article>
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+              <p class="colour-lighter light"><time
+  class="dt-published" itemprop="datePublished"
   datetime="2020-12-08">December 8, 2020</time></p>
               <div class="e-content" itemprop="articleBody"><p>This blog is an exercise in <em>vanity</em>.</p>
+<p><i>Vanitas vanitatum!</i></p>
 </div>
             </article>
                         <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
@@ -105,13 +118,6 @@ transparent skin—</div>
                  aria-labelledby="2020-10-22-read-more 2020-10-22-title"
                 >Continue reading …</a>
               </p>
-            </article>
-                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-              <h3 itemprop="headline" class="p-name" id="2020-09-09-title"><a href="/posts/oomancy/"
-   class="p-url"
-   itemprop="url" title="I recount an egg-related incident that I realized in retrospect was probably a revelation of my fate.
-">On oomancy</a></h3>
-              <p class="h-summary oblique" itemprop="abstract">In which I reflect upon the inciting incident in my relationship with oomancy.</p>
             </article>
           <p class="mt-1"><a href="/posts">See all posts …</a></p>
         </section>
