@@ -14,11 +14,11 @@
     <script>!function(){"use strict";var e="colour-scheme-",t=["auto","light","dark"].map((function(t){return e.concat(t)}));function n(n){var o=document.querySelector("body"),c=e.concat(n);o.classList.remove(...t),o.classList.add(c)}function o(e){document.documentElement.style.setProperty("--base-line-height",e+"rem")}function c(e,t,n){var o=document.getElementById(e);o||console.log("Error! Element with id "+e+"not found!");var c=window.localStorage.getItem(e);c&&(n(c),o.value=c);o.addEventListener(t,(function(t){var o=t.target.value;n(o),window.localStorage.setItem(e,o)}),{passive:!0})}document.addEventListener("DOMContentLoaded",(function(e){c("colour-scheme","change",n),c("line-height","change",o),function(){let e,t=document.querySelectorAll(".greeting"),n=(new Date).getHours();e=n<12?"morning":n<17?"afternoon":"evening",t.forEach((t=>{t.innerHTML=`Good ${e}`}))}(),document.addEventListener("click",(function(e){e.target.closest(".dropdown")||document.querySelectorAll(".dropdown[open]").forEach((e=>e.open=!1))}))}))}();
 </script>
   </head>
-  <body class="colour-scheme-auto">
-    <div class="container">
+  <body class="colour-scheme-auto font-size-1">
+    <div class="container mx-auto">
       <header class="mt-1">
         <div class="flex row space-between wrap">
-        <h1 class="bold fs-1 lh-1"><a href="/">three dots …</a></h1>
+        <h1 class="bold font-size-1"><a href="/">three dots …</a></h1>
         <details class="dropdown">
                     <summary class="dropdown-toggle">Settings</summary>
                     <div class="dropdown-inner">
@@ -50,7 +50,7 @@
         </nav>
       </header>
       <main class="mt-1 mb-1">
-            <article class="full h-entry" id="post" itemscope itemtype="https://schema.org/BlogPosting">
+            <article class="mx-auto h-entry" id="post" itemscope itemtype="https://schema.org/BlogPosting">
       <header>
         <p class="colour-lighter light">
         <time
@@ -59,22 +59,36 @@
         </p>
         
       </header>
-      <div class="e-content" itemprop="articleBody"><p>As I was reading my book last night – namely the novel <a href="https://www.goodreads.com/book/show/17333324-ancillary-justice"><cite>Ancillary Justice</cite></a> by Ann Leckie, – I came across a familiar-looking song, sung by the protagonist, Breq, to herself as she ventures off on a daring mission:<!-- FOLD --></p>
+      <div class="e-content" itemprop="articleBody"><p>As I was reading my book last night – namely the novel <a href="https://www.goodreads.com/book/show/17333324-ancillary-justice"><cite>Ancillary
+Justice</cite></a> by Ann Leckie, – I came across a familiar-looking
+song, sung by the protagonist, Breq, to herself as she ventures off on a
+daring mission:<!-- FOLD --></p>
 <blockquote>
-<p>Oh, have you gone to the battlefield<br>
+<p><i>Oh, have you gone to the battlefield<br>
 Armored and well armed?<br>
 And shall dreadful events<br>
-Force you to drop your weapons?</p>
+Force you to drop your weapons?</i></p>
 </blockquote>
-<p>It struck me immediately that this was a paraphrase – as though translated into Breq's native tongue and back into English – of <cite>Clamanda</cite>, from the page 42 of the <b class="medium">Sacred Harp</b>:</p>
+<p>It struck me immediately that this was a paraphrase – as though
+it had been translated into Breq's native tongue and back into English – of
+<cite>Clamanda</cite>, from the page 42 of the <b class="medium">Sacred
+Harp</b>:</p>
 <blockquote>
-<p>Oh, have you ventured to the field<br>
+<p><i>Oh, have you ventured to the field<br>
 Well armed with helmet, sword, and shield?<br>
 And shall the world, with dread alarms,<br>
-Compel you now to ground your arms?</p>
+Compel you now to ground your arms?</i></p>
 </blockquote>
-<p>I was intrigued. Does Ann Leckie know of the Sacred Harp? It would not be surprising. Certainly she seems a lover of songs and choral music: her main character sings to herself continually and is fond of collecting songs from societies that she visits. Leckie also has a music degree from Washington University in St Louis, Missouri.</p>
-<p>It turned my intuition was right! Leckie is a Sacred Harp aficionado, and the song was what I thought: so reveals an interview included as a postscript to my edition of the book. She even gives a plug for shape note singing:</p>
+<p>I was intrigued. Does Ann Leckie know of the Sacred Harp? It would not
+be surprising. Certainly she seems to be a lover of songs and choral music:
+her main character sings to herself continually and is fond of
+collecting songs from societies that she visits. Leckie also has a music
+degree from Washington University in St Louis, Missouri.</p>
+<p>It turned my intuition was right! When I reached the end of the book, I
+found that it had a postscript that included an interview with Leckie. In it,
+Leckie reveals that she is a shape-note singing aficionado, and tells the
+reader that the song quoted above is indeed from the Sacred Harp, as I
+had suspected. She even gives a plug for shape note singing:</p>
 <blockquote>
 <p>… I wish people felt freer to sing, and freer to enjoy people around them singing.</p>
 <p>It's one of the things I love about shape note singing—there's no audition, no question

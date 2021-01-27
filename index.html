@@ -14,11 +14,11 @@
     <script>!function(){"use strict";var e="colour-scheme-",t=["auto","light","dark"].map((function(t){return e.concat(t)}));function n(n){var o=document.querySelector("body"),c=e.concat(n);o.classList.remove(...t),o.classList.add(c)}function o(e){document.documentElement.style.setProperty("--base-line-height",e+"rem")}function c(e,t,n){var o=document.getElementById(e);o||console.log("Error! Element with id "+e+"not found!");var c=window.localStorage.getItem(e);c&&(n(c),o.value=c);o.addEventListener(t,(function(t){var o=t.target.value;n(o),window.localStorage.setItem(e,o)}),{passive:!0})}document.addEventListener("DOMContentLoaded",(function(e){c("colour-scheme","change",n),c("line-height","change",o),function(){let e,t=document.querySelectorAll(".greeting"),n=(new Date).getHours();e=n<12?"morning":n<17?"afternoon":"evening",t.forEach((t=>{t.innerHTML=`Good ${e}`}))}(),document.addEventListener("click",(function(e){e.target.closest(".dropdown")||document.querySelectorAll(".dropdown[open]").forEach((e=>e.open=!1))}))}))}();
 </script>
   </head>
-  <body class="colour-scheme-auto">
-    <div class="container">
+  <body class="colour-scheme-auto font-size-1">
+    <div class="container mx-auto">
       <header class="mt-1">
         <div class="flex row space-between wrap">
-        <h1 class="bold fs-1 lh-1"><a href="/">three dots …</a></h1>
+        <h1 class="bold font-size-1"><a href="/">three dots …</a></h1>
         <details class="dropdown">
                     <summary class="dropdown-toggle">Settings</summary>
                     <div class="dropdown-inner">
@@ -50,7 +50,7 @@
         </nav>
       </header>
       <main class="mt-1 mb-1">
-                <h1><span class="greeting">Good evening!</span>!</h1>
+                <h1 class="font-size-5 bold"><span class="greeting">Good evening!</span>!</h1>
         <section id="intro" class="p-space-1/2">
           <p>I am Alan; this is my website.
 Currently it consists of my <a href="/#blog"><b>blog</b></a>, which I update according as I
@@ -61,31 +61,34 @@ Feel free to browse.</p>
 
         </section>
         <section id="blog" class="border-top article-list" itemscope itemtype="https://schema.org/Blog">
-          <h2><a href="/posts">Blog</a></h2>
-                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-              <p class="colour-lighter light"><time
+          <h2 class="font-size-4 semibold"><a href="/posts">Blog</a></h2>
+            <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+  <p class="colour-lighter light"><time
   class="dt-published" itemprop="datePublished"
   datetime="2020-12-18">December 18, 2020</time></p>
-              <div class="h-summary" itemprop="abstract"><p>As I was reading my book last night – namely the novel <a href="https://www.goodreads.com/book/show/17333324-ancillary-justice"><cite>Ancillary Justice</cite></a> by Ann Leckie, – I came across a familiar-looking song, sung by the protagonist, Breq, to herself as she ventures off on a daring mission:</div>
-              <p class="link-plain">
-                <a href="/posts/leckie-clamanda/" id="2020-12-18-read-more"
-                 aria-labelledby="2020-12-18-read-more 2020-12-18-title"
-                >Continue reading …</a>
-              </p>
-            </article>
-                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-              <p class="colour-lighter light"><time
+  <div class="h-summary" itemprop="abstract"><p>As I was reading my book last night – namely the novel <a href="https://www.goodreads.com/book/show/17333324-ancillary-justice"><cite>Ancillary
+Justice</cite></a> by Ann Leckie, – I came across a familiar-looking
+song, sung by the protagonist, Breq, to herself as she ventures off on a
+daring mission:</div>
+  <p class="link-plain">
+    <a href="/posts/leckie-clamanda/" id="2020-12-18-read-more"
+     aria-labelledby="2020-12-18-read-more 2020-12-18-title"
+    >Continue reading …</a>
+  </p>
+</article>
+            <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+  <p class="colour-lighter light"><time
   class="dt-published" itemprop="datePublished"
   datetime="2020-12-08">December 8, 2020</time></p>
-              <div class="e-content" itemprop="articleBody"><p>This blog is an exercise in <em>vanity</em>.</p>
+  <div class="e-content" itemprop="articleBody"><p>This blog is an exercise in <em>vanity</em>.</p>
 <p><i>Vanitas vanitatum!</i></p>
 </div>
-            </article>
-                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-              <p class="colour-lighter light"><time
+</article>
+            <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+  <p class="colour-lighter light"><time
   class="dt-published" itemprop="datePublished"
   datetime="2020-11-28">November 28, 2020</time></p>
-              <div class="e-content" itemprop="articleBody">
+  <div class="e-content" itemprop="articleBody">
 
 <p>This is my favourite sentence that starts with ‘and’:
 
@@ -105,24 +108,24 @@ Feel free to browse.</p>
 </figure>
 
 </div>
-            </article>
-                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-              <h3 itemprop="headline" class="p-name" id="2020-10-22-title"><a href="/posts/chickpeas/"
+</article>
+            <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+  <h3 itemprop="headline" class="p-name font-size-3 medium" id="2020-10-22-title"><a href="/posts/chickpeas/"
    class="p-url"
    itemprop="url" title="I muse upon my fondness for removing the skin from chickpeas.">On chickpeas</a></h3>
-              <div class="h-summary" itemprop="abstract"><p>Whenever I open up and rinse a can of chickpeas, I find myself idly
+  <div class="h-summary" itemprop="abstract"><p>Whenever I open up and rinse a can of chickpeas, I find myself idly
 picking one up and with two fingers swiftly slipping off its
 transparent skin—</div>
-              <p class="link-plain">
-                <a href="/posts/chickpeas/" id="2020-10-22-read-more"
-                 aria-labelledby="2020-10-22-read-more 2020-10-22-title"
-                >Continue reading …</a>
-              </p>
-            </article>
+  <p class="link-plain">
+    <a href="/posts/chickpeas/" id="2020-10-22-read-more"
+     aria-labelledby="2020-10-22-read-more 2020-10-22-title"
+    >Continue reading …</a>
+  </p>
+</article>
           <p class="mt-1"><a href="/posts">See all posts …</a></p>
         </section>
         <section id="miscellaneous" class="border-top p-space-1/2" >
-          <h2>Miscellaneous lists</h2>
+          <h2 class="font-size-4 semibold">Miscellaneous lists</h2>
           <ul><li itemscope itemtype="https://schema.org/Article">
               <span itemprop="headline"><a href="/words/"
    class="p-url"
