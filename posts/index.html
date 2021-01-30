@@ -3,14 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog … ‹three dots›</title>
+    <link rel="stylesheet" href="/assets/build/css/main.css?id=d41d8cd98f00b204e980">
+    <link rel="canonical" href="http://threedots.ca/posts">
     <meta name="google-site-verification" content="DhZUgJjUNSRFdHhycAzNuCiTKprn-1Csb49PU1lsABo">
     <meta name="color-scheme" content="light dark">
-    <meta name="author" content="Alan Rempel">
-    <link rel="canonical" href="http://threedots.ca&#x2f;posts&#x2f;">
-    <title>Blog …‹three dots›</title>
-    <meta name="description" content="All posts in the three dots blog, grouped by year.">
+    <meta name="description" content="All posts in the ‘three dots’ blog, grouped by year.">    <meta name="author" content="Alan Rempel">
     <link rel="alternate" type="application/atom+xml" href="/posts/feed.xml">
-    <link href="/styles.css" rel="stylesheet">
     <script>!function(){"use strict";var e="colour-scheme-",t=["auto","light","dark"].map((function(t){return e.concat(t)}));function n(n){var o=document.querySelector("body"),c=e.concat(n);o.classList.remove(...t),o.classList.add(c)}function o(e){document.documentElement.style.setProperty("--base-line-height",e+"rem")}function c(e,t,n){var o=document.getElementById(e);o||console.log("Error! Element with id "+e+"not found!");var c=window.localStorage.getItem(e);c&&(n(c),o.value=c);o.addEventListener(t,(function(t){var o=t.target.value;n(o),window.localStorage.setItem(e,o)}),{passive:!0})}document.addEventListener("DOMContentLoaded",(function(e){c("colour-scheme","change",n),c("line-height","change",o),function(){let e,t=document.querySelectorAll(".greeting"),n=(new Date).getHours();e=n<12?"morning":n<17?"afternoon":"evening",t.forEach((t=>{t.innerHTML=`Good ${e}`}))}(),document.addEventListener("click",(function(e){e.target.closest(".dropdown")||document.querySelectorAll(".dropdown[open]").forEach((e=>e.open=!1))}))}))}();
 </script>
   </head>
@@ -18,80 +17,91 @@
     <div class="container mx-auto">
       <header class="mt-1">
         <div class="flex row space-between wrap">
-        <h1 class="bold font-size-1"><a href="/">three dots …</a></h1>
-        <details class="dropdown">
-                    <summary class="dropdown-toggle">Settings</summary>
-                    <div class="dropdown-inner">
-                      <p>
-                        <label for="colour-scheme">Colour scheme:</label>
-                        <select required id="colour-scheme">
-                          <option value="auto" selected>System setting</option>
-                          <option value="light">Light</option>
-                          <option value="dark">Dark</option>
-                        </select>
-                      </p>
-                      <p>
-                        <label for="line-height">Spacing:</label>
-                        <input id="line-height" type="range" min="1.2" max="1.8" step="0.1" value="1.5">
-                      </p>
-                    </div>
-                  </details>
+          <h1 class="bold font-size-1"><a href="/">three dots …</a></h1>
+          <details class="dropdown">
+            <summary class="dropdown-toggle">Settings</summary>
+            <div class="dropdown-inner">
+              <p>
+                <label for="colour-scheme">Colour scheme:</label>
+                <select required id="colour-scheme">
+                  <option value="auto" selected>System setting</option>
+                  <option value="light">Light</option>
+                  <option value="dark">Dark</option>
+                </select>
+              </p>
+              <p>
+                <label for="line-height">Spacing:</label>
+                <input id="line-height" type="range" min="1.2" max="1.8" step="0.1" value="1.5">
+              </p>
+            </div>
+          </details>
         </div>
         <nav class="semibold colour-highlight">
-          <a href="/"
+                    <a href="/"
    class="p-url"
-   itemprop="url" title="The website of Alan Rempel, a elliptical human man.">Home</a> • <a href="/posts/"
+   itemprop="url"
+    title="The website of Alan Rempel, a elliptical human man."       >Home</a>
+           •                     <a href="/posts"
    class="p-url"
-   itemprop="url" title="All posts in the three dots blog, grouped by year.">Blog</a> • <a href="/introduction/"
+   itemprop="url"
+    title="All posts in the ‘three dots’ blog, grouped by year."       >Blog</a>
+           •                     <a href="/lists"
    class="p-url"
-   itemprop="url" title="In which I introduce my blog to the reader.">About</a> • <a href="/posts/feed.xml"
+   itemprop="url"
+    title="A miscellany of lists."       >Lists</a>
+           •                     <a href="/introduction"
    class="p-url"
-   itemprop="url" title="Provide this link to your RSS reader, and get updates whenever something new is posted! (It is actually an Atom feed, but whatever.)">RSS feed</a>
-        </nav>
+   itemprop="url"
+    title="In which I introduce my blog to the reader."       >About</a>
+           •                     <a href="/posts/feed.xml"
+   class="p-url"
+   itemprop="url"
+    title="Provide this link to your RSS reader, and get updates whenever something new is posted!"       >RSS feed</a>
+                            </nav>
       </header>
-      <main class="mt-1 mb-1">
-              <section itemscope itemtype="https://schema.org/Blog">
+      <main class="mt-3/4 mb-1">
+                                                                                                                                                        <section itemscope itemtype="https://schema.org/Blog">
         <header>
           <h1 class="font-size-5 bold">Blog</h1>
           <nav class="flex row mt-1/4" aria-label="Jump to posts from a specific year" >
-            <a class="nav-link" href="#y2020">2020</a><span class="nav-divider">•</span>
-            <a class="nav-link" href="#y2019">2019</a><span class="nav-divider">•</span>
-            <a class="nav-link" href="#y2018">2018</a><span class="nav-divider">•</span>
-            <a class="nav-link" href="#y2017">2017</a><span class="nav-divider">•</span>
-            <a class="nav-link" href="#y2016">2016</a>
-          </nav>
+                      <a class="nav-link" href="#y2021">2021</a><span class="nav-divider">•</span>                  <a class="nav-link" href="#y2020">2020</a><span class="nav-divider">•</span>                  <a class="nav-link" href="#y2019">2019</a><span class="nav-divider">•</span>                  <a class="nav-link" href="#y2018">2018</a><span class="nav-divider">•</span>                  <a class="nav-link" href="#y2017">2017</a><span class="nav-divider">•</span>                  <a class="nav-link" href="#y2016">2016</a>                  </nav>
         </header>
-        <section id="y2020" class="border-top article-list">
+                <section id="y2021" class="border-top article-list">
+          <h2 class="font-size-4 semibold">2021</h2>
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+      <p class="colour-lighter light"><time datetime="2021-01-27T00:00:00+00:00">27. January 2021</time></p>
+  
+     <div class="e-content" itemprop="articleBody"><p>It makes me glad to hear pumpkin seeds pop as they toast in the oven.</p>
+</div>
+  </article>
+                    </section>
+                <section id="y2020" class="border-top article-list">
           <h2 class="font-size-4 semibold">2020</h2>
-            <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-  <p class="colour-lighter light"><time
-  class="dt-published" itemprop="datePublished"
-  datetime="2020-12-18">December 18, 2020</time></p>
-  <div class="h-summary" itemprop="abstract"><p>As I was reading my book last night – namely the novel <a href="https://www.goodreads.com/book/show/17333324-ancillary-justice"><cite>Ancillary
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+      <p class="colour-lighter light"><time datetime="2020-12-18T00:00:00+00:00">18. December 2020</time></p>
+  
+        <div class="h-summary" itemprop="abstract"><p>As I was reading my book last night – namely the novel <a href="https://www.goodreads.com/book/show/17333324-ancillary-justice"><cite>Ancillary
 Justice</cite></a> by Ann Leckie, – I came across a familiar-looking
 song, sung by the protagonist, Breq, to herself as she ventures off on a
 daring mission:</div>
-  <p class="link-plain">
-    <a href="/posts/leckie-clamanda/" id="2020-12-18-read-more"
-     aria-labelledby="2020-12-18-read-more 2020-12-18-title"
-    >Continue reading …</a>
-  </p>
-</article>
-            <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-  <p class="colour-lighter light"><time
-  class="dt-published" itemprop="datePublished"
-  datetime="2020-12-08">December 8, 2020</time></p>
-  <div class="e-content" itemprop="articleBody"><p>This blog is an exercise in <em>vanity</em>.</p>
+    <p class="link-plain">
+    <a href="/posts/leckie-clamanda" id="leckie-clamanda-read-more"
+      aria-labelledby="leckie-clamanda-read-more leckie-clamanda-title"
+      >Continue reading …</a>
+    </p>
+  </article>
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+      <p class="colour-lighter light"><time datetime="2020-12-08T00:00:00+00:00">8. December 2020</time></p>
+  
+     <div class="e-content" itemprop="articleBody"><p>This blog is an exercise in <em>vanity</em>.</p>
+
 <p><i>Vanitas vanitatum!</i></p>
 </div>
-</article>
-            <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-  <p class="colour-lighter light"><time
-  class="dt-published" itemprop="datePublished"
-  datetime="2020-11-28">November 28, 2020</time></p>
-  <div class="e-content" itemprop="articleBody">
-
-<p>This is my favourite sentence that starts with ‘and’:
+  </article>
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+      <p class="colour-lighter light"><time datetime="2020-11-28T00:00:00+00:00">28. November 2020</time></p>
+  
+     <div class="e-content" itemprop="articleBody"><p>This is my favourite sentence that starts with ‘and’:</p>
 
 <figure>
 <blockquote>
@@ -107,230 +117,308 @@ daring mission:</div>
     of the Bicameral Mind</cite> (Mariner Books, 1990), 323.
 </figcaption>
 </figure>
-
 </div>
-</article>
-            <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-  <h3 itemprop="headline" class="p-name font-size-3 medium" id="2020-10-22-title"><a href="/posts/chickpeas/"
+  </article>
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+      <h3 itemprop="headline"
+      class="p-name font-size-3 medium"
+      id="posts-title">
+      <a href="/posts/chickpeas"
    class="p-url"
-   itemprop="url" title="I muse upon my fondness for removing the skin from chickpeas.">On chickpeas</a></h3>
-  <div class="h-summary" itemprop="abstract"><p>Whenever I open up and rinse a can of chickpeas, I find myself idly
+   itemprop="url"
+    title="I muse upon my fondness for removing the skin from chickpeas."       >On chickpeas</a>
+    </h3>
+  
+        <div class="h-summary" itemprop="abstract"><p>Whenever I open up and rinse a can of chickpeas, I find myself idly
 picking one up and with two fingers swiftly slipping off its
 transparent skin—</div>
-  <p class="link-plain">
-    <a href="/posts/chickpeas/" id="2020-10-22-read-more"
-     aria-labelledby="2020-10-22-read-more 2020-10-22-title"
-    >Continue reading …</a>
-  </p>
-</article>
-            <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-  <h3 itemprop="headline" class="p-name font-size-3 medium" id="2020-09-09-title"><a href="/posts/oomancy/"
+    <p class="link-plain">
+    <a href="/posts/chickpeas" id="chickpeas-read-more"
+      aria-labelledby="chickpeas-read-more chickpeas-title"
+      >Continue reading …</a>
+    </p>
+  </article>
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+      <p class="colour-lighter light"><time datetime="2020-10-16T00:00:00+00:00">16. October 2020</time></p>
+  
+     <div class="e-content" itemprop="articleBody"><p>I have a great love of <em>editing</em>. Semicolon—<br>or m-dash? Too many syllables? Too languid?<br>too clipped? One sentence twisting, another<br>straight-ahead. Warp; point; zig; zag. I once<br>dropped my house-keys such that they fell<br>between the boards of the front porch:<br> I rescued them
+with a bent coat-hanger.</p>
+</div>
+  </article>
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+      <h3 itemprop="headline"
+      class="p-name font-size-3 medium"
+      id="posts-title">
+      <a href="/posts/oomancy"
    class="p-url"
-   itemprop="url" title="I recount an egg-related incident that I realized in retrospect was probably a revelation of my fate.
-">On oomancy</a></h3>
-  <p class="h-summary oblique" itemprop="abstract">In which I reflect upon the inciting incident in my relationship with oomancy.</p>
-</article>
-            <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-  <h3 itemprop="headline" class="p-name font-size-3 medium" id="2020-07-08-title"><a href="/posts/rideau-canal/"
+   itemprop="url"
+    title="I recount an egg-related incident that I realized in retrospect was probably a revelation of my fate.
+"       >On oomancy</a>
+    </h3>
+  
+     <p class="h-summary oblique" itemprop="abstract">In which I reflect upon the inciting incident in my relationship with oomancy.</p>
+  </article>
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+      <h3 itemprop="headline"
+      class="p-name font-size-3 medium"
+      id="posts-title">
+      <a href="/posts/rideau-canal"
    class="p-url"
-   itemprop="url" title="I muse that the Rideau Canal is not like a river, but one senses it wants to be like a river. This makes me uneasy.">The Rideau Canal</a></h3>
-  <div class="h-summary" itemprop="abstract">
-
-<p>
-For the first time in my life, the nearest body of water to where
+   itemprop="url"
+    title="I muse that the Rideau Canal is not like a river, but one senses it wants to be like a river. This makes me uneasy."       >The Rideau Canal</a>
+    </h3>
+  
+        <div class="h-summary" itemprop="abstract"><p>For the first time in my life, the nearest body of water to where
 I live (ignoring little ponds and the like) is artificial rather than natural.</div>
-  <p class="link-plain">
-    <a href="/posts/rideau-canal/" id="2020-07-08-read-more"
-     aria-labelledby="2020-07-08-read-more 2020-07-08-title"
-    >Continue reading …</a>
-  </p>
-</article>
-            <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-  <h3 itemprop="headline" class="p-name font-size-3 medium" id="2020-05-25-title"><a href="/posts/jocelyn/"
+    <p class="link-plain">
+    <a href="/posts/rideau-canal" id="rideau-canal-read-more"
+      aria-labelledby="rideau-canal-read-more rideau-canal-title"
+      >Continue reading …</a>
+    </p>
+  </article>
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+      <h3 itemprop="headline"
+      class="p-name font-size-3 medium"
+      id="posts-title">
+      <a href="/posts/jocelyn"
    class="p-url"
-   itemprop="url" title="I recall how I first met Jocelyn.">Jocelyn</a></h3>
-  <div class="h-summary" itemprop="abstract"><p>I first met my fiancée on <time datetime="2017-05-04">May 4th,
+   itemprop="url"
+    title="I recall how I first met Jocelyn."       >Jocelyn</a>
+    </h3>
+  
+        <div class="h-summary" itemprop="abstract"><p>I first met my fiancée on <time datetime="2017-05-04">May 4th,
 2017</time>.</div>
-  <p class="link-plain">
-    <a href="/posts/jocelyn/" id="2020-05-25-read-more"
-     aria-labelledby="2020-05-25-read-more 2020-05-25-title"
-    >Continue reading …</a>
-  </p>
-</article>
-            <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-  <h3 itemprop="headline" class="p-name font-size-3 medium" id="2020-02-02-title"><a href="/posts/paper-notebook/"
+    <p class="link-plain">
+    <a href="/posts/jocelyn" id="jocelyn-read-more"
+      aria-labelledby="jocelyn-read-more jocelyn-title"
+      >Continue reading …</a>
+    </p>
+  </article>
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+      <h3 itemprop="headline"
+      class="p-name font-size-3 medium"
+      id="posts-title">
+      <a href="/posts/paper-notebook"
    class="p-url"
-   itemprop="url" title="I muse upon the excellences of paper notebooks, as opposed to electronic programs designed for comparable purposes.
-">Pen and paper</a></h3>
-  <div class="h-summary" itemprop="abstract"><p>I have started using a paper notebook for an agenda/planner/to-do-list
+   itemprop="url"
+    title="I muse upon the excellences of paper notebooks, as opposed to electronic programs designed for comparable purposes.
+"       >Pen and paper</a>
+    </h3>
+  
+        <div class="h-summary" itemprop="abstract"><p>I have started using a paper notebook for an agenda/planner/to-do-list
 thing. It's been an interesting experiment. </div>
-  <p class="link-plain">
-    <a href="/posts/paper-notebook/" id="2020-02-02-read-more"
-     aria-labelledby="2020-02-02-read-more 2020-02-02-title"
-    >Continue reading …</a>
-  </p>
-</article>
-        </section>
-        <section id="y2019" class="border-top article-list">
+    <p class="link-plain">
+    <a href="/posts/paper-notebook" id="paper-notebook-read-more"
+      aria-labelledby="paper-notebook-read-more paper-notebook-title"
+      >Continue reading …</a>
+    </p>
+  </article>
+                    </section>
+                <section id="y2019" class="border-top article-list">
           <h2 class="font-size-4 semibold">2019</h2>
-            <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-  <p class="colour-lighter light"><time
-  class="dt-published" itemprop="datePublished"
-  datetime="2019-11-27">November 27, 2019</time></p>
-  <div class="e-content" itemprop="articleBody"><p>I have a secret, which I’ve never revealed:</p>
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+      <p class="colour-lighter light"><time datetime="2019-11-27T00:00:00+00:00">27. November 2019</time></p>
+  
+     <div class="e-content" itemprop="articleBody"><p>I have a secret, which I’ve never revealed:</p>
+
 <p><a href="https://www.youtube.com/watch?v=UzrM3eomnAA" title="Judee Sill">However we are is okay.</a></p>
 </div>
-</article>
-            <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-  <p class="colour-lighter light"><time
-  class="dt-published" itemprop="datePublished"
-  datetime="2019-11-21">November 21, 2019</time></p>
-  <div class="e-content" itemprop="articleBody"><p>This city is a strange place—so much of it is paved.</p>
+  </article>
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+      <p class="colour-lighter light"><time datetime="2019-11-21T00:00:00+00:00">21. November 2019</time></p>
+  
+     <div class="e-content" itemprop="articleBody"><p>This city is a strange place—so much of it is paved.</p>
+
 <p>The trees here—it must be lonely for them, not being in a
 forest; stretching their roots out and finding soil
 compacted by cement, soil sparse of arboreal conversation.</p>
 </div>
-</article>
-            <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-  <h3 itemprop="headline" class="p-name font-size-3 medium" id="2019-10-27-title"><a href="/posts/holy-communion-on-harry-lake/"
+  </article>
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+      <h3 itemprop="headline"
+      class="p-name font-size-3 medium"
+      id="posts-title">
+      <a href="/posts/holy-communion-on-harry-lake"
    class="p-url"
-   itemprop="url" title="At Holy Communion at 7:00 am on the Fall Retreat, I remark upon the beauty of the mist over the lake, and almost burn my hand.">Holy Communion on Harry Lake</a></h3>
-  <p class="h-summary oblique" itemprop="abstract">In which it is cold, early morning; mist over the lake; I set my service leaflet on fire.</p>
-</article>
-        </section>
-        <section id="y2018" class="border-top article-list">
+   itemprop="url"
+    title="At Holy Communion at 7:00 am on the Fall Retreat, I remark upon the beauty of the mist over the lake, and almost burn my hand."       >Holy Communion on Harry Lake</a>
+    </h3>
+  
+     <p class="h-summary oblique" itemprop="abstract">In which it is cold, early morning; mist over the lake; I set my service leaflet on fire.</p>
+  </article>
+                    </section>
+                <section id="y2018" class="border-top article-list">
           <h2 class="font-size-4 semibold">2018</h2>
-            <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-  <h3 itemprop="headline" class="p-name font-size-3 medium" id="2018-07-10-title"><a href="/posts/to-do-list/"
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+      <h3 itemprop="headline"
+      class="p-name font-size-3 medium"
+      id="posts-title">
+      <a href="/posts/to-do-list"
    class="p-url"
-   itemprop="url">My to-do list</a></h3>
-  <div class="h-summary" itemprop="abstract"><p>I have a secret to-do list. The problem with my secret
+   itemprop="url"
+         >My to-do list</a>
+    </h3>
+  
+        <div class="h-summary" itemprop="abstract"><p>I have a secret to-do list. The problem with my secret
 to-do list, though, is that it’s easy for me to forget what
 is on it.</div>
-  <p class="link-plain">
-    <a href="/posts/to-do-list/" id="2018-07-10-read-more"
-     aria-labelledby="2018-07-10-read-more 2018-07-10-title"
-    >Continue reading …</a>
-  </p>
-</article>
-            <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-  <h3 itemprop="headline" class="p-name font-size-3 medium" id="2018-07-07-title"><a href="/posts/purple-sparks/"
+    <p class="link-plain">
+    <a href="/posts/to-do-list" id="to-do-list-read-more"
+      aria-labelledby="to-do-list-read-more to-do-list-title"
+      >Continue reading …</a>
+    </p>
+  </article>
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+      <h3 itemprop="headline"
+      class="p-name font-size-3 medium"
+      id="posts-title">
+      <a href="/posts/purple-sparks"
    class="p-url"
-   itemprop="url" title="I ponder with melancholy the continued absence of my purple sparks.">Purple sparks</a></h3>
-  <div class="h-summary" itemprop="abstract">
-
-<p>I used to be able to make purple sparks shoot from my
+   itemprop="url"
+    title="I ponder with melancholy the continued absence of my purple sparks."       >Purple sparks</a>
+    </h3>
+  
+        <div class="h-summary" itemprop="abstract"><p>I used to be able to make purple sparks shoot from my
 fingertips. I just had to snap my fingers at just the right
 angle, with just the right force, when the humidity was just
 right, when my hair was tied up in a bun in just the right
-way …
-
-</div>
-  <p class="link-plain">
-    <a href="/posts/purple-sparks/" id="2018-07-07-read-more"
-     aria-labelledby="2018-07-07-read-more 2018-07-07-title"
-    >Continue reading …</a>
-  </p>
-</article>
-            <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-  <p class="colour-lighter light"><time
-  class="dt-published" itemprop="datePublished"
-  datetime="2018-03-17">March 17, 2018</time></p>
-  <div class="e-content" itemprop="articleBody"><p>This morn­ing, ﬂat­mates and I had a brief dance party in the
+way …</div>
+    <p class="link-plain">
+    <a href="/posts/purple-sparks" id="purple-sparks-read-more"
+      aria-labelledby="purple-sparks-read-more purple-sparks-title"
+      >Continue reading …</a>
+    </p>
+  </article>
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+      <p class="colour-lighter light"><time datetime="2018-03-17T00:00:00+00:00">17. March 2018</time></p>
+  
+     <div class="e-content" itemprop="articleBody"><p>This morn­ing, ﬂat­mates and I had a brief dance party in the
 liv­ing room. It was a lot of fun—it felt long over­due. It
 made me think of <a href="/posts/dancing-lawrence-st" title="In which I have danced">a note I had writ­ten to my­self about a year ago</a>.</p>
 </div>
-</article>
-            <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-  <h3 itemprop="headline" class="p-name font-size-3 medium" id="2018-03-02-title"><a href="/posts/pocket-contents/"
+  </article>
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+      <h3 itemprop="headline"
+      class="p-name font-size-3 medium"
+      id="posts-title">
+      <a href=""
    class="p-url"
-   itemprop="url" title="I rummage through my pockets, searching for a tissue; I find many strange items along the way.">What do I have in my pockets?</a></h3>
-  <p class="h-summary oblique" itemprop="abstract">In which I have to blow my nose.</p>
-</article>
-            <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-  <h3 itemprop="headline" class="p-name font-size-3 medium" id="2018-02-05-title"><a href="/posts/winter-retreat-after-compline/"
+   itemprop="url"
+    title="I rummage through my pockets, searching for a tissue; I find many strange items along the way."       >What do I have in my pockets?</a>
+    </h3>
+  
+     <p class="h-summary oblique" itemprop="abstract">In which I have to blow my nose.</p>
+  </article>
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+      <h3 itemprop="headline"
+      class="p-name font-size-3 medium"
+      id="posts-title">
+      <a href="/posts/winter-retreat-after-compline"
    class="p-url"
-   itemprop="url">At Mersey River, at a winter retreat, after Compline</a></h3>
-  <p class="h-summary oblique" itemprop="abstract">Eternal praise! eternal praise!</p>
-</article>
-        </section>
-        <section id="y2017" class="border-top article-list">
+   itemprop="url"
+         >At Mersey River, at a winter retreat, after Compline</a>
+    </h3>
+  
+     <p class="h-summary oblique" itemprop="abstract">Eternal praise! eternal praise!</p>
+  </article>
+                    </section>
+                <section id="y2017" class="border-top article-list">
           <h2 class="font-size-4 semibold">2017</h2>
-            <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-  <h3 itemprop="headline" class="p-name font-size-3 medium" id="2017-06-13-title"><a href="/posts/jack-mitchell/"
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+      <h3 itemprop="headline"
+      class="p-name font-size-3 medium"
+      id="posts-title">
+      <a href="/posts/jack-mitchell"
    class="p-url"
-   itemprop="url" title="In which I spy a sometime professor of mine, and am somehow amused.">At the Lucky Penny, shortly before noon</a></h3>
-  <div class="e-content" itemprop="articleBody"><p>Spotted Jack Mitchell searching the Perseus English-Latin
+   itemprop="url"
+    title="In which I spy a sometime professor of mine, and am somehow amused."       >At the Lucky Penny, shortly before noon</a>
+    </h3>
+  
+     <div class="e-content" itemprop="articleBody"><p>Spotted Jack Mitchell searching the Perseus English-Latin
 lexicon for the word ‘virtuous’.</p>
 </div>
-</article>
-            <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-  <p class="colour-lighter light"><time
-  class="dt-published" itemprop="datePublished"
-  datetime="2017-06-09">June 9, 2017</time></p>
-  <div class="e-content" itemprop="articleBody"><p>I was bored this afternoon, so I ate a raw clove of garlic.</p>
+  </article>
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+      <p class="colour-lighter light"><time datetime="2017-06-09T00:00:00+00:00">9. June 2017</time></p>
+  
+     <div class="e-content" itemprop="articleBody"><p>I was bored this afternoon, so I ate a raw clove of garlic.</p>
+
 <p>That’s all.</p>
 </div>
-</article>
-            <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-  <h3 itemprop="headline" class="p-name font-size-3 medium" id="2017-06-09-title"><a href="/posts/duncan-st/"
+  </article>
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+      <h3 itemprop="headline"
+      class="p-name font-size-3 medium"
+      id="posts-title">
+      <a href=""
    class="p-url"
-   itemprop="url" title="I encounter some children while looking at a tree; they endeavour to sort out my life plans.">At Duncan St and Chebucto Lane</a></h3>
-  <div class="h-summary" itemprop="abstract">
-<!-- <p><img src="/images/a-tree-with-a-face.jpg" alt="A tree with a pointy face."></p> -->
-<p>As I was walking down Duncan street last Sunday evening, I
+   itemprop="url"
+    title="I encounter some children while looking at a tree; they endeavour to sort out my life plans."       >At Duncan St and Chebucto Lane</a>
+    </h3>
+  
+        <div class="h-summary" itemprop="abstract"><p><!-- <p><img src="/images/a-tree-with-a-face.jpg" alt="A tree with a pointy face."></p> -->
+As I was walking down Duncan street last Sunday evening, I
 came across a tree that that had a face—eyes, a nose and a
 mouth affixed to its bark.</div>
-  <p class="link-plain">
-    <a href="/posts/duncan-st/" id="2017-06-09-read-more"
-     aria-labelledby="2017-06-09-read-more 2017-06-09-title"
-    >Continue reading …</a>
-  </p>
-</article>
-            <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-  <p class="colour-lighter light"><time
-  class="dt-published" itemprop="datePublished"
-  datetime="2017-05-05">May 5, 2017</time></p>
-  <div class="h-summary" itemprop="abstract"><p>Whatever is nec­es­sary
+    <p class="link-plain">
+    <a href="" id="duncan-st-read-more"
+      aria-labelledby="duncan-st-read-more duncan-st-title"
+      >Continue reading …</a>
+    </p>
+  </article>
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+      <p class="colour-lighter light"><time datetime="2017-05-05T00:00:00+00:00">5. May 2017</time></p>
+  
+        <div class="h-summary" itemprop="abstract"><p>Whatever is nec­es­sary
 that such dance par­ties as that of last night
 should hap­pen again—that’s what mat­ters to me.</div>
-  <p class="link-plain">
-    <a href="/posts/dancing-lawrence-st/" id="2017-05-05-read-more"
-     aria-labelledby="2017-05-05-read-more 2017-05-05-title"
-    >Continue reading …</a>
-  </p>
-</article>
-            <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-  <h3 itemprop="headline" class="p-name font-size-3 medium" id="2017-02-19-title"><a href="/posts/skating/"
+    <p class="link-plain">
+    <a href="/posts/dancing-lawrence-st" id="dancing-lawrence-st-read-more"
+      aria-labelledby="dancing-lawrence-st-read-more dancing-lawrence-st-title"
+      >Continue reading …</a>
+    </p>
+  </article>
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+      <h3 itemprop="headline"
+      class="p-name font-size-3 medium"
+      id="posts-title">
+      <a href="/posts/skating"
    class="p-url"
-   itemprop="url">On skating</a></h3>
-  <p class="h-summary oblique" itemprop="abstract">Sometimes I space out for a moment.</p>
-</article>
-        </section>
-        <section id="y2016" class="border-top article-list">
+   itemprop="url"
+         >On skating</a>
+    </h3>
+  
+     <p class="h-summary oblique" itemprop="abstract">Sometimes I space out for a moment.</p>
+  </article>
+                    </section>
+                <section id="y2016" class="border-top article-list">
           <h2 class="font-size-4 semibold">2016</h2>
-            <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-  <p class="colour-lighter light"><time
-  class="dt-published" itemprop="datePublished"
-  datetime="2016-12-15">December 15, 2016</time></p>
-  <div class="e-content" itemprop="articleBody"><p>I made a remark shortly after I came in the door—paraphrased from David Lebovitz—about the state of the Parisian baguette: Emma is this moment recording it in her quote-book. I am flattered.</p>
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+      <p class="colour-lighter light"><time datetime="2016-12-15T00:00:00+00:00">15. December 2016</time></p>
+  
+     <div class="e-content" itemprop="articleBody"><p>I made a remark shortly after I came in the door—paraphrased from David Lebovitz—about the state of the Parisian baguette: Emma is this moment recording it in her quote-book. I am flattered.</p>
 </div>
-</article>
-            <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-  <h3 itemprop="headline" class="p-name font-size-3 medium" id="2016-01-10-title"><a href="/posts/airport/"
+  </article>
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+      <h3 itemprop="headline"
+      class="p-name font-size-3 medium"
+      id="posts-title">
+      <a href="/posts/airport"
    class="p-url"
-   itemprop="url" title="I set off for Halifax from the Winnipeg airport after the Christmas break, and observe my surroundings and moods.">In the Winnipeg International Airport</a></h3>
-  <div class="h-summary" itemprop="abstract">
-      <p>I was pleasantly surprised to find the security area
-        virtually deserted.</div>
-  <p class="link-plain">
-    <a href="/posts/airport/" id="2016-01-10-read-more"
-     aria-labelledby="2016-01-10-read-more 2016-01-10-title"
-    >Continue reading …</a>
-  </p>
-</article>
-        </section>
-      </section>
+   itemprop="url"
+    title="I set off for Halifax from the Winnipeg airport after the Christmas break, and observe my surroundings and moods."       >In the Winnipeg International Airport</a>
+    </h3>
+  
+        <div class="h-summary" itemprop="abstract"><p>I was pleasantly surprised to find the security area
+virtually deserted.</div>
+    <p class="link-plain">
+    <a href="/posts/airport" id="airport-read-more"
+      aria-labelledby="airport-read-more airport-title"
+      >Continue reading …</a>
+    </p>
+  </article>
+                    </section>
+              </section>
       </main>
     </div>
     <script data-goatcounter="https://threedots_ca.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
