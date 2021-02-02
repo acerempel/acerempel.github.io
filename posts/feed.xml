@@ -10,19 +10,19 @@
     <name>Alan Rempel</name>
   </author>
     <entry>
-        <title type="text"></title>
-        <link href=""/>
-    <updated>2021-01-27T00:00:00+00:00</updated>
+        <title type="text">It makes me glad to hear pumpkin seeds pop as they toast in the oven</title>
+            <updated>2021-01-27T00:00:00+00:00</updated>
     <published>2021-01-27T00:00:00+00:00</published>
-    <id>/</id>
+    <id>http://threedots.ca/posts/pumpkin-seeds/</id>
         
     <content type="html">&lt;p&gt;It makes me glad to hear pumpkin seeds pop as they toast in the oven.&lt;/p&gt;
 </content>
   </entry>
     <entry>
-        <title type="text"></title>
+        <title type="text">As I was reading my book last night – namely the novel Ancillary
+Justice by Ann Leckie</title>
         <link href="http://threedots.ca/posts/leckie-clamanda"/>
-    <updated>2020-12-18T00:00:00+00:00</updated>
+        <updated>2020-12-18T00:00:00+00:00</updated>
     <published>2020-12-18T00:00:00+00:00</published>
     <id>http://threedots.ca/posts/leckie-clamanda/</id>
         
@@ -75,11 +75,10 @@ had suspected. She even gives a plug for shape note singing:&lt;/p&gt;
 </content>
   </entry>
     <entry>
-        <title type="text"></title>
-        <link href=""/>
-    <updated>2020-12-08T00:00:00+00:00</updated>
+        <title type="text">This blog is an exercise in vanity</title>
+            <updated>2020-12-08T00:00:00+00:00</updated>
     <published>2020-12-08T00:00:00+00:00</published>
-    <id>/</id>
+    <id>http://threedots.ca/posts/vanitas/</id>
         
     <content type="html">&lt;p&gt;This blog is an exercise in &lt;em&gt;vanity&lt;/em&gt;.&lt;/p&gt;
 
@@ -87,11 +86,10 @@ had suspected. She even gives a plug for shape note singing:&lt;/p&gt;
 </content>
   </entry>
     <entry>
-        <title type="text"></title>
-        <link href=""/>
-    <updated>2020-11-28T00:00:00+00:00</updated>
+        <title type="text">This is my favourite sentence that starts with ‘and’</title>
+            <updated>2020-11-28T00:00:00+00:00</updated>
     <published>2020-11-28T00:00:00+00:00</published>
-    <id>/</id>
+    <id>http://threedots.ca/posts/jaynesian/</id>
         
     <content type="html">&lt;p&gt;This is my favourite sentence that starts with ‘and’:&lt;/p&gt;
 
@@ -114,7 +112,7 @@ had suspected. She even gives a plug for shape note singing:&lt;/p&gt;
     <entry>
         <title type="text">On chickpeas</title>
         <link href="http://threedots.ca/posts/chickpeas"/>
-    <updated>2020-11-07T00:00:00+00:00</updated>
+        <updated>2020-11-07T00:00:00+00:00</updated>
     <published>2020-10-22T00:00:00+00:00</published>
     <id>http://threedots.ca/posts/chickpeas/</id>
          <summary>I muse upon my fondness for removing the skin from chickpeas.</summary> 
@@ -133,11 +131,10 @@ shelling chickpeas until the sun sets.&lt;/p&gt;
 </content>
   </entry>
     <entry>
-        <title type="text"></title>
-        <link href=""/>
-    <updated>2020-10-16T00:00:00+00:00</updated>
+        <title type="text">I have a great love of editing</title>
+            <updated>2020-10-16T00:00:00+00:00</updated>
     <published>2020-10-16T00:00:00+00:00</published>
-    <id>/</id>
+    <id>http://threedots.ca/posts/editing/</id>
         
     <content type="html">&lt;p&gt;I have a great love of &lt;em&gt;editing&lt;/em&gt;. Semicolon—&lt;br&gt;or m-dash? Too many syllables? Too languid?&lt;br&gt;too clipped? One sentence twisting, another&lt;br&gt;straight-ahead. Warp; point; zig; zag. I once&lt;br&gt;dropped my house-keys such that they fell&lt;br&gt;between the boards of the front porch:&lt;br&gt; I rescued them
 with a bent coat-hanger.&lt;/p&gt;
@@ -146,7 +143,7 @@ with a bent coat-hanger.&lt;/p&gt;
     <entry>
         <title type="text">On oomancy</title>
         <link href="http://threedots.ca/posts/oomancy"/>
-    <updated>2020-09-09T00:00:00+00:00</updated>
+        <updated>2020-09-09T00:00:00+00:00</updated>
     <published>2020-09-09T00:00:00+00:00</published>
     <id>http://threedots.ca/posts/oomancy/</id>
          <summary>In which I reflect upon the inciting incident in my relationship with oomancy.</summary> 
@@ -207,7 +204,7 @@ clearly its true signification?&lt;/p&gt;
     <entry>
         <title type="text">The Rideau Canal</title>
         <link href="http://threedots.ca/posts/rideau-canal"/>
-    <updated>2020-07-08T00:00:00+00:00</updated>
+        <updated>2020-07-08T00:00:00+00:00</updated>
     <published>2020-07-08T00:00:00+00:00</published>
     <id>http://threedots.ca/posts/rideau-canal/</id>
          <summary>I muse that the Rideau Canal is not like a river, but one senses it wants to be like a river. This makes me uneasy.</summary> 
@@ -243,7 +240,7 @@ is dissolved.&lt;/p&gt;
     <entry>
         <title type="text">Jocelyn</title>
         <link href="http://threedots.ca/posts/jocelyn"/>
-    <updated>2020-05-25T00:00:00+00:00</updated>
+        <updated>2020-05-25T00:00:00+00:00</updated>
     <published>2020-05-25T00:00:00+00:00</published>
     <id>http://threedots.ca/posts/jocelyn/</id>
          <summary>I recall how I first met Jocelyn.</summary> 
@@ -260,7 +257,7 @@ her virtues.)&lt;/p&gt;
     <entry>
         <title type="text">Pen and paper</title>
         <link href="http://threedots.ca/posts/paper-notebook"/>
-    <updated>2020-03-17T00:00:00+00:00</updated>
+        <updated>2020-03-17T00:00:00+00:00</updated>
     <published>2020-02-02T00:00:00+00:00</published>
     <id>http://threedots.ca/posts/paper-notebook/</id>
          <summary>I muse upon the excellences of paper notebooks, as opposed to electronic programs designed for comparable purposes.
@@ -281,11 +278,10 @@ will be useful to me, for a long time and in a variety of contexts, than any pie
 </content>
   </entry>
     <entry>
-        <title type="text"></title>
-        <link href=""/>
-    <updated>2019-11-27T00:00:00+00:00</updated>
+        <title type="text">I have a secret</title>
+            <updated>2019-11-27T00:00:00+00:00</updated>
     <published>2019-11-27T00:00:00+00:00</published>
-    <id>/</id>
+    <id>http://threedots.ca/posts/secret/</id>
          <summary>Judee Sill has a secret.</summary> 
     <content type="html">&lt;p&gt;I have a secret, which I’ve never revealed:&lt;/p&gt;
 
@@ -293,11 +289,10 @@ will be useful to me, for a long time and in a variety of contexts, than any pie
 </content>
   </entry>
     <entry>
-        <title type="text"></title>
-        <link href=""/>
-    <updated>2020-05-16T00:00:00+00:00</updated>
+        <title type="text">This city is a strange place</title>
+            <updated>2020-05-16T00:00:00+00:00</updated>
     <published>2019-11-21T00:00:00+00:00</published>
-    <id>/</id>
+    <id>http://threedots.ca/posts/the-trees/</id>
         
     <content type="html">&lt;p&gt;This city is a strange place—so much of it is paved.&lt;/p&gt;
 
@@ -309,7 +304,7 @@ compacted by cement, soil sparse of arboreal conversation.&lt;/p&gt;
     <entry>
         <title type="text">Holy Communion on Harry Lake</title>
         <link href="http://threedots.ca/posts/holy-communion-on-harry-lake"/>
-    <updated>2019-10-27T00:00:00+00:00</updated>
+        <updated>2019-10-27T00:00:00+00:00</updated>
     <published>2019-10-27T00:00:00+00:00</published>
     <id>http://threedots.ca/posts/holy-communion-on-harry-lake/</id>
          <summary>In which it is cold, early morning; mist over the lake; I set my service leaflet on fire.</summary> 
@@ -345,7 +340,7 @@ was rapidly extinguished.&lt;/p&gt;
     <entry>
         <title type="text">My to-do list</title>
         <link href="http://threedots.ca/posts/to-do-list"/>
-    <updated>2018-07-10T00:00:00+00:00</updated>
+        <updated>2018-07-10T00:00:00+00:00</updated>
     <published>2018-07-10T00:00:00+00:00</published>
     <id>http://threedots.ca/posts/to-do-list/</id>
         
@@ -375,7 +370,7 @@ and no one else to testify to it.&lt;/p&gt;
     <entry>
         <title type="text">Purple sparks</title>
         <link href="http://threedots.ca/posts/purple-sparks"/>
-    <updated>2018-07-07T00:00:00+00:00</updated>
+        <updated>2018-07-07T00:00:00+00:00</updated>
     <published>2018-07-07T00:00:00+00:00</published>
     <id>http://threedots.ca/posts/purple-sparks/</id>
          <summary>I ponder with melancholy the continued absence of my purple sparks.</summary> 
@@ -400,9 +395,9 @@ back in their own time.&lt;/p&gt;
 </content>
   </entry>
     <entry>
-        <title type="text"></title>
+        <title type="text">This morn­ing</title>
         <link href="http://threedots.ca/posts/dancing"/>
-    <updated>2018-03-17T00:00:00+00:00</updated>
+        <updated>2018-03-17T00:00:00+00:00</updated>
     <published>2018-03-17T00:00:00+00:00</published>
     <id>http://threedots.ca/posts/dancing/</id>
          <summary>A little dance party with my flatmates reminds me of something I wrote a year ago.</summary> 
@@ -413,10 +408,9 @@ made me think of &lt;a href=&quot;/posts/dancing-lawrence-st&quot; title=&quot;I
   </entry>
     <entry>
         <title type="text">What do I have in my pockets?</title>
-        <link href=""/>
-    <updated>2018-03-02T00:00:00+00:00</updated>
+            <updated>2018-03-02T00:00:00+00:00</updated>
     <published>2018-03-02T00:00:00+00:00</published>
-    <id>/</id>
+    <id>http://threedots.ca/posts/pocket-contents/</id>
          <summary>In which I have to blow my nose.</summary> 
     <content type="html">&lt;p&gt;A beeswax taper—&lt;br&gt;
 A wrapper from a Hershey kiss—&lt;br&gt;
@@ -445,7 +439,7 @@ A tissue.&lt;/p&gt;
     <entry>
         <title type="text">At Mersey River, at a winter retreat, after Compline</title>
         <link href="http://threedots.ca/posts/winter-retreat-after-compline"/>
-    <updated>2018-02-05T00:00:00+00:00</updated>
+        <updated>2018-02-05T00:00:00+00:00</updated>
     <published>2018-02-05T00:00:00+00:00</published>
     <id>http://threedots.ca/posts/winter-retreat-after-compline/</id>
          <summary>Eternal praise! eternal praise!</summary> 
@@ -470,7 +464,7 @@ its might …&lt;/p&gt;
     <entry>
         <title type="text">At the Lucky Penny, shortly before noon</title>
         <link href="http://threedots.ca/posts/jack-mitchell"/>
-    <updated>2017-06-13T00:00:00+00:00</updated>
+        <updated>2017-06-13T00:00:00+00:00</updated>
     <published>2017-06-13T00:00:00+00:00</published>
     <id>http://threedots.ca/posts/jack-mitchell/</id>
          <summary>In which I spy a sometime professor of mine, and am somehow amused.</summary> 
@@ -479,11 +473,10 @@ lexicon for the word ‘virtuous’.&lt;/p&gt;
 </content>
   </entry>
     <entry>
-        <title type="text"></title>
-        <link href=""/>
-    <updated>2017-06-09T00:00:00+00:00</updated>
+        <title type="text">I was bored this afternoon</title>
+            <updated>2017-06-09T00:00:00+00:00</updated>
     <published>2017-06-09T00:00:00+00:00</published>
-    <id>/</id>
+    <id>http://threedots.ca/posts/garlic/</id>
          <summary>I ate a raw clove of garlic.</summary> 
     <content type="html">&lt;p&gt;I was bored this afternoon, so I ate a raw clove of garlic.&lt;/p&gt;
 
@@ -492,10 +485,9 @@ lexicon for the word ‘virtuous’.&lt;/p&gt;
   </entry>
     <entry>
         <title type="text">At Duncan St and Chebucto Lane</title>
-        <link href=""/>
-    <updated>2017-06-09T00:00:00+00:00</updated>
+            <updated>2017-06-09T00:00:00+00:00</updated>
     <published>2017-06-09T00:00:00+00:00</published>
-    <id>/</id>
+    <id>http://threedots.ca/posts/duncan-st/</id>
          <summary>I encounter some children while looking at a tree; they endeavour to sort out my life plans.</summary> 
     <content type="html">&lt;p&gt;&lt;!-- &lt;p&gt;&lt;img src=&quot;/images/a-tree-with-a-face.jpg&quot; alt=&quot;A tree with a pointy face.&quot;&gt;&lt;/p&gt; --&gt;
 As I was walking down Duncan street last Sunday evening, I
@@ -524,9 +516,11 @@ see, give her some flowers, and then she’ll like you and ask
 </content>
   </entry>
     <entry>
-        <title type="text"></title>
+        <title type="text">Whatever is nec­es­sary
+that such dance par­ties as that of last night
+should hap­pen again</title>
         <link href="http://threedots.ca/posts/dancing-lawrence-st"/>
-    <updated>2017-05-05T00:00:00+00:00</updated>
+        <updated>2017-05-05T00:00:00+00:00</updated>
     <published>2017-05-05T00:00:00+00:00</published>
     <id>http://threedots.ca/posts/dancing-lawrence-st/</id>
          <summary>In which I have danced</summary> 
@@ -542,7 +536,7 @@ friends—that is what is most worth­while to me.&lt;/p&gt;
     <entry>
         <title type="text">On skating</title>
         <link href="http://threedots.ca/posts/skating"/>
-    <updated>2020-09-01T00:00:00+00:00</updated>
+        <updated>2020-09-01T00:00:00+00:00</updated>
     <published>2017-02-19T00:00:00+00:00</published>
     <id>http://threedots.ca/posts/skating/</id>
          <summary>Sometimes I space out for a moment.</summary> 
@@ -557,11 +551,10 @@ right, but I also think my skates were not laced tightly enough.&lt;/p&gt;
 </content>
   </entry>
     <entry>
-        <title type="text"></title>
-        <link href=""/>
-    <updated>2016-12-15T00:00:00+00:00</updated>
+        <title type="text">I made a remark shortly after I came in the door</title>
+            <updated>2016-12-15T00:00:00+00:00</updated>
     <published>2016-12-15T00:00:00+00:00</published>
-    <id>/</id>
+    <id>http://threedots.ca/posts/parisian-baguette/</id>
         
     <content type="html">&lt;p&gt;I made a remark shortly after I came in the door—paraphrased from David Lebovitz—about the state of the Parisian baguette: Emma is this moment recording it in her quote-book. I am flattered.&lt;/p&gt;
 </content>
@@ -569,7 +562,7 @@ right, but I also think my skates were not laced tightly enough.&lt;/p&gt;
     <entry>
         <title type="text">In the Winnipeg International Airport</title>
         <link href="http://threedots.ca/posts/airport"/>
-    <updated>2016-01-10T00:00:00+00:00</updated>
+        <updated>2016-01-10T00:00:00+00:00</updated>
     <published>2016-01-10T00:00:00+00:00</published>
     <id>http://threedots.ca/posts/airport/</id>
          <summary>I set off for Halifax from the Winnipeg airport after the Christmas break, and observe my surroundings and moods.</summary> 
