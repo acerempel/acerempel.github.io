@@ -5,17 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Good evening! … ‹three dots›</title>
     <link rel="stylesheet" href="/assets/build/css/main.css?id=d41d8cd98f00b204e980">
+    <template id="fancyFonts">
+      <link rel="preconnect" href="https://fonts.gstatic.com"> 
+      <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Palanquin:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    </template>
+    <script>
+      'use strict';
+      function loadFancyFonts() {
+        document.head.appendChild(document.getElementById('fancyFonts').content);
+        window.fancyFontsLoaded = true;
+      }
+      if(localStorage.getItem('fonts')==='fancy')loadFancyFonts();
+    </script>
     <link rel="canonical" href="http://threedots.ca/">
     <meta name="google-site-verification" content="DhZUgJjUNSRFdHhycAzNuCiTKprn-1Csb49PU1lsABo">
     <meta name="color-scheme" content="light dark">
     <meta name="description" content="The website of Alan Rempel, a elliptical human man.">    <meta name="author" content="Alan Rempel">
     <link rel="alternate" type="application/atom+xml" href="/posts/feed.xml">
-    <script>!function(){"use strict";var e="colour-scheme-",t=["auto","light","dark"].map((function(t){return e.concat(t)}));function n(n){var o=document.querySelector("body"),c=e.concat(n);o.classList.remove(...t),o.classList.add(c)}function o(e){document.documentElement.style.setProperty("--base-line-height",e+"rem")}function c(e,t,n){var o=document.getElementById(e);o||console.log("Error! Element with id "+e+"not found!");var c=window.localStorage.getItem(e);c&&(n(c),o.value=c);o.addEventListener(t,(function(t){var o=t.target.value;n(o),window.localStorage.setItem(e,o)}),{passive:!0})}document.addEventListener("DOMContentLoaded",(function(e){c("colour-scheme","change",n),c("line-height","change",o),function(){let e,t=document.querySelectorAll(".greeting"),n=(new Date).getHours();e=n<12?"morning":n<17?"afternoon":"evening",t.forEach((t=>{t.innerHTML=`Good ${e}`}))}(),document.addEventListener("click",(function(e){e.target.closest(".dropdown")||document.querySelectorAll(".dropdown[open]").forEach((e=>e.open=!1))}))}))}();
+    <script>!function(){"use strict";var e="colour-scheme-",t=["auto","light","dark"].map((t=>e.concat(t)));function n(n){var o=document.querySelector("body"),c=e.concat(n);o.classList.remove(...t),o.classList.add(c)}function o(e){document.documentElement.style.setProperty("--base-line-height",e+"rem")}function c(e,t,n){var o=document.getElementById(e),c=window.localStorage.getItem(e);c&&(t(c),n(o,c));o.addEventListener("change",(function(n){var o=n.target,c="checked"in o?o.checked?o.value:"default":o.value;t(c),window.localStorage.setItem(e,c)}))}document.addEventListener("DOMContentLoaded",(function(e){let t=(e,t)=>{e.value=t};c("colour-scheme",n,t),c("line-height",o,t),c("fonts",(e=>{"fancy"===e?(window.fancyFontsLoaded||window.loadFancyFonts(),document.body.classList.remove("fonts-default")):document.body.classList.add("fonts-default")}),((e,t)=>{"fancy"===t&&(e.checked=!0)})),function(){let e,t=document.querySelectorAll(".greeting"),n=(new Date).getHours();e=n<12?"morning":n<17?"afternoon":"evening",t.forEach((t=>{t.innerHTML=`Good ${e}`}))}(),document.addEventListener("click",(function(e){let t;!e.target.closest(".dropdown")&&(t=document.querySelector(".dropdown[open]"))&&(t.open=!1)}))}))}();
 </script>
   </head>
   <body class="colour-scheme-auto font-size-1">
     <div class="container mx-auto">
-      <header class="mt-1">
+      <header class="mt-1 sans-serif">
         <div class="flex row space-between wrap">
           <h1 class="bold font-size-1"><a href="/">three dots …</a></h1>
           <details class="dropdown">
@@ -32,6 +45,10 @@
               <p>
                 <label for="line-height">Spacing:</label>
                 <input id="line-height" type="range" min="1.2" max="1.8" step="0.1" value="1.5">
+              </p>
+              <p>
+                <input type="checkbox" value="fancy" id="fonts">
+                <label for="fonts">Fancy fonts</label>
               </p>
             </div>
           </details>
@@ -68,33 +85,33 @@ Currently it consists of my <a href="/#blog"><b>blog</b></a>, which I update acc
 have spare time and whim, as well as some <a href="/#miscellaneous"><b>miscellaneous lists</b></a>. There is also
 a page with a little more <a href="/introduction"><b>about</b></a> this website and me.
 Feel free to browse.</p>
-  <aside><small class="colour-lighter light">Last updated on <time datetime="2021-02-02T03:05:02+00:00">2. February 2021</time></small></aside>
+  <aside><small class="colour-lighter light">Last updated on <time datetime="2021-02-02T15:51:12+00:00">2. February 2021</time></small></aside>
 </section>
 <section id="blog" class="border-top article-list" itemscope itemtype="https://schema.org/Blog">
   <h2 class="font-size-4 semibold"><a href="/posts">Blog</a></h2>
         <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-      <p class="colour-lighter light"><time datetime="2021-01-27T00:00:00+00:00">27. January 2021</time></p>
+      <p class="colour-lighter light sans-serif"><time datetime="2021-01-27T00:00:00+00:00">27. January 2021</time></p>
   
-     <div class="e-content" itemprop="articleBody"><p>It makes me glad to hear pumpkin seeds pop as they toast in the oven.</p>
+     <div class="e-content serif" itemprop="articleBody"><p>It makes me glad to hear pumpkin seeds pop as they toast in the oven.</p>
 </div>
   </article>
         <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-      <p class="colour-lighter light"><time datetime="2020-12-18T00:00:00+00:00">18. December 2020</time></p>
+      <p class="colour-lighter light sans-serif"><time datetime="2020-12-18T00:00:00+00:00">18. December 2020</time></p>
   
-        <div class="h-summary" itemprop="abstract"><p>As I was reading my book last night – namely the novel <a href="https://www.goodreads.com/book/show/17333324-ancillary-justice"><cite>Ancillary
+        <div class="h-summary serif" itemprop="abstract"><p>As I was reading my book last night – namely the novel <a href="https://www.goodreads.com/book/show/17333324-ancillary-justice"><cite>Ancillary
 Justice</cite></a> by Ann Leckie, – I came across a familiar-looking
 song, sung by the protagonist, Breq, to herself as she ventures off on a
 daring mission:</div>
-    <p class="link-plain">
+    <p class="link-plain serif">
     <a href="/posts/leckie-clamanda" id="leckie-clamanda-read-more"
       aria-labelledby="leckie-clamanda-read-more leckie-clamanda-title"
       >Continue reading …</a>
     </p>
   </article>
         <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-      <p class="colour-lighter light"><time datetime="2020-12-08T00:00:00+00:00">8. December 2020</time></p>
+      <p class="colour-lighter light sans-serif"><time datetime="2020-12-08T00:00:00+00:00">8. December 2020</time></p>
   
-     <div class="e-content" itemprop="articleBody"><p>This blog is an exercise in <em>vanity</em>.</p>
+     <div class="e-content serif" itemprop="articleBody"><p>This blog is an exercise in <em>vanity</em>.</p>
 
 <p><i>Vanitas vanitatum!</i></p>
 </div>
