@@ -137,6 +137,13 @@ code {
 .prose h3 {
   margin-top: calc(var(--base-line-height)*0.5);
 }
+.prose aside {
+  background-color: var(--background-colour-lighter);
+  padding: calc(0.625 * var(--base-line-height));
+  border-radius: 0.1em;
+  color: var(--text-colour-lighter);
+}
+
 .thingy {
   flex-direction: row;
 }
