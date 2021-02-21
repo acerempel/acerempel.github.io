@@ -4,11 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Good evening! … ‹three dots›</title>
-    <link rel="stylesheet" href="/assets/build/css/main.css?id=d41d8cd98f00b204e980">
+    <link rel="stylesheet" href="/assets/build/css/main.css">
     <template id="fancyFonts">
       <link rel="preconnect" href="https://fonts.gstatic.com"> 
-      <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Palanquin:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,600;1,400&family=Palanquin:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     </template>
     <script>
       'use strict';
@@ -23,8 +22,28 @@
     <meta name="color-scheme" content="light dark">
     <meta name="description" content="The website of Alan Rempel, a elliptical human man.">    <meta name="author" content="Alan Rempel">
     <link rel="alternate" type="application/atom+xml" href="/posts/feed.xml">
-    <script>!function(){"use strict";var e="colour-scheme-",t=["auto","light","dark"].map((t=>e.concat(t)));function n(n){var o=document.querySelector("body"),c=e.concat(n);o.classList.remove(...t),o.classList.add(c)}function o(e){document.documentElement.style.setProperty("--base-line-height",e+"rem")}function c(e,t,n){var o=document.getElementById(e),c=window.localStorage.getItem(e);c&&(t(c),n(o,c));o.addEventListener("change",(function(n){var o=n.target,c="checked"in o?o.checked?o.value:"default":o.value;t(c),window.localStorage.setItem(e,c)}))}document.addEventListener("DOMContentLoaded",(function(e){let t=(e,t)=>{e.value=t};c("colour-scheme",n,t),c("line-height",o,t),c("fonts",(e=>{"fancy"===e?(window.fancyFontsLoaded||window.loadFancyFonts(),document.body.classList.remove("fonts-default")):document.body.classList.add("fonts-default")}),((e,t)=>{"fancy"===t&&(e.checked=!0)})),function(){let e,t=document.querySelectorAll(".greeting"),n=(new Date).getHours();e=n<12?"morning":n<17?"afternoon":"evening",t.forEach((t=>{t.innerHTML=`Good ${e}`}))}(),document.addEventListener("click",(function(e){let t;!e.target.closest(".dropdown")&&(t=document.querySelector(".dropdown[open]"))&&(t.open=!1)}))}))}();
-</script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        !function(){"use strict";var e="colour-scheme-",t=["auto","light","dark"].map((t=>e.concat(t)));function o(e,t,o){var n=document.getElementById(e),c=window.localStorage.getItem(e);c&&(t(c),o(n,c));n.addEventListener("change",(function(o){var n=o.target,c="checkbox"===n.type?n.checked?n.value:"default":n.value;t(c),window.localStorage.setItem(e,c)}))}let n=(e,t)=>{e.value=t};o("colour-scheme",(function(o){var n=document.querySelector("body"),c=e.concat(o);n.classList.remove(...t),n.classList.add(c)}),n),o("line-height",(function(e){document.documentElement.style.setProperty("--base-line-height",e+"rem")}),n),o("fonts",(e=>{"fancy"===e?(window.fancyFontsLoaded||window.loadFancyFonts(),document.body.classList.remove("fonts-default")):document.body.classList.add("fonts-default")}),((e,t)=>{"fancy"===t&&(e.checked=!0)})),document.addEventListener("click",(function(e){let t;e.target.closest(".dropdown")||((t=document.querySelector(".dropdown[open]"))&&(t.open=!1),e.target.closest(".dropdown-nav-control")||(t=document.querySelector(".dropdown-nav.open"))&&t.classList.remove("open"))}))}();
+                  function set_greetings() {
+  let greetings = document.querySelectorAll(".greeting");
+  let today = new Date();
+  let current_hour = today.getHours();
+  let day_region;
+  if (current_hour < 12) {
+    day_region = "morning"
+  } else if (current_hour < 17) {
+    day_region = "afternoon"
+  } else {
+    day_region = "evening"
+  }
+  greetings.forEach((greet) => {
+    greet.innerHTML = `Good ${day_region}`;
+  });
+}
+          set_greetings();
+                      })
+    </script>
   </head>
   <body class="colour-scheme-auto font-size-1">
     <div class="container mx-auto">
@@ -53,24 +72,24 @@
             </div>
           </details>
         </div>
-        <nav class="semibold colour-highlight">
+        <nav class="semibold colour-highlight flex row link-plain">
                     <a href="/"
    class="p-url"
    itemprop="url"
     title="The website of Alan Rempel, a elliptical human man."       >Home</a>
-           •                     <a href="/posts"
+          <span class="flex-divider"></span>                    <a href="/posts"
    class="p-url"
    itemprop="url"
     title="All posts in the ‘three dots’ blog, grouped by year."       >Blog</a>
-           •                     <a href="/lists"
+          <span class="flex-divider"></span>                    <a href="/lists"
    class="p-url"
    itemprop="url"
     title="A miscellany of lists."       >Lists</a>
-           •                     <a href="/introduction"
+          <span class="flex-divider"></span>                    <a href="/introduction"
    class="p-url"
    itemprop="url"
     title="In which I introduce my blog to the reader."       >About</a>
-           •                     <a href="/posts/feed.xml"
+          <span class="flex-divider"></span>                    <a href="/posts/feed.xml"
    class="p-url"
    itemprop="url"
     title="Provide this link to your RSS reader, and get updates whenever something new is posted!"       >RSS feed</a>
@@ -78,24 +97,48 @@
       </header>
       <main class="mt-3/4 mb-1">
         
-<h1 class="font-size-5 bold"><span class="greeting">Good evening</span>!</h1>
-<section id="intro" class="p-space-1/2">
+<h1 class="font-size-5 sans-serif bold"><span class="greeting">Good evening</span>!</h1>
+<section id="intro" class="p-space-1/2 prose">
   <p>I am Alan; this is my website.
 Currently it consists of my <a href="/#blog"><b>blog</b></a>, which I update according as I
 have spare time and whim, as well as some <a href="/#miscellaneous"><b>miscellaneous lists</b></a>. There is also
 a page with a little more <a href="/introduction"><b>about</b></a> this website and me.
 Feel free to browse.</p>
-  <aside><small class="colour-lighter light">Last updated on <time datetime="2021-02-02T15:51:12+00:00">2. February 2021</time></small></aside>
+  <aside><small class="colour-lighter light">Last updated on <time datetime="2021-02-21T00:11:10+00:00">21. February 2021</time></small></aside>
 </section>
 <section id="blog" class="border-top article-list" itemscope itemtype="https://schema.org/Blog">
-  <h2 class="font-size-4 semibold"><a href="/posts">Blog</a></h2>
-        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+  <h2 class="font-size-4 semibold sans-serif"><a href="/posts">Blog</a></h2>
+        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry p-space-1/4">
+      <p class="colour-lighter light sans-serif"><time datetime="2021-02-05T00:00:00+00:00">5. February 2021</time></p>
+  
+        <div class="h-summary serif" itemprop="abstract"><figure>
+<blockquote>
+Before the city could be <strong>physically</strong> reconstructed to accommodate automobiles,
+its streets had to be <strong>socially</strong> reconstructed as places where cars
+belong.
+</blockquote>
+<figcaption class="smaller">
+— From <a href="https://www.librarything.com/work/5176138/book/188390140" title="Fighting Traffic: The Dawn of the Motor Age in the American City, by Peter D. Norton"
+  ><cite>Fighting Traffic</cite></a> by Peter D. Norton, by way of <a
+  href="https://slate.com/human-interest/2009/11/a-defense-of-jaywalking.html"
+  title="In defense of jaywalking, by Tom Vanderbilt | Slate"><cite>A defense of jaywalking</cite></a>.
+</figcaption>
+</figure>
+
+</div>
+    <p class="link-plain serif">
+    <a href="/posts/jaywalking" id="jaywalking-read-more"
+      aria-labelledby="jaywalking-read-more jaywalking-title"
+      >Continue reading …</a>
+    </p>
+  </article>
+        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry p-space-1/4">
       <p class="colour-lighter light sans-serif"><time datetime="2021-01-27T00:00:00+00:00">27. January 2021</time></p>
   
-     <div class="e-content serif" itemprop="articleBody"><p>It makes me glad to hear pumpkin seeds pop as they toast in the oven.</p>
+     <div class="e-content prose" itemprop="articleBody"><p>It makes me glad to hear pumpkin seeds pop as they toast in the oven.</p>
 </div>
   </article>
-        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry p-space-1/4">
       <p class="colour-lighter light sans-serif"><time datetime="2020-12-18T00:00:00+00:00">18. December 2020</time></p>
   
         <div class="h-summary serif" itemprop="abstract"><p>As I was reading my book last night – namely the novel <a href="https://www.goodreads.com/book/show/17333324-ancillary-justice"><cite>Ancillary
@@ -108,17 +151,9 @@ daring mission:</div>
       >Continue reading …</a>
     </p>
   </article>
-        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
-      <p class="colour-lighter light sans-serif"><time datetime="2020-12-08T00:00:00+00:00">8. December 2020</time></p>
-  
-     <div class="e-content serif" itemprop="articleBody"><p>This blog is an exercise in <em>vanity</em>.</p>
-
-<p><i>Vanitas vanitatum!</i></p>
-</div>
-  </article>
       <p class="mt-1"><a href="/posts">See all posts …</a></p>
 </section>
-<section id="miscellaneous" class="border-top p-space-1/2" >
+<section id="miscellaneous" class="border-top p-space-1/2 sans-serif" >
   <h2 class="font-size-4 semibold">Miscellaneous lists</h2>
   <ul>
         <li itemscope itemtype="https://schema.org/Article">

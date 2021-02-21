@@ -4,11 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Good evening … ‹three dots›</title>
-    <link rel="stylesheet" href="/assets/build/css/main.css?id=d41d8cd98f00b204e980">
+    <link rel="stylesheet" href="/assets/build/css/main.css">
     <template id="fancyFonts">
       <link rel="preconnect" href="https://fonts.gstatic.com"> 
-      <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Palanquin:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,600;1,400&family=Palanquin:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     </template>
     <script>
       'use strict';
@@ -23,8 +22,11 @@
     <meta name="color-scheme" content="light dark">
     <meta name="description" content="In which I have danced">    <meta name="author" content="Alan Rempel">
     <link rel="alternate" type="application/atom+xml" href="/posts/feed.xml">
-    <script>!function(){"use strict";var e="colour-scheme-",t=["auto","light","dark"].map((t=>e.concat(t)));function n(n){var o=document.querySelector("body"),c=e.concat(n);o.classList.remove(...t),o.classList.add(c)}function o(e){document.documentElement.style.setProperty("--base-line-height",e+"rem")}function c(e,t,n){var o=document.getElementById(e),c=window.localStorage.getItem(e);c&&(t(c),n(o,c));o.addEventListener("change",(function(n){var o=n.target,c="checked"in o?o.checked?o.value:"default":o.value;t(c),window.localStorage.setItem(e,c)}))}document.addEventListener("DOMContentLoaded",(function(e){let t=(e,t)=>{e.value=t};c("colour-scheme",n,t),c("line-height",o,t),c("fonts",(e=>{"fancy"===e?(window.fancyFontsLoaded||window.loadFancyFonts(),document.body.classList.remove("fonts-default")):document.body.classList.add("fonts-default")}),((e,t)=>{"fancy"===t&&(e.checked=!0)})),function(){let e,t=document.querySelectorAll(".greeting"),n=(new Date).getHours();e=n<12?"morning":n<17?"afternoon":"evening",t.forEach((t=>{t.innerHTML=`Good ${e}`}))}(),document.addEventListener("click",(function(e){let t;!e.target.closest(".dropdown")&&(t=document.querySelector(".dropdown[open]"))&&(t.open=!1)}))}))}();
-</script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        !function(){"use strict";var e="colour-scheme-",t=["auto","light","dark"].map((t=>e.concat(t)));function o(e,t,o){var n=document.getElementById(e),c=window.localStorage.getItem(e);c&&(t(c),o(n,c));n.addEventListener("change",(function(o){var n=o.target,c="checkbox"===n.type?n.checked?n.value:"default":n.value;t(c),window.localStorage.setItem(e,c)}))}let n=(e,t)=>{e.value=t};o("colour-scheme",(function(o){var n=document.querySelector("body"),c=e.concat(o);n.classList.remove(...t),n.classList.add(c)}),n),o("line-height",(function(e){document.documentElement.style.setProperty("--base-line-height",e+"rem")}),n),o("fonts",(e=>{"fancy"===e?(window.fancyFontsLoaded||window.loadFancyFonts(),document.body.classList.remove("fonts-default")):document.body.classList.add("fonts-default")}),((e,t)=>{"fancy"===t&&(e.checked=!0)})),document.addEventListener("click",(function(e){let t;e.target.closest(".dropdown")||((t=document.querySelector(".dropdown[open]"))&&(t.open=!1),e.target.closest(".dropdown-nav-control")||(t=document.querySelector(".dropdown-nav.open"))&&t.classList.remove("open"))}))}();
+                      })
+    </script>
   </head>
   <body class="colour-scheme-auto font-size-1">
     <div class="container mx-auto">
@@ -53,37 +55,37 @@
             </div>
           </details>
         </div>
-        <nav class="semibold colour-highlight">
+        <nav class="semibold colour-highlight flex row link-plain">
                     <a href="/"
    class="p-url"
    itemprop="url"
     title="The website of Alan Rempel, a elliptical human man."       >Home</a>
-           •                     <a href="/posts"
+          <span class="flex-divider"></span>                    <a href="/posts"
    class="p-url"
    itemprop="url"
     title="All posts in the ‘three dots’ blog, grouped by year."       >Blog</a>
-           •                     <a href="/lists"
+          <span class="flex-divider"></span>                    <a href="/lists"
    class="p-url"
    itemprop="url"
     title="A miscellany of lists."       >Lists</a>
-           •                     <a href="/introduction"
+          <span class="flex-divider"></span>                    <a href="/introduction"
    class="p-url"
    itemprop="url"
     title="In which I introduce my blog to the reader."       >About</a>
-           •                     <a href="/posts/feed.xml"
+          <span class="flex-divider"></span>                    <a href="/posts/feed.xml"
    class="p-url"
    itemprop="url"
     title="Provide this link to your RSS reader, and get updates whenever something new is posted!"       >RSS feed</a>
                             </nav>
       </header>
       <main class="mt-3/4 mb-1">
-            <article class="mx-auto h-entry" id="post" itemscope itemtype="https://schema.org/BlogPosting">
+            <article class="mx-auto h-entry" itemscope itemtype="https://schema.org/BlogPosting">
       <header class="sans-serif">
         <p class="colour-lighter light">
           <time datetime="2017-05-05T00:00:00+00:00">5. May 2017</time>
                   </p>
               </header>
-      <div class="e-content serif" itemprop="articleBody">
+      <div class="e-content prose p-space-1/2" itemprop="articleBody">
         <p>Whatever is nec­es­sary
 that such dance par­ties as that of last night
 should hap­pen again—that’s what mat­ters to me.<!-- FOLD --> That

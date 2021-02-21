@@ -4,11 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Blog … ‹three dots›</title>
-    <link rel="stylesheet" href="/assets/build/css/main.css?id=d41d8cd98f00b204e980">
+    <link rel="stylesheet" href="/assets/build/css/main.css">
     <template id="fancyFonts">
       <link rel="preconnect" href="https://fonts.gstatic.com"> 
-      <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Palanquin:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,600;1,400&family=Palanquin:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     </template>
     <script>
       'use strict';
@@ -23,8 +22,19 @@
     <meta name="color-scheme" content="light dark">
     <meta name="description" content="All posts in the ‘three dots’ blog, grouped by year.">    <meta name="author" content="Alan Rempel">
     <link rel="alternate" type="application/atom+xml" href="/posts/feed.xml">
-    <script>!function(){"use strict";var e="colour-scheme-",t=["auto","light","dark"].map((t=>e.concat(t)));function n(n){var o=document.querySelector("body"),c=e.concat(n);o.classList.remove(...t),o.classList.add(c)}function o(e){document.documentElement.style.setProperty("--base-line-height",e+"rem")}function c(e,t,n){var o=document.getElementById(e),c=window.localStorage.getItem(e);c&&(t(c),n(o,c));o.addEventListener("change",(function(n){var o=n.target,c="checked"in o?o.checked?o.value:"default":o.value;t(c),window.localStorage.setItem(e,c)}))}document.addEventListener("DOMContentLoaded",(function(e){let t=(e,t)=>{e.value=t};c("colour-scheme",n,t),c("line-height",o,t),c("fonts",(e=>{"fancy"===e?(window.fancyFontsLoaded||window.loadFancyFonts(),document.body.classList.remove("fonts-default")):document.body.classList.add("fonts-default")}),((e,t)=>{"fancy"===t&&(e.checked=!0)})),function(){let e,t=document.querySelectorAll(".greeting"),n=(new Date).getHours();e=n<12?"morning":n<17?"afternoon":"evening",t.forEach((t=>{t.innerHTML=`Good ${e}`}))}(),document.addEventListener("click",(function(e){let t;!e.target.closest(".dropdown")&&(t=document.querySelector(".dropdown[open]"))&&(t.open=!1)}))}))}();
-</script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        !function(){"use strict";var e="colour-scheme-",t=["auto","light","dark"].map((t=>e.concat(t)));function o(e,t,o){var n=document.getElementById(e),c=window.localStorage.getItem(e);c&&(t(c),o(n,c));n.addEventListener("change",(function(o){var n=o.target,c="checkbox"===n.type?n.checked?n.value:"default":n.value;t(c),window.localStorage.setItem(e,c)}))}let n=(e,t)=>{e.value=t};o("colour-scheme",(function(o){var n=document.querySelector("body"),c=e.concat(o);n.classList.remove(...t),n.classList.add(c)}),n),o("line-height",(function(e){document.documentElement.style.setProperty("--base-line-height",e+"rem")}),n),o("fonts",(e=>{"fancy"===e?(window.fancyFontsLoaded||window.loadFancyFonts(),document.body.classList.remove("fonts-default")):document.body.classList.add("fonts-default")}),((e,t)=>{"fancy"===t&&(e.checked=!0)})),document.addEventListener("click",(function(e){let t;e.target.closest(".dropdown")||((t=document.querySelector(".dropdown[open]"))&&(t.open=!1),e.target.closest(".dropdown-nav-control")||(t=document.querySelector(".dropdown-nav.open"))&&t.classList.remove("open"))}))}();
+                  const navControl = document.querySelector('.dropdown-nav-control');
+  navControl.addEventListener('click', (event) => {
+    let dropdown = event.target.closest('.dropdown-nav');
+    dropdown.classList.toggle("open");
+  });
+  navControl.addEventListener('keydown', (event) => {
+    if (event.key === "Enter") event.target.closest('.dropdown-nav').classList.toggle('open');
+  });
+      })
+    </script>
   </head>
   <body class="colour-scheme-auto font-size-1">
     <div class="container mx-auto">
@@ -53,24 +63,24 @@
             </div>
           </details>
         </div>
-        <nav class="semibold colour-highlight">
+        <nav class="semibold colour-highlight flex row link-plain">
                     <a href="/"
    class="p-url"
    itemprop="url"
     title="The website of Alan Rempel, a elliptical human man."       >Home</a>
-           •                     <a href="/posts"
+          <span class="flex-divider"></span>                    <a href="/posts"
    class="p-url"
    itemprop="url"
     title="All posts in the ‘three dots’ blog, grouped by year."       >Blog</a>
-           •                     <a href="/lists"
+          <span class="flex-divider"></span>                    <a href="/lists"
    class="p-url"
    itemprop="url"
     title="A miscellany of lists."       >Lists</a>
-           •                     <a href="/introduction"
+          <span class="flex-divider"></span>                    <a href="/introduction"
    class="p-url"
    itemprop="url"
     title="In which I introduce my blog to the reader."       >About</a>
-           •                     <a href="/posts/feed.xml"
+          <span class="flex-divider"></span>                    <a href="/posts/feed.xml"
    class="p-url"
    itemprop="url"
     title="Provide this link to your RSS reader, and get updates whenever something new is posted!"       >RSS feed</a>
@@ -78,23 +88,54 @@
       </header>
       <main class="mt-3/4 mb-1">
                                                                                                                                                         <section itemscope itemtype="https://schema.org/Blog">
-        <header class="sans-serif">
+        <header class="sans-serif flex thingy">
           <h1 class="font-size-5 bold">Blog</h1>
-          <nav class="flex row mt-1/4 font-size-2" aria-label="Jump to posts from a specific year" >
-                      <a class="nav-link" href="#y2021">2021</a><span class="nav-divider">•</span>                  <a class="nav-link" href="#y2020">2020</a><span class="nav-divider">•</span>                  <a class="nav-link" href="#y2019">2019</a><span class="nav-divider">•</span>                  <a class="nav-link" href="#y2018">2018</a><span class="nav-divider">•</span>                  <a class="nav-link" href="#y2017">2017</a><span class="nav-divider">•</span>                  <a class="nav-link" href="#y2016">2016</a>                  </nav>
+          <nav aria-labelledby="jty" class="dropdown-nav colour-highlight">
+            <h2 class="font-size-2 mt-1/4 medium dropdown-nav-control"
+                id="jty" tabindex="0"
+              ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="dropdown-caret" viewBox="0 0 16 16">
+  <path d="M12.14 8.753l-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+</svg>
+Jump to year …</h2>
+            <span id="years-nav" class="dropdown-nav-items link-plain">          <a class="nav-link" href="#y2021">2021</a><span class="flex-divider"></span>                  <a class="nav-link" href="#y2020">2020</a><span class="flex-divider"></span>                  <a class="nav-link" href="#y2019">2019</a><span class="flex-divider"></span>                  <a class="nav-link" href="#y2018">2018</a><span class="flex-divider"></span>                  <a class="nav-link" href="#y2017">2017</a><span class="flex-divider"></span>                  <a class="nav-link" href="#y2016">2016</a>        </span>
+          </nav>
         </header>
-                <section id="y2021" class="border-top article-list">
-          <h2 class="font-size-4 semibold sans-serif">2021</h2>
-                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+                <section id="y2021" class="article-list mt-3/4">
+          <h2 class="font-size-4 semibold sans-serif swing">2021</h2>
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry p-space-1/4">
+      <p class="colour-lighter light sans-serif"><time datetime="2021-02-05T00:00:00+00:00">5. February 2021</time></p>
+  
+        <div class="h-summary serif" itemprop="abstract"><figure>
+<blockquote>
+Before the city could be <strong>physically</strong> reconstructed to accommodate automobiles,
+its streets had to be <strong>socially</strong> reconstructed as places where cars
+belong.
+</blockquote>
+<figcaption class="smaller">
+— From <a href="https://www.librarything.com/work/5176138/book/188390140" title="Fighting Traffic: The Dawn of the Motor Age in the American City, by Peter D. Norton"
+  ><cite>Fighting Traffic</cite></a> by Peter D. Norton, by way of <a
+  href="https://slate.com/human-interest/2009/11/a-defense-of-jaywalking.html"
+  title="In defense of jaywalking, by Tom Vanderbilt | Slate"><cite>A defense of jaywalking</cite></a>.
+</figcaption>
+</figure>
+
+</div>
+    <p class="link-plain serif">
+    <a href="/posts/jaywalking" id="jaywalking-read-more"
+      aria-labelledby="jaywalking-read-more jaywalking-title"
+      >Continue reading …</a>
+    </p>
+  </article>
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry p-space-1/4">
       <p class="colour-lighter light sans-serif"><time datetime="2021-01-27T00:00:00+00:00">27. January 2021</time></p>
   
-     <div class="e-content serif" itemprop="articleBody"><p>It makes me glad to hear pumpkin seeds pop as they toast in the oven.</p>
+     <div class="e-content prose" itemprop="articleBody"><p>It makes me glad to hear pumpkin seeds pop as they toast in the oven.</p>
 </div>
   </article>
                     </section>
-                <section id="y2020" class="border-top article-list">
-          <h2 class="font-size-4 semibold sans-serif">2020</h2>
-                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+                <section id="y2020" class="article-list mt-3/4">
+          <h2 class="font-size-4 semibold sans-serif swing">2020</h2>
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry p-space-1/4">
       <p class="colour-lighter light sans-serif"><time datetime="2020-12-18T00:00:00+00:00">18. December 2020</time></p>
   
         <div class="h-summary serif" itemprop="abstract"><p>As I was reading my book last night – namely the novel <a href="https://www.goodreads.com/book/show/17333324-ancillary-justice"><cite>Ancillary
@@ -107,18 +148,18 @@ daring mission:</div>
       >Continue reading …</a>
     </p>
   </article>
-                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry p-space-1/4">
       <p class="colour-lighter light sans-serif"><time datetime="2020-12-08T00:00:00+00:00">8. December 2020</time></p>
   
-     <div class="e-content serif" itemprop="articleBody"><p>This blog is an exercise in <em>vanity</em>.</p>
+     <div class="e-content prose" itemprop="articleBody"><p>This blog is an exercise in <em>vanity</em>.</p>
 
 <p><i>Vanitas vanitatum!</i></p>
 </div>
   </article>
-                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry p-space-1/4">
       <p class="colour-lighter light sans-serif"><time datetime="2020-11-28T00:00:00+00:00">28. November 2020</time></p>
   
-     <div class="e-content serif" itemprop="articleBody"><p>This is my favourite sentence that starts with ‘and’:</p>
+     <div class="e-content prose" itemprop="articleBody"><p>This is my favourite sentence that starts with ‘and’:</p>
 
 <figure>
 <blockquote>
@@ -136,7 +177,7 @@ daring mission:</div>
 </figure>
 </div>
   </article>
-                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry p-space-1/4">
       <h3 itemprop="headline"
       class="p-name font-size-3 medium sans-serif"
       id="posts-title">
@@ -155,14 +196,14 @@ transparent skin—</div>
       >Continue reading …</a>
     </p>
   </article>
-                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry p-space-1/4">
       <p class="colour-lighter light sans-serif"><time datetime="2020-10-16T00:00:00+00:00">16. October 2020</time></p>
   
-     <div class="e-content serif" itemprop="articleBody"><p>I have a great love of <em>editing</em>. Semicolon—<br>or m-dash? Too many syllables? Too languid?<br>too clipped? One sentence twisting, another<br>straight-ahead. Warp; point; zig; zag. I once<br>dropped my house-keys such that they fell<br>between the boards of the front porch:<br> I rescued them
+     <div class="e-content prose" itemprop="articleBody"><p>I have a great love of <em>editing</em>. Semicolon—<br>or m-dash? Too many syllables? Too languid?<br>too clipped? One sentence twisting, another<br>straight-ahead. Warp; point; zig; zag. I once<br>dropped my house-keys such that they fell<br>between the boards of the front porch:<br> I rescued them
 with a bent coat-hanger.</p>
 </div>
   </article>
-                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry p-space-1/4">
       <h3 itemprop="headline"
       class="p-name font-size-3 medium sans-serif"
       id="posts-title">
@@ -175,7 +216,7 @@ with a bent coat-hanger.</p>
   
      <p class="h-summary oblique serif" itemprop="abstract">In which I reflect upon the inciting incident in my relationship with oomancy.</p>
   </article>
-                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry p-space-1/4">
       <h3 itemprop="headline"
       class="p-name font-size-3 medium sans-serif"
       id="posts-title">
@@ -193,7 +234,7 @@ I live (ignoring little ponds and the like) is artificial rather than natural.</
       >Continue reading …</a>
     </p>
   </article>
-                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry p-space-1/4">
       <h3 itemprop="headline"
       class="p-name font-size-3 medium sans-serif"
       id="posts-title">
@@ -211,7 +252,7 @@ I live (ignoring little ponds and the like) is artificial rather than natural.</
       >Continue reading …</a>
     </p>
   </article>
-                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry p-space-1/4">
       <h3 itemprop="headline"
       class="p-name font-size-3 medium sans-serif"
       id="posts-title">
@@ -231,27 +272,27 @@ thing. It's been an interesting experiment. </div>
     </p>
   </article>
                     </section>
-                <section id="y2019" class="border-top article-list">
-          <h2 class="font-size-4 semibold sans-serif">2019</h2>
-                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+                <section id="y2019" class="article-list mt-3/4">
+          <h2 class="font-size-4 semibold sans-serif swing">2019</h2>
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry p-space-1/4">
       <p class="colour-lighter light sans-serif"><time datetime="2019-11-27T00:00:00+00:00">27. November 2019</time></p>
   
-     <div class="e-content serif" itemprop="articleBody"><p>I have a secret, which I’ve never revealed:</p>
+     <div class="e-content prose" itemprop="articleBody"><p>I have a secret, which I’ve never revealed:</p>
 
 <p><a href="https://www.youtube.com/watch?v=UzrM3eomnAA" title="Judee Sill">However we are is okay.</a></p>
 </div>
   </article>
-                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry p-space-1/4">
       <p class="colour-lighter light sans-serif"><time datetime="2019-11-21T00:00:00+00:00">21. November 2019</time></p>
   
-     <div class="e-content serif" itemprop="articleBody"><p>This city is a strange place—so much of it is paved.</p>
+     <div class="e-content prose" itemprop="articleBody"><p>This city is a strange place—so much of it is paved.</p>
 
 <p>The trees here—it must be lonely for them, not being in a
 forest; stretching their roots out and finding soil
 compacted by cement, soil sparse of arboreal conversation.</p>
 </div>
   </article>
-                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry p-space-1/4">
       <h3 itemprop="headline"
       class="p-name font-size-3 medium sans-serif"
       id="posts-title">
@@ -264,9 +305,9 @@ compacted by cement, soil sparse of arboreal conversation.</p>
      <p class="h-summary oblique serif" itemprop="abstract">In which it is cold, early morning; mist over the lake; I set my service leaflet on fire.</p>
   </article>
                     </section>
-                <section id="y2018" class="border-top article-list">
-          <h2 class="font-size-4 semibold sans-serif">2018</h2>
-                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+                <section id="y2018" class="article-list mt-3/4">
+          <h2 class="font-size-4 semibold sans-serif swing">2018</h2>
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry p-space-1/4">
       <h3 itemprop="headline"
       class="p-name font-size-3 medium sans-serif"
       id="posts-title">
@@ -285,7 +326,7 @@ is on it.</div>
       >Continue reading …</a>
     </p>
   </article>
-                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry p-space-1/4">
       <h3 itemprop="headline"
       class="p-name font-size-3 medium sans-serif"
       id="posts-title">
@@ -306,15 +347,15 @@ way …</div>
       >Continue reading …</a>
     </p>
   </article>
-                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry p-space-1/4">
       <p class="colour-lighter light sans-serif"><time datetime="2018-03-17T00:00:00+00:00">17. March 2018</time></p>
   
-     <div class="e-content serif" itemprop="articleBody"><p>This morn­ing, ﬂat­mates and I had a brief dance party in the
+     <div class="e-content prose" itemprop="articleBody"><p>This morn­ing, ﬂat­mates and I had a brief dance party in the
 liv­ing room. It was a lot of fun—it felt long over­due. It
 made me think of <a href="/posts/dancing-lawrence-st" title="In which I have danced">a note I had writ­ten to my­self about a year ago</a>.</p>
 </div>
   </article>
-                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry p-space-1/4">
       <h3 itemprop="headline"
       class="p-name font-size-3 medium sans-serif"
       id="posts-title">
@@ -326,7 +367,7 @@ made me think of <a href="/posts/dancing-lawrence-st" title="In which I have dan
   
      <p class="h-summary oblique serif" itemprop="abstract">In which I have to blow my nose.</p>
   </article>
-                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry p-space-1/4">
       <h3 itemprop="headline"
       class="p-name font-size-3 medium sans-serif"
       id="posts-title">
@@ -339,9 +380,9 @@ made me think of <a href="/posts/dancing-lawrence-st" title="In which I have dan
      <p class="h-summary oblique serif" itemprop="abstract">Eternal praise! eternal praise!</p>
   </article>
                     </section>
-                <section id="y2017" class="border-top article-list">
-          <h2 class="font-size-4 semibold sans-serif">2017</h2>
-                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+                <section id="y2017" class="article-list mt-3/4">
+          <h2 class="font-size-4 semibold sans-serif swing">2017</h2>
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry p-space-1/4">
       <h3 itemprop="headline"
       class="p-name font-size-3 medium sans-serif"
       id="posts-title">
@@ -351,19 +392,19 @@ made me think of <a href="/posts/dancing-lawrence-st" title="In which I have dan
     title="In which I spy a sometime professor of mine, and am somehow amused."       >At the Lucky Penny, shortly before noon</a>
     </h3>
   
-     <div class="e-content serif" itemprop="articleBody"><p>Spotted Jack Mitchell searching the Perseus English-Latin
+     <div class="e-content prose" itemprop="articleBody"><p>Spotted Jack Mitchell searching the Perseus English-Latin
 lexicon for the word ‘virtuous’.</p>
 </div>
   </article>
-                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry p-space-1/4">
       <p class="colour-lighter light sans-serif"><time datetime="2017-06-09T00:00:00+00:00">9. June 2017</time></p>
   
-     <div class="e-content serif" itemprop="articleBody"><p>I was bored this afternoon, so I ate a raw clove of garlic.</p>
+     <div class="e-content prose" itemprop="articleBody"><p>I was bored this afternoon, so I ate a raw clove of garlic.</p>
 
 <p>That’s all.</p>
 </div>
   </article>
-                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry p-space-1/4">
       <h3 itemprop="headline"
       class="p-name font-size-3 medium sans-serif"
       id="posts-title">
@@ -383,7 +424,7 @@ mouth affixed to its bark.</div>
       >Continue reading …</a>
     </p>
   </article>
-                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry p-space-1/4">
       <p class="colour-lighter light sans-serif"><time datetime="2017-05-05T00:00:00+00:00">5. May 2017</time></p>
   
         <div class="h-summary serif" itemprop="abstract"><p>Whatever is nec­es­sary
@@ -395,7 +436,7 @@ should hap­pen again—that’s what mat­ters to me.</div>
       >Continue reading …</a>
     </p>
   </article>
-                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry p-space-1/4">
       <h3 itemprop="headline"
       class="p-name font-size-3 medium sans-serif"
       id="posts-title">
@@ -408,15 +449,15 @@ should hap­pen again—that’s what mat­ters to me.</div>
      <p class="h-summary oblique serif" itemprop="abstract">Sometimes I space out for a moment.</p>
   </article>
                     </section>
-                <section id="y2016" class="border-top article-list">
-          <h2 class="font-size-4 semibold sans-serif">2016</h2>
-                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+                <section id="y2016" class="article-list mt-3/4">
+          <h2 class="font-size-4 semibold sans-serif swing">2016</h2>
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry p-space-1/4">
       <p class="colour-lighter light sans-serif"><time datetime="2016-12-15T00:00:00+00:00">15. December 2016</time></p>
   
-     <div class="e-content serif" itemprop="articleBody"><p>I made a remark shortly after I came in the door—paraphrased from David Lebovitz—about the state of the Parisian baguette: Emma is this moment recording it in her quote-book. I am flattered.</p>
+     <div class="e-content prose" itemprop="articleBody"><p>I made a remark shortly after I came in the door—paraphrased from David Lebovitz—about the state of the Parisian baguette: Emma is this moment recording it in her quote-book. I am flattered.</p>
 </div>
   </article>
-                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry post p-space-1/4">
+                        <article itemscope itemtype="https://schema.org/BlogPosting" class="h-entry p-space-1/4">
       <h3 itemprop="headline"
       class="p-name font-size-3 medium sans-serif"
       id="posts-title">
